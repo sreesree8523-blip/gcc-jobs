@@ -1,0 +1,2093 @@
+{
+ "generated": "2026-09-27 17:22 UTC",
+ "working": [
+  {
+   "name": "Amazon",
+   "ats": "amazon",
+   "token": "amazon",
+   "india": 2349,
+   "ok": true,
+   "sample": [
+    "Solutions Architect - GFS, AWS Industries India | Maharashtra, IND",
+    "Area Manager, ACES | Hyderabad, Telangana, IND",
+    "Senior Solutions Architect \u2013 FSI Fintech, FSI SA | Mumbai, Maharashtra, IND"
+   ],
+   "secs": 19.2
+  },
+  {
+   "name": "Citi",
+   "ats": "workday",
+   "tenant": "citi",
+   "wd": 5,
+   "site": "2",
+   "india": 959,
+   "total": 2000,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Amgen",
+   "ats": "workday",
+   "tenant": "amgen",
+   "wd": 1,
+   "site": "Careers",
+   "india": 802,
+   "total": 1737,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Bosch",
+   "ats": "smartrecruiters",
+   "token": "BoschGroup",
+   "india": 496,
+   "ok": true,
+   "sample": [
+    "IN_Bosch Rexroth India_ Engineer /  Executive_Application Engineering (Motion Control Systems) | New Delhi, India",
+    "IN_Bosch Rexroth India_Executive / Assistant Manager_Project Purchasing | Sanand, GJ, India",
+    "IN_RBIN_Deputy Manager / Assistant Manager - Supplier Quality Management_IN | Chennai, TN, India"
+   ],
+   "secs": 2.2
+  },
+  {
+   "name": "State Street",
+   "ats": "workday",
+   "tenant": "statestreet",
+   "wd": 1,
+   "site": "Global",
+   "india": 383,
+   "total": 1332,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "JPMorgan Chase",
+   "ats": "oracle",
+   "host": "jpmc.fa.oraclecloud.com",
+   "site": "CX_1001",
+   "india": 340,
+   "ok": true,
+   "sample": [
+    "Director of Software Engineering - Data & Wealth Management | Bengaluru, Karnataka, India; Mumbai, Maharashtra, India",
+    "India Direct Custody Operations - Associate | Mumbai, Maharashtra, India",
+    "Lead Software Engineer- Java | Bengaluru, Karnataka, India"
+   ],
+   "secs": 13.8
+  },
+  {
+   "name": "GE Vernova",
+   "ats": "workday",
+   "tenant": "gevernova",
+   "wd": 5,
+   "site": "Vernova_ExternalSite",
+   "india": 323,
+   "total": 2254,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Micron",
+   "ats": "workday",
+   "tenant": "micron",
+   "wd": 1,
+   "site": "External",
+   "india": 316,
+   "total": 3056,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "HPE",
+   "ats": "workday",
+   "tenant": "hpe",
+   "wd": 5,
+   "site": "Jobsathpe",
+   "india": 314,
+   "total": 1317,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Deutsche Bank",
+   "ats": "workday",
+   "tenant": "db",
+   "wd": 3,
+   "site": "DBWebSite",
+   "india": 292,
+   "total": 1141,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Thermo Fisher",
+   "ats": "workday",
+   "tenant": "thermofisher",
+   "wd": 5,
+   "site": "ThermoFisherCareers",
+   "india": 257,
+   "total": 2924,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "NVIDIA",
+   "ats": "workday",
+   "tenant": "nvidia",
+   "wd": 5,
+   "site": "NVIDIAExternalCareerSite",
+   "india": 243,
+   "total": 2000,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Mastercard",
+   "ats": "workday",
+   "tenant": "mastercard",
+   "wd": 1,
+   "site": "CorporateCareers",
+   "india": 235,
+   "total": 1048,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "LSEG",
+   "ats": "workday",
+   "tenant": "lseg",
+   "wd": 3,
+   "site": "Careers",
+   "india": 208,
+   "total": 704,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "CVS Health",
+   "ats": "workday",
+   "tenant": "cvshealth",
+   "wd": 1,
+   "site": "CVS_Health_Careers",
+   "india": 207,
+   "total": 19203,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "NXP",
+   "ats": "workday",
+   "tenant": "nxp",
+   "wd": 3,
+   "site": "careers",
+   "india": 201,
+   "total": 830,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Cadence",
+   "ats": "workday",
+   "tenant": "cadence",
+   "wd": 1,
+   "site": "External_Careers",
+   "india": 197,
+   "total": 609,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Applied Materials",
+   "ats": "workday",
+   "tenant": "amat",
+   "wd": 1,
+   "site": "External",
+   "india": 170,
+   "total": 2000,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Johnson Controls",
+   "ats": "workday",
+   "tenant": "jci",
+   "wd": 5,
+   "site": "JCI",
+   "india": 149,
+   "total": 2649,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Evernorth (Cigna)",
+   "ats": "workday",
+   "tenant": "cigna",
+   "wd": 5,
+   "site": "cignacareers",
+   "india": 132,
+   "total": 559,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Wells Fargo",
+   "ats": "workday",
+   "tenant": "wf",
+   "wd": 1,
+   "site": "WellsFargoJobs",
+   "india": 128,
+   "total": 1727,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Novartis",
+   "ats": "workday",
+   "tenant": "novartis",
+   "wd": 3,
+   "site": "Novartis_Careers",
+   "india": 127,
+   "total": 860,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Salesforce",
+   "ats": "workday",
+   "tenant": "salesforce",
+   "wd": 12,
+   "site": "External_Career_Site",
+   "india": 117,
+   "total": 1522,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Elevance Health",
+   "ats": "workday",
+   "tenant": "elevancehealth",
+   "wd": 1,
+   "site": "ANT",
+   "india": 116,
+   "total": 301,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Morgan Stanley",
+   "ats": "workday",
+   "tenant": "ms",
+   "wd": 5,
+   "site": "External",
+   "india": 113,
+   "total": 1344,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "3M",
+   "ats": "workday",
+   "tenant": "3m",
+   "wd": 1,
+   "site": "Search",
+   "india": 110,
+   "total": 702,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Analog Devices",
+   "ats": "workday",
+   "tenant": "analogdevices",
+   "wd": 1,
+   "site": "External",
+   "india": 107,
+   "total": 852,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "GE HealthCare",
+   "ats": "workday",
+   "tenant": "gehc",
+   "wd": 5,
+   "site": "GEHC_ExternalSite",
+   "india": 100,
+   "total": 939,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Medtronic",
+   "ats": "workday",
+   "tenant": "medtronic",
+   "wd": 1,
+   "site": "MedtronicCareers",
+   "india": 98,
+   "total": 1131,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Okta",
+   "ats": "greenhouse",
+   "token": "okta",
+   "india": 98,
+   "ok": true,
+   "sample": [
+    "Associate Solutions Engineer, Okta | Bengaluru, India",
+    "Developer Support Engineer | Bengaluru, India",
+    "Director, Engineering | Bengaluru, India"
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "Databricks",
+   "ats": "greenhouse",
+   "token": "databricks",
+   "india": 96,
+   "ok": true,
+   "sample": [
+    "Account Executive  | Bengaluru, India; Mumbai, India",
+    "AI Engineer - FDE (Forward Deployed Engineer) | Remote - India",
+    "Credit and Collections Manager | Bengaluru, India"
+   ],
+   "secs": 0.2
+  },
+  {
+   "name": "Northern Trust",
+   "ats": "workday",
+   "tenant": "ntrs",
+   "wd": 1,
+   "site": "northerntrust",
+   "india": 92,
+   "total": 642,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "HP",
+   "ats": "workday",
+   "tenant": "hp",
+   "wd": 5,
+   "site": "ExternalCareerSite",
+   "india": 92,
+   "total": 924,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Pure Storage",
+   "ats": "greenhouse",
+   "token": "purestorage",
+   "india": 92,
+   "ok": true,
+   "sample": [
+    "Application Engineer (AI Automation) | Bangalore, India",
+    "Associate System Engineer, SE Excellence Center - ANZ | Bangalore, India",
+    "Business Intelligence Analyst | Bangalore, India"
+   ],
+   "secs": 0.0
+  },
+  {
+   "name": "Adobe",
+   "ats": "workday",
+   "tenant": "adobe",
+   "wd": 5,
+   "site": "external_experienced",
+   "india": 89,
+   "total": 566,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Nike",
+   "ats": "workday",
+   "tenant": "nike",
+   "wd": 1,
+   "site": "nke",
+   "india": 86,
+   "total": 852,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Caterpillar",
+   "ats": "workday",
+   "tenant": "cat",
+   "wd": 5,
+   "site": "CaterpillarCareers",
+   "india": 84,
+   "total": 981,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Stryker",
+   "ats": "workday",
+   "tenant": "stryker",
+   "wd": 1,
+   "site": "StrykerCareers",
+   "india": 83,
+   "total": 1466,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Zscaler",
+   "ats": "greenhouse",
+   "token": "zscaler",
+   "india": 83,
+   "ok": true,
+   "sample": [
+    "Account Executive - Commercial | Mumbai, IND",
+    "Account Executive - Enterprise | Bangalore, IND",
+    "Account Executive - Majors | Mumbai, IND"
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "Sanofi",
+   "ats": "workday",
+   "tenant": "sanofi",
+   "wd": 3,
+   "site": "SanofiCareers",
+   "india": 80,
+   "total": 848,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Vanguard",
+   "ats": "workday",
+   "tenant": "vanguard",
+   "wd": 5,
+   "site": "vanguard_external",
+   "india": 77,
+   "total": 404,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "MongoDB",
+   "ats": "greenhouse",
+   "token": "mongodb",
+   "india": 77,
+   "ok": true,
+   "sample": [
+    "Account Development Representative | Bengaluru",
+    "Account Development Representative | Gurugram",
+    "Advisory Partner Solutions Architect | India"
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "Broadcom",
+   "ats": "workday",
+   "tenant": "broadcom",
+   "wd": 1,
+   "site": "External_Career",
+   "india": 76,
+   "total": 373,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "ServiceNow",
+   "ats": "smartrecruiters",
+   "token": "ServiceNow",
+   "india": 68,
+   "ok": true,
+   "sample": [
+    "Staff Software Engineer | Hyderabad, India",
+    "Sr Software Engineer | Hyderabad, India",
+    "Senior Research Engineer/Scientist | Hyderabad, Telangana, India"
+   ],
+   "secs": 0.4
+  },
+  {
+   "name": "Target",
+   "ats": "workday",
+   "tenant": "target",
+   "wd": 5,
+   "site": "targetcareers",
+   "india": 66,
+   "total": 2000,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "TIAA / Nuveen",
+   "ats": "workday",
+   "tenant": "tiaa",
+   "wd": 1,
+   "site": "Search",
+   "india": 63,
+   "total": 209,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Ameriprise",
+   "ats": "workday",
+   "tenant": "ameriprise",
+   "wd": 5,
+   "site": "Ameriprise",
+   "india": 62,
+   "total": 264,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "IFF",
+   "ats": "workday",
+   "tenant": "iff",
+   "wd": 5,
+   "site": "IFF_Careers",
+   "india": 60,
+   "total": 389,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Bristol Myers Squibb",
+   "ats": "workday",
+   "tenant": "bristolmyerssquibb",
+   "wd": 5,
+   "site": "BMS",
+   "india": 59,
+   "total": 704,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "BlackRock",
+   "ats": "workday",
+   "tenant": "blackrock",
+   "wd": 1,
+   "site": "BlackRock_Professional",
+   "india": 58,
+   "total": 317,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Philips",
+   "ats": "workday",
+   "tenant": "philips",
+   "wd": 3,
+   "site": "jobs-and-careers",
+   "india": 58,
+   "total": 860,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "NielsenIQ",
+   "ats": "smartrecruiters",
+   "token": "NielsenIQ",
+   "india": 55,
+   "ok": true,
+   "sample": [
+    "GenAI Engineer - Database | Pune, MH, India",
+    "Meff Consultant (Vadodara/Gurugram/Mumbai) | Vadodara, GJ, India",
+    "Senior Agile Coach | Chennai, TN, India"
+   ],
+   "secs": 0.4
+  },
+  {
+   "name": "Meesho",
+   "ats": "lever",
+   "token": "meesho",
+   "india": 54,
+   "ok": true,
+   "sample": [
+    "AM/ Manager - Risk & Decision Science | Bangalore, Karnataka",
+    "Assistant Manager - Business Finance | Bangalore, Karnataka",
+    "Assistant Manager - Performance Marketing | Bangalore, Karnataka"
+   ],
+   "secs": 1.0
+  },
+  {
+   "name": "Intel",
+   "ats": "workday",
+   "tenant": "intel",
+   "wd": 1,
+   "site": "External",
+   "india": 50,
+   "total": 602,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "BD",
+   "ats": "workday",
+   "tenant": "bdx",
+   "wd": 1,
+   "site": "EXTERNAL_CAREER_SITE_INDIA",
+   "india": 48,
+   "total": 49,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Hartford",
+   "ats": "workday",
+   "tenant": "thehartford",
+   "wd": 5,
+   "site": "Careers_External",
+   "india": 48,
+   "total": 231,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Carrier",
+   "ats": "workday",
+   "tenant": "carrier",
+   "wd": 5,
+   "site": "jobs",
+   "india": 47,
+   "total": 1104,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Invesco",
+   "ats": "workday",
+   "tenant": "invesco",
+   "wd": 1,
+   "site": "IVZ",
+   "india": 46,
+   "total": 246,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "MSD (Merck)",
+   "ats": "workday",
+   "tenant": "msd",
+   "wd": 5,
+   "site": "SearchJobs",
+   "india": 44,
+   "total": 1028,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Broadridge",
+   "ats": "workday",
+   "tenant": "broadridge",
+   "wd": 5,
+   "site": "Careers",
+   "india": 41,
+   "total": 268,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Mondelez",
+   "ats": "workday",
+   "tenant": "mdlz",
+   "wd": 3,
+   "site": "External",
+   "india": 41,
+   "total": 1292,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Stripe",
+   "ats": "greenhouse",
+   "token": "stripe",
+   "india": 41,
+   "ok": true,
+   "sample": [
+    "Accounts Receivable Manager | Bengaluru",
+    "Contracting Operations Specialist | Bengaluru",
+    " Credit Risk Operations Associate | Bangalore "
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "Disney",
+   "ats": "workday",
+   "tenant": "disney",
+   "wd": 5,
+   "site": "disneycareer",
+   "india": 40,
+   "total": 638,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "T-Mobile",
+   "ats": "workday",
+   "tenant": "tmobile",
+   "wd": 1,
+   "site": "External",
+   "india": 40,
+   "total": 2000,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Chevron",
+   "ats": "workday",
+   "tenant": "chevron",
+   "wd": 5,
+   "site": "jobs",
+   "india": 39,
+   "total": 129,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Warner Bros. Discovery",
+   "ats": "workday",
+   "tenant": "warnerbros",
+   "wd": 5,
+   "site": "global",
+   "india": 38,
+   "total": 303,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Autodesk",
+   "ats": "workday",
+   "tenant": "autodesk",
+   "wd": 1,
+   "site": "Ext",
+   "india": 37,
+   "total": 389,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Motorola Solutions",
+   "ats": "workday",
+   "tenant": "motorolasolutions",
+   "wd": 5,
+   "site": "Careers",
+   "india": 36,
+   "total": 899,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Rubrik",
+   "ats": "greenhouse",
+   "token": "rubrik",
+   "india": 33,
+   "ok": true,
+   "sample": [
+    "Architect, AI Data Platform & Engineering | Bengaluru, India",
+    "Corporate IT Architect | Bangalore, India",
+    "Customer Success Specialist  II | Bangalore, India"
+   ],
+   "secs": 0.0
+  },
+  {
+   "name": "S&P Global",
+   "ats": "workday",
+   "tenant": "spgi",
+   "wd": 5,
+   "site": "SPGI_Careers",
+   "india": 31,
+   "total": 274,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Equifax",
+   "ats": "workday",
+   "tenant": "equifax",
+   "wd": 5,
+   "site": "External",
+   "india": 31,
+   "total": 226,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Fiserv",
+   "ats": "workday",
+   "tenant": "fiserv",
+   "wd": 5,
+   "site": "EXT",
+   "india": 30,
+   "total": 334,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "GitLab",
+   "ats": "greenhouse",
+   "token": "gitlab",
+   "india": 30,
+   "ok": true,
+   "sample": [
+    "AI Engineer | Remote, Bangalore",
+    "Director, Engineering, Platform Operations & Productivity | Bangalore, India",
+    "Director of Recruiting, Engineering & IT, Bangalore India | Bangalore, India"
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "Experian",
+   "ats": "smartrecruiters",
+   "token": "Experian",
+   "india": 30,
+   "ok": true,
+   "sample": [
+    "Senior Risk Analyst \u2013 Data Science & Analytics | Mumbai, India",
+    "Compliance Analyst | Mumbai, India",
+    "Senior Staff Engineer | Hyderabad, India"
+   ],
+   "secs": 0.4
+  },
+  {
+   "name": "Baxter",
+   "ats": "workday",
+   "tenant": "baxter",
+   "wd": 1,
+   "site": "baxter",
+   "india": 29,
+   "total": 495,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Humana",
+   "ats": "workday",
+   "tenant": "humana",
+   "wd": 5,
+   "site": "Humana_External_Career_Site",
+   "india": 28,
+   "total": 347,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Nasdaq",
+   "ats": "workday",
+   "tenant": "nasdaq",
+   "wd": 1,
+   "site": "Global_External_Site",
+   "india": 28,
+   "total": 176,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Gartner",
+   "ats": "workday",
+   "tenant": "gartner",
+   "wd": 5,
+   "site": "EXT",
+   "india": 27,
+   "total": 747,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Workday",
+   "ats": "workday",
+   "tenant": "workday",
+   "wd": 5,
+   "site": "Workday",
+   "india": 25,
+   "total": 382,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "AstraZeneca",
+   "ats": "workday",
+   "tenant": "astrazeneca",
+   "wd": 3,
+   "site": "Careers",
+   "india": 22,
+   "total": 1169,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Shell",
+   "ats": "workday",
+   "tenant": "shell",
+   "wd": 3,
+   "site": "ShellCareers",
+   "india": 22,
+   "total": 146,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Zeta",
+   "ats": "lever",
+   "token": "zeta",
+   "india": 20,
+   "ok": true,
+   "sample": [
+    "Associate / Sr. Associate- People Experience | Bangalore - WF",
+    "Associate Director - Legal | Mumbai / Bangalore",
+    "Cloud Network Engineer II | Hyderabad"
+   ],
+   "secs": 1.0
+  },
+  {
+   "name": "TransUnion",
+   "ats": "workday",
+   "tenant": "transunion",
+   "wd": 5,
+   "site": "TransUnion",
+   "india": 19,
+   "total": 237,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "GSK",
+   "ats": "workday",
+   "tenant": "gsk",
+   "wd": 5,
+   "site": "GSKCareers",
+   "india": 19,
+   "total": 654,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Pfizer",
+   "ats": "workday",
+   "tenant": "pfizer",
+   "wd": 1,
+   "site": "PfizerCareers",
+   "india": 18,
+   "total": 535,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Bank of America",
+   "ats": "workday",
+   "tenant": "ghr",
+   "wd": 1,
+   "site": "Lateral-US",
+   "india": 17,
+   "total": 1950,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Toast",
+   "ats": "greenhouse",
+   "token": "toast",
+   "india": 17,
+   "ok": true,
+   "sample": [
+    "Capital Processing Specialist II | Bangalore",
+    "Credit Risk Senior Analyst - CECL Reporting, Loss Forecasting | Bangalore",
+    "Lead Credit Underwriter - Retail | Bengaluru , Karnataka , India"
+   ],
+   "secs": 0.0
+  },
+  {
+   "name": "Mindtickle",
+   "ats": "lever",
+   "token": "mindtickle",
+   "india": 17,
+   "ok": true,
+   "sample": [
+    "Account Executive, Commercial [NAMER] | Pune, Maharashtra; Bengaluru, Karnataka",
+    "Account Manager [NAMER] | Pune, Maharashtra",
+    "AI Product Engineer | Pune, Maharashtra; Bengaluru, Karnataka"
+   ],
+   "secs": 0.7
+  },
+  {
+   "name": "Verizon",
+   "ats": "workday",
+   "tenant": "verizon",
+   "wd": 12,
+   "site": "verizon-careers",
+   "india": 16,
+   "total": 1112,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Synchrony",
+   "ats": "workday",
+   "tenant": "synchronyfinancial",
+   "wd": 5,
+   "site": "careers",
+   "india": 15,
+   "total": 42,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Elastic",
+   "ats": "greenhouse",
+   "token": "elastic",
+   "india": 15,
+   "ok": true,
+   "sample": [
+    "Consulting Architect - Observability | India",
+    "Consulting Architect - Platform | India",
+    "Consulting Architect - Search | India"
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "Marvell",
+   "ats": "workday",
+   "tenant": "marvell",
+   "wd": 1,
+   "site": "MarvellCareers",
+   "india": 14,
+   "total": 251,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Twilio",
+   "ats": "greenhouse",
+   "token": "twilio",
+   "india": 14,
+   "ok": true,
+   "sample": [
+    "Digital Marketing Manager | Remote - India",
+    "Manager, Personalized Support | Remote - India",
+    "Marketing Strategy and Analytics Manager | Remote - India"
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "PayPal",
+   "ats": "workday",
+   "tenant": "paypal",
+   "wd": 1,
+   "site": "jobs",
+   "india": 12,
+   "total": 280,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Tower Research",
+   "ats": "greenhouse",
+   "token": "towerresearchcapital",
+   "india": 12,
+   "ok": true,
+   "sample": [
+    "Associate, Finance | Gurgaon",
+    "Hardware Engineer III | Gurgaon",
+    "Information Security Engineer III | Gurgaon"
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "CRED",
+   "ats": "lever",
+   "token": "cred",
+   "india": 12,
+   "ok": true,
+   "sample": [
+    "area collections manager bangalore -flows | bengaluru",
+    "area collections manager chennai- flows | tamil nadu",
+    "area collections manager hyderabad -flows | hyderabad"
+   ],
+   "secs": 0.5
+  },
+  {
+   "name": "Capital One",
+   "ats": "workday",
+   "tenant": "capitalone",
+   "wd": 12,
+   "site": "Capital_One",
+   "india": 11,
+   "total": 1853,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Flutter Entertainment",
+   "ats": "workday",
+   "tenant": "flutterbe",
+   "wd": 3,
+   "site": "Group_External",
+   "india": 11,
+   "total": 25,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Coinbase",
+   "ats": "greenhouse",
+   "token": "coinbase",
+   "india": 11,
+   "ok": true,
+   "sample": [
+    "Capacity Planning Lead | Hybrid - Bangalore, India",
+    "Country Director, India | Remote - India",
+    "Engineering Manager - Customer Experience AI | Remote - India"
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "New Relic",
+   "ats": "greenhouse",
+   "token": "newrelic",
+   "india": 10,
+   "ok": true,
+   "sample": [
+    "Lead Software Engineer | Hyderabad, India",
+    "Lead Software Engineer | Hyderabad, India",
+    "Lead Software Engineer  | Bangalore, India"
+   ],
+   "secs": 0.0
+  },
+  {
+   "name": "OpenAI",
+   "ats": "ashby",
+   "token": "openai",
+   "india": 10,
+   "ok": true,
+   "sample": [
+    "Account Director, Digital Natives | Delhi, India; Mumbai, India",
+    "Applied AI Engineer | Delhi, India; Mumbai, India; Bangalore - Remote",
+    "Applied AI Architect | Delhi, India; Mumbai, India; Bangalore - Remote"
+   ],
+   "secs": 0.2
+  },
+  {
+   "name": "Prudential",
+   "ats": "workday",
+   "tenant": "pru",
+   "wd": 5,
+   "site": "Careers",
+   "india": 9,
+   "total": 167,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Expedia Group",
+   "ats": "workday",
+   "tenant": "expedia",
+   "wd": 108,
+   "site": "search",
+   "india": 8,
+   "total": 154,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Airbnb",
+   "ats": "greenhouse",
+   "token": "airbnb",
+   "india": 8,
+   "ok": true,
+   "sample": [
+    "Lead Advanced Analytics, Community Support | Bengaluru, India",
+    "Market Manager | Gurugram, India",
+    "Senior Advanced Analyst, Fraud & Safety Investigations | Bangalore, India"
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "Fidelity Investments",
+   "ats": "workday",
+   "tenant": "fmr",
+   "wd": 1,
+   "site": "FidelityCareers",
+   "india": 6,
+   "total": 827,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Coca-Cola",
+   "ats": "workday",
+   "tenant": "coke",
+   "wd": 1,
+   "site": "coca-cola-careers",
+   "india": 6,
+   "total": 219,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Samsara",
+   "ats": "greenhouse",
+   "token": "samsara",
+   "india": 6,
+   "ok": true,
+   "sample": [
+    "AI Engineering Manager | Bengaluru - BLR1",
+    "Network Engineer II | Bengaluru - BLR1",
+    "Product Support Engineer | Bengaluru - BLR1"
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "GE Aerospace",
+   "ats": "workday",
+   "tenant": "geaerospace",
+   "wd": 5,
+   "site": "GE_ExternalSite",
+   "india": 5,
+   "total": 516,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Canva",
+   "ats": "smartrecruiters",
+   "token": "Canva",
+   "india": 5,
+   "ok": true,
+   "sample": [
+    "Product Support Specialist, Education Team  (Full time, 1-year contract) | Remote, Bengaluru, India",
+    "Project Manager, Education Team (Full time, 1-year contract) | Delhi, India",
+    "Content Marketing Specialist  (12-month contract) | Bengaluru, KA, India"
+   ],
+   "secs": 0.6
+  },
+  {
+   "name": "Red Hat",
+   "ats": "workday",
+   "tenant": "redhat",
+   "wd": 5,
+   "site": "jobs",
+   "india": 4,
+   "total": 152,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Boeing",
+   "ats": "workday",
+   "tenant": "boeing",
+   "wd": 1,
+   "site": "EXTERNAL_CAREERS",
+   "india": 4,
+   "total": 736,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Ubisoft",
+   "ats": "smartrecruiters",
+   "token": "Ubisoft2",
+   "india": 4,
+   "ok": true,
+   "sample": [
+    "Junior R&D Engineer (GEN AI/ML) | Pune, MH, India",
+    "R&D Engineer (C++) | Pune, MH, India",
+    "R&D Engineer | Pune, MH, India"
+   ],
+   "secs": 0.4
+  },
+  {
+   "name": "Notion",
+   "ats": "ashby",
+   "token": "notion",
+   "india": 4,
+   "ok": true,
+   "sample": [
+    "Software Engineer, Infrastructure  | Hyderabad, India",
+    "Software Engineer, Developer Experience | Hyderabad, India",
+    "Product Support Manager | Hyderabad, India"
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "Travelers",
+   "ats": "workday",
+   "tenant": "travelers",
+   "wd": 5,
+   "site": "External",
+   "india": 3,
+   "total": 362,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Zoetis",
+   "ats": "workday",
+   "tenant": "zoetis",
+   "wd": 5,
+   "site": "zoetis",
+   "india": 2,
+   "total": 120,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Cloudflare",
+   "ats": "greenhouse",
+   "token": "cloudflare",
+   "india": 1,
+   "ok": true,
+   "sample": [
+    "Senior Manager, Customer Engineering, India | Remote India"
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "Western Digital",
+   "ats": "smartrecruiters",
+   "token": "WesternDigital",
+   "india": 1,
+   "ok": true,
+   "sample": [
+    "Analyst 4, Data Analytics [Senior HR Data Analyst (8+ years ) SQL , Data visualization ,Analytics ,Tableau/ Power BI] | Bengaluru, KA, India"
+   ],
+   "secs": 0.4
+  },
+  {
+   "name": "Confluent",
+   "ats": "ashby",
+   "token": "confluent",
+   "india": 1,
+   "ok": true,
+   "sample": [
+    "Staff Software Engineer I - SRE | IN Remote India"
+   ],
+   "secs": 0.0
+  },
+  {
+   "name": "Franklin Templeton",
+   "ats": "workday",
+   "tenant": "franklintempleton",
+   "wd": 5,
+   "site": "Primary-External-1",
+   "india": 0,
+   "total": 0,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Lloyds Banking Group",
+   "ats": "workday",
+   "tenant": "lbg",
+   "wd": 3,
+   "site": "LBG_Careers",
+   "india": 0,
+   "total": 93,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "T. Rowe Price",
+   "ats": "workday",
+   "tenant": "troweprice",
+   "wd": 5,
+   "site": "TRowePrice",
+   "india": 0,
+   "total": 138,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Qualcomm",
+   "ats": "workday",
+   "tenant": "qualcomm",
+   "wd": 12,
+   "site": "External",
+   "india": 0,
+   "total": 0,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Lyft",
+   "ats": "greenhouse",
+   "token": "lyft",
+   "india": 0,
+   "ok": true,
+   "sample": [],
+   "secs": 0.1
+  },
+  {
+   "name": "Pinterest",
+   "ats": "greenhouse",
+   "token": "pinterest",
+   "india": 0,
+   "ok": true,
+   "sample": [],
+   "secs": 0.1
+  },
+  {
+   "name": "Dropbox",
+   "ats": "greenhouse",
+   "token": "dropbox",
+   "india": 0,
+   "ok": true,
+   "sample": [],
+   "secs": 0.0
+  },
+  {
+   "name": "Palantir",
+   "ats": "lever",
+   "token": "palantir",
+   "india": 0,
+   "ok": true,
+   "sample": [],
+   "secs": 1.5
+  },
+  {
+   "name": "Visa",
+   "ats": "smartrecruiters",
+   "token": "Visa",
+   "india": 0,
+   "ok": true,
+   "sample": [],
+   "secs": 0.4
+  },
+  {
+   "name": "Equinix",
+   "ats": "smartrecruiters",
+   "token": "Equinix",
+   "india": 0,
+   "ok": true,
+   "sample": [],
+   "secs": 0.3
+  },
+  {
+   "name": "Sandisk",
+   "ats": "smartrecruiters",
+   "token": "Sandisk",
+   "india": 0,
+   "ok": true,
+   "sample": [],
+   "secs": 0.4
+  },
+  {
+   "name": "McDonald's",
+   "ats": "smartrecruiters",
+   "token": "McDonaldsCorporation",
+   "india": 0,
+   "ok": true,
+   "sample": [],
+   "secs": 0.3
+  },
+  {
+   "name": "LinkedIn",
+   "ats": "smartrecruiters",
+   "token": "LinkedIn",
+   "india": 0,
+   "ok": true,
+   "sample": [],
+   "secs": 0.4
+  },
+  {
+   "name": "Ramp",
+   "ats": "ashby",
+   "token": "ramp",
+   "india": 0,
+   "ok": true,
+   "sample": [],
+   "secs": 0.1
+  }
+ ],
+ "failed": [
+  {
+   "name": "UBS",
+   "ats": "workday",
+   "tenant": "ubs",
+   "ok": false,
+   "tried": [
+    "wd3/UBS_Experienced_Professionals:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd3/Careers:HTTP 422",
+    "wd1/UBS_Experienced_Professionals:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/Careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "BNY",
+   "ats": "workday",
+   "tenant": "bnymellon",
+   "ok": false,
+   "tried": [
+    "wd5/BNY_Careers:HTTP 422",
+    "wd5/BNYM_Careers:HTTP 422",
+    "wd5/Careers:HTTP 422",
+    "wd1/BNY_Careers:HTTP 422",
+    "wd1/BNYM_Careers:HTTP 422",
+    "wd1/Careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Nomura",
+   "ats": "workday",
+   "tenant": "nomura",
+   "ok": false,
+   "tried": [
+    "wd3/Nomura_Campus:HTTP 422",
+    "wd3/Nomura:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd3/Careers:HTTP 422",
+    "wd1/Nomura_Campus:HTTP 422",
+    "wd1/Nomura:HTTP 422"
+   ]
+  },
+  {
+   "name": "Moody's",
+   "ats": "workday",
+   "tenant": "moodys",
+   "ok": false,
+   "tried": [
+    "wd5/External:HTTP 422",
+    "wd5/Careers:HTTP 422",
+    "wd5/moodys:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/Careers:HTTP 422",
+    "wd1/moodys:HTTP 422"
+   ]
+  },
+  {
+   "name": "MSCI",
+   "ats": "workday",
+   "tenant": "msci",
+   "ok": false,
+   "tried": [
+    "wd1/MSCI:HTTP 401",
+    "wd1/Careers:HTTP 401",
+    "wd1/External:HTTP 401",
+    "wd5/MSCI:HTTP 422",
+    "wd5/Careers:HTTP 422",
+    "wd5/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "Principal Financial",
+   "ats": "workday",
+   "tenant": "principal",
+   "ok": false,
+   "tried": [
+    "wd5/Principal:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd1/Principal:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd3/Principal:HTTP 422",
+    "wd3/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "MetLife",
+   "ats": "workday",
+   "tenant": "metlife",
+   "ok": false,
+   "tried": [
+    "wd1/External:HTTP 422",
+    "wd1/Careers:HTTP 422",
+    "wd1/MetLife:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd5/Careers:HTTP 422",
+    "wd5/MetLife:HTTP 422"
+   ]
+  },
+  {
+   "name": "Chubb",
+   "ats": "workday",
+   "tenant": "chubb",
+   "ok": false,
+   "tried": [
+    "wd5/Chubb:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd5/Careers:HTTP 422",
+    "wd1/Chubb:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/Careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Swiss Re",
+   "ats": "workday",
+   "tenant": "swissre",
+   "ok": false,
+   "tried": [
+    "wd3/SwissRe:HTTP 422",
+    "wd3/Careers:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd1/SwissRe:HTTP 422",
+    "wd1/Careers:HTTP 422",
+    "wd1/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "AMD",
+   "ats": "workday",
+   "tenant": "amd",
+   "ok": false,
+   "tried": [
+    "wd1/External:HTTP 422",
+    "wd1/AMD:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd5/AMD:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd3/AMD:HTTP 422"
+   ]
+  },
+  {
+   "name": "Dell Technologies",
+   "ats": "workday",
+   "tenant": "dell",
+   "ok": false,
+   "tried": [
+    "wd1/External:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd12/External:HTTP 422",
+    "wd10/External:HTTP 422",
+    "wd103/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "Intuit",
+   "ats": "workday",
+   "tenant": "intuit",
+   "ok": false,
+   "tried": [
+    "wd1/jobs:HTTP 401",
+    "wd1/Intuit:HTTP 401",
+    "wd5/jobs:HTTP 422",
+    "wd5/Intuit:HTTP 422",
+    "wd3/jobs:HTTP 422",
+    "wd3/Intuit:HTTP 422"
+   ]
+  },
+  {
+   "name": "Walmart Global Tech",
+   "ats": "workday",
+   "tenant": "walmart",
+   "ok": false,
+   "tried": [
+    "wd5/WalmartExternal:HTTP 422",
+    "wd1/WalmartExternal:HTTP 422",
+    "wd3/WalmartExternal:HTTP 422",
+    "wd12/WalmartExternal:HTTP 422",
+    "wd10/WalmartExternal:HTTP 422",
+    "wd103/WalmartExternal:HTTP 422"
+   ]
+  },
+  {
+   "name": "McDonald's",
+   "ats": "workday",
+   "tenant": "mcdonalds",
+   "ok": false,
+   "tried": [
+    "wd5/McD_Careers:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd5/Careers:HTTP 422",
+    "wd12/McD_Careers:HTTP 422",
+    "wd12/External:HTTP 422",
+    "wd12/Careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Kenvue",
+   "ats": "workday",
+   "tenant": "kenvue",
+   "ok": false,
+   "tried": [
+    "wd1/KenvueCareers:HTTP 422",
+    "wd5/KenvueCareers:HTTP 404",
+    "wd3/KenvueCareers:HTTP 422",
+    "wd12/KenvueCareers:HTTP 422",
+    "wd10/KenvueCareers:HTTP 422",
+    "wd103/KenvueCareers:HTTP 422"
+   ]
+  },
+  {
+   "name": "John Deere",
+   "ats": "workday",
+   "tenant": "johndeere",
+   "ok": false,
+   "tried": [
+    "wd1/Deere:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/careers:HTTP 422",
+    "wd5/Deere:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd5/careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Eaton",
+   "ats": "workday",
+   "tenant": "eaton",
+   "ok": false,
+   "tried": [
+    "wd1/eaton_careers:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/Careers:HTTP 422",
+    "wd5/eaton_careers:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd5/Careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Emerson",
+   "ats": "workday",
+   "tenant": "emerson",
+   "ok": false,
+   "tried": [
+    "wd5/Emerson:HTTP 404",
+    "wd5/External:HTTP 404",
+    "wd5/careers:HTTP 404",
+    "wd1/Emerson:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Otis",
+   "ats": "workday",
+   "tenant": "otis",
+   "ok": false,
+   "tried": [
+    "wd5/REC_Ext_Gateway:HTTP 422",
+    "wd1/REC_Ext_Gateway:HTTP 422",
+    "wd3/REC_Ext_Gateway:HTTP 422",
+    "wd12/REC_Ext_Gateway:HTTP 422",
+    "wd10/REC_Ext_Gateway:HTTP 422",
+    "wd103/REC_Ext_Gateway:HTTP 422"
+   ]
+  },
+  {
+   "name": "Eli Lilly",
+   "ats": "workday",
+   "tenant": "lilly",
+   "ok": false,
+   "tried": [
+    "wd5/LLY:HTTP 422",
+    "wd1/LLY:HTTP 422",
+    "wd3/LLY:HTTP 422",
+    "wd12/LLY:HTTP 422",
+    "wd10/LLY:HTTP 422",
+    "wd103/LLY:HTTP 422"
+   ]
+  },
+  {
+   "name": "Takeda",
+   "ats": "workday",
+   "tenant": "takeda",
+   "ok": false,
+   "tried": [
+    "wd3/External:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd12/External:HTTP 422",
+    "wd10/External:HTTP 422",
+    "wd103/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "Providence",
+   "ats": "workday",
+   "tenant": "providence",
+   "ok": false,
+   "tried": [
+    "wd5/Careers:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd1/Careers:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd3/Careers:HTTP 422",
+    "wd3/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "Liberty Mutual",
+   "ats": "workday",
+   "tenant": "libertymutual",
+   "ok": false,
+   "tried": [
+    "wd5/LMI:HTTP 422",
+    "wd1/LMI:HTTP 422",
+    "wd3/LMI:HTTP 422",
+    "wd12/LMI:HTTP 422",
+    "wd10/LMI:HTTP 422",
+    "wd103/LMI:HTTP 422"
+   ]
+  },
+  {
+   "name": "Comcast",
+   "ats": "workday",
+   "tenant": "comcast",
+   "ok": false,
+   "tried": [
+    "wd5/Comcast_Careers:HTTP 422",
+    "wd1/Comcast_Careers:HTTP 422",
+    "wd3/Comcast_Careers:HTTP 422",
+    "wd12/Comcast_Careers:HTTP 422",
+    "wd10/Comcast_Careers:HTTP 422",
+    "wd103/Comcast_Careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "DTCC",
+   "ats": "workday",
+   "tenant": "dtcc",
+   "ok": false,
+   "tried": [
+    "wd1/dtcc:HTTP 422",
+    "wd5/dtcc:HTTP 422",
+    "wd3/dtcc:HTTP 422",
+    "wd12/dtcc:HTTP 422",
+    "wd10/dtcc:HTTP 422",
+    "wd103/dtcc:HTTP 422"
+   ]
+  },
+  {
+   "name": "American Express",
+   "ats": "workday",
+   "tenant": "aexp",
+   "ok": false,
+   "tried": [
+    "wd5/External:HTTP 422",
+    "wd5/Careers:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/Careers:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd3/Careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Wabtec",
+   "ats": "workday",
+   "tenant": "wabtec",
+   "ok": false,
+   "tried": [
+    "wd1/wabtec_careers:HTTP 403",
+    "wd1/External:HTTP 404",
+    "wd5/wabtec_careers:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd3/wabtec_careers:HTTP 422",
+    "wd3/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "ICE",
+   "ats": "workday",
+   "tenant": "ice",
+   "ok": false,
+   "tried": [
+    "wd5/External:HTTP 422",
+    "wd5/ICE:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/ICE:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd3/ICE:HTTP 422"
+   ]
+  },
+  {
+   "name": "Novo Nordisk",
+   "ats": "workday",
+   "tenant": "novonordisk",
+   "ok": false,
+   "tried": [
+    "wd3/NovoNordiskCareers:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd1/NovoNordiskCareers:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd5/NovoNordiskCareers:HTTP 422",
+    "wd5/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "Bayer",
+   "ats": "workday",
+   "tenant": "bayer",
+   "ok": false,
+   "tried": [
+    "wd3/Bayer_Careers:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd1/Bayer_Careers:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd5/Bayer_Careers:HTTP 422",
+    "wd5/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "Accenture Federal (skip)",
+   "ats": "workday",
+   "tenant": "zzzz",
+   "ok": false,
+   "tried": [
+    "wd1/x:HTTP 422",
+    "wd5/x:HTTP 422",
+    "wd3/x:HTTP 422",
+    "wd12/x:HTTP 422",
+    "wd10/x:HTTP 422",
+    "wd103/x:HTTP 422"
+   ]
+  },
+  {
+   "name": "Wayfair",
+   "ats": "greenhouse",
+   "token": "wayfair",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "DoorDash",
+   "ats": "greenhouse",
+   "token": "doordash",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Snowflake",
+   "ats": "greenhouse",
+   "token": "snowflake",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Nutanix",
+   "ats": "greenhouse",
+   "token": "nutanix",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Postman",
+   "ats": "greenhouse",
+   "token": "postman",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Blackstone",
+   "ats": "greenhouse",
+   "token": "blackstone",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Sprinklr",
+   "ats": "greenhouse",
+   "token": "sprinklr",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "HashiCorp",
+   "ats": "greenhouse",
+   "token": "hashicorp",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Chainalysis",
+   "ats": "greenhouse",
+   "token": "chainalysis",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Addepar",
+   "ats": "greenhouse",
+   "token": "addepar",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Zeta",
+   "ats": "greenhouse",
+   "token": "zeta",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Uber",
+   "ats": "greenhouse",
+   "token": "uber",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Atlassian",
+   "ats": "greenhouse",
+   "token": "atlassian",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Atlassian",
+   "ats": "lever",
+   "token": "atlassian",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Plaid",
+   "ats": "lever",
+   "token": "plaid",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Sigmoid",
+   "ats": "lever",
+   "token": "sigmoid",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Netflix",
+   "ats": "lever",
+   "token": "netflix",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Zepto",
+   "ats": "ashby",
+   "token": "zepto",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "ms-eightfold-v2",
+   "ok": false,
+   "error": "HTTP 403"
+  },
+  {
+   "name": "ms-gcs",
+   "ok": false,
+   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+  },
+  {
+   "name": "google",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "apple",
+   "ok": false,
+   "error": "HTTP 404"
+  }
+ ],
+ "raw": [
+  {
+   "name": "ms-pcsx",
+   "ok": true,
+   "keys": [
+    "status",
+    "error",
+    "data",
+    "metadata"
+   ],
+   "snippet": "{\"status\": 200, \"error\": {\"message\": \"\", \"body\": \"\"}, \"data\": {\"positions\": [{\"id\": 1970393557004838, \"displayJobId\": \"200057345\", \"name\": \"Principal Software Engineer\", \"locations\": [\"India, Telangana, Hyderabad\"], \"standardizedLocations\": [\"Hyderabad, TS, IN\"], \"postedTs\": 1790489188, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1790024797, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"200057345\", \"positionUrl\": \"/careers/job/1970393557004838\"}, {\"id\": 1970393556991524, \"displayJobId\": \"200054326\", \"name\": \"SSE - Backend & Distributed Systems\", \"locations\": [\"India, Telangana, Hyderabad\"], \"standardizedLocations\": [\"Hyderabad, TS, IN\"], \"postedTs\": 1790350685, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1788938956, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"200054326\", \"positionUrl\": \"/careers/job/1970393556991524\"}, {\"id\": 1970393557006218, \"displayJobId\": \"200057409\", \"name\": \"Solution Architecture Manager\", \"locations\": [\"India, Karnataka, Bangalore\", \"India, Telangana, Hyderabad\", \"India, Uttar Pradesh, Noida\"], \"standardizedLocations\": [\"Bengaluru, KA, IN\", \"Hyderabad, TS, IN\", \"Noida, UP, IN\"], \"postedTs\": 1790346105, \"solrScore\": null, \"stars\": 0, \"department\": \"Solution Architecture\", \"creationTs\": 1790060659, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"200057409\", \"p"
+  }
+ ]
+}
