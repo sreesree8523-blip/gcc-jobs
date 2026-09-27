@@ -336,7 +336,40 @@ def fetch_oracle(c, keep=None, cap=3000):
     return out
 
 
+# ---------------------------------------------------------------- Microsoft (Eightfold "pcsx")
+def fetch_microsoft(c, keep=None, cap=3000):
+    host = c.get("host", "apply.careers.microsoft.com")
+    domain = c.get("domain", "microsoft.com")
+    out, start, seen = [], 0, set()
+    while True:
+        r = http(f"https://{host}/api/pcsx/search?domain={domain}&query=&location=India"
+                 f"&start={start}&sort_by=timestamp")
+        pos = ((r.get("data") or {}).get("positions")) or []
+        fresh = 0
+        for p in pos:
+            if p.get("id") in seen:
+                continue
+            seen.add(p.get("id"))
+            fresh += 1
+            locs = p.get("standardizedLocations") or p.get("locations") or []
+            text = "; ".join(locs)
+            if not is_india(text) and not any(l.endswith(", IN") for l in locs):
+                continue
+            ts = p.get("postedTs") or p.get("creationTs")
+            out.append({"title": p.get("name", ""),
+                        "url": f"https://{host}" + (p.get("positionUrl") or f"/careers/job/{p.get('id')}"),
+                        "location": text,
+                        "posted_date": time.strftime("%Y-%m-%d", time.gmtime(ts)) if ts else None,
+                        "ext_id": str(p.get("id"))})
+        start += len(pos)
+        if not pos or not fresh or start >= cap:
+            break
+        time.sleep(0.3)
+    return out
+
+
 FETCHERS = {
+    "microsoft": fetch_microsoft,
     "workday": fetch_workday,
     "greenhouse": fetch_greenhouse,
     "lever": fetch_lever,

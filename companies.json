@@ -1,0 +1,918 @@
+{
+ "_note": "Companies tracked. 'ats' is the hiring system. Add or remove companies here.",
+ "companies": [
+  {
+   "name": "3M",
+   "ats": "workday",
+   "tenant": "3m",
+   "wd": 1,
+   "site": "Search",
+   "sector": "Industrial & Energy"
+  },
+  {
+   "name": "Addepar",
+   "ats": "greenhouse",
+   "token": "addepar1",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Adobe",
+   "ats": "workday",
+   "tenant": "adobe",
+   "wd": 5,
+   "site": "external_experienced",
+   "sector": "Technology"
+  },
+  {
+   "name": "Airbnb",
+   "ats": "greenhouse",
+   "token": "airbnb",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "Amazon",
+   "ats": "amazon",
+   "sector": "Technology"
+  },
+  {
+   "name": "Ameriprise",
+   "ats": "workday",
+   "tenant": "ameriprise",
+   "wd": 5,
+   "site": "Ameriprise",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Amgen",
+   "ats": "workday",
+   "tenant": "amgen",
+   "wd": 1,
+   "site": "Careers",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "Analog Devices",
+   "ats": "workday",
+   "tenant": "analogdevices",
+   "wd": 1,
+   "site": "External",
+   "sector": "Technology"
+  },
+  {
+   "name": "Applied Materials",
+   "ats": "workday",
+   "tenant": "amat",
+   "wd": 1,
+   "site": "External",
+   "sector": "Technology"
+  },
+  {
+   "name": "AstraZeneca",
+   "ats": "workday",
+   "tenant": "astrazeneca",
+   "wd": 3,
+   "site": "Careers",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "Autodesk",
+   "ats": "workday",
+   "tenant": "autodesk",
+   "wd": 1,
+   "site": "Ext",
+   "sector": "Technology"
+  },
+  {
+   "name": "Baxter",
+   "ats": "workday",
+   "tenant": "baxter",
+   "wd": 1,
+   "site": "baxter",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "BD",
+   "ats": "workday",
+   "tenant": "bdx",
+   "wd": 1,
+   "site": "EXTERNAL_CAREER_SITE_INDIA",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "BlackRock",
+   "ats": "workday",
+   "tenant": "blackrock",
+   "wd": 1,
+   "site": "BlackRock_Professional",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Boeing",
+   "ats": "workday",
+   "tenant": "boeing",
+   "wd": 1,
+   "site": "EXTERNAL_CAREERS",
+   "sector": "Industrial & Energy"
+  },
+  {
+   "name": "Bosch",
+   "ats": "smartrecruiters",
+   "token": "BoschGroup",
+   "sector": "Industrial & Energy"
+  },
+  {
+   "name": "Bristol Myers Squibb",
+   "ats": "workday",
+   "tenant": "bristolmyerssquibb",
+   "wd": 5,
+   "site": "BMS",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "Broadcom",
+   "ats": "workday",
+   "tenant": "broadcom",
+   "wd": 1,
+   "site": "External_Career",
+   "sector": "Technology"
+  },
+  {
+   "name": "Broadridge",
+   "ats": "workday",
+   "tenant": "broadridge",
+   "wd": 5,
+   "site": "Careers",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Cadence",
+   "ats": "workday",
+   "tenant": "cadence",
+   "wd": 1,
+   "site": "External_Careers",
+   "sector": "Technology"
+  },
+  {
+   "name": "Canva",
+   "ats": "smartrecruiters",
+   "token": "Canva",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "Capital One",
+   "ats": "workday",
+   "tenant": "capitalone",
+   "wd": 12,
+   "site": "Capital_One",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Carrier",
+   "ats": "workday",
+   "tenant": "carrier",
+   "wd": 5,
+   "site": "jobs",
+   "sector": "Industrial & Energy"
+  },
+  {
+   "name": "Caterpillar",
+   "ats": "workday",
+   "tenant": "cat",
+   "wd": 5,
+   "site": "CaterpillarCareers",
+   "sector": "Industrial & Energy"
+  },
+  {
+   "name": "Chevron",
+   "ats": "workday",
+   "tenant": "chevron",
+   "wd": 5,
+   "site": "jobs",
+   "sector": "Industrial & Energy"
+  },
+  {
+   "name": "Citi",
+   "ats": "workday",
+   "tenant": "citi",
+   "wd": 5,
+   "site": "2",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Cloudflare",
+   "ats": "greenhouse",
+   "token": "cloudflare",
+   "sector": "Technology"
+  },
+  {
+   "name": "Coca-Cola",
+   "ats": "workday",
+   "tenant": "coke",
+   "wd": 1,
+   "site": "coca-cola-careers",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "Coinbase",
+   "ats": "greenhouse",
+   "token": "coinbase",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Comcast",
+   "ats": "workday",
+   "tenant": "comcast",
+   "wd": 115,
+   "site": "Comcast_Careers",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "Confluent",
+   "ats": "ashby",
+   "token": "confluent",
+   "sector": "Technology"
+  },
+  {
+   "name": "Databricks",
+   "ats": "greenhouse",
+   "token": "databricks",
+   "sector": "Technology"
+  },
+  {
+   "name": "Deutsche Bank",
+   "ats": "workday",
+   "tenant": "db",
+   "wd": 3,
+   "site": "DBWebSite",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Disney",
+   "ats": "workday",
+   "tenant": "disney",
+   "wd": 5,
+   "site": "disneycareer",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "Elastic",
+   "ats": "greenhouse",
+   "token": "elastic",
+   "sector": "Technology"
+  },
+  {
+   "name": "Elevance Health",
+   "ats": "workday",
+   "tenant": "elevancehealth",
+   "wd": 1,
+   "site": "ANT",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Eli Lilly",
+   "ats": "workday",
+   "tenant": "lilly",
+   "wd": 115,
+   "site": "LLY",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "Equifax",
+   "ats": "workday",
+   "tenant": "equifax",
+   "wd": 5,
+   "site": "External",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Evernorth (Cigna)",
+   "ats": "workday",
+   "tenant": "cigna",
+   "wd": 5,
+   "site": "cignacareers",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Expedia Group",
+   "ats": "workday",
+   "tenant": "expedia",
+   "wd": 108,
+   "site": "search",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "Experian",
+   "ats": "smartrecruiters",
+   "token": "Experian",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "FactSet",
+   "ats": "workday",
+   "tenant": "factset",
+   "wd": 108,
+   "site": "FactSetCareers",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Fidelity Investments",
+   "ats": "workday",
+   "tenant": "fmr",
+   "wd": 1,
+   "site": "FidelityCareers",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Fiserv",
+   "ats": "workday",
+   "tenant": "fiserv",
+   "wd": 5,
+   "site": "EXT",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Flutter Entertainment",
+   "ats": "workday",
+   "tenant": "flutterbe",
+   "wd": 3,
+   "site": "Group_External",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "Gartner",
+   "ats": "workday",
+   "tenant": "gartner",
+   "wd": 5,
+   "site": "EXT",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "GE Aerospace",
+   "ats": "workday",
+   "tenant": "geaerospace",
+   "wd": 5,
+   "site": "GE_ExternalSite",
+   "sector": "Industrial & Energy"
+  },
+  {
+   "name": "GE HealthCare",
+   "ats": "workday",
+   "tenant": "gehc",
+   "wd": 5,
+   "site": "GEHC_ExternalSite",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "GE Vernova",
+   "ats": "workday",
+   "tenant": "gevernova",
+   "wd": 5,
+   "site": "Vernova_ExternalSite",
+   "sector": "Industrial & Energy"
+  },
+  {
+   "name": "GitLab",
+   "ats": "greenhouse",
+   "token": "gitlab",
+   "sector": "Technology"
+  },
+  {
+   "name": "GSK",
+   "ats": "workday",
+   "tenant": "gsk",
+   "wd": 5,
+   "site": "GSKCareers",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "Hartford",
+   "ats": "workday",
+   "tenant": "thehartford",
+   "wd": 5,
+   "site": "Careers_External",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "HP",
+   "ats": "workday",
+   "tenant": "hp",
+   "wd": 5,
+   "site": "ExternalCareerSite",
+   "sector": "Technology"
+  },
+  {
+   "name": "HPE",
+   "ats": "workday",
+   "tenant": "hpe",
+   "wd": 5,
+   "site": "Jobsathpe",
+   "sector": "Technology"
+  },
+  {
+   "name": "Humana",
+   "ats": "workday",
+   "tenant": "humana",
+   "wd": 5,
+   "site": "Humana_External_Career_Site",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "IFF",
+   "ats": "workday",
+   "tenant": "iff",
+   "wd": 5,
+   "site": "IFF_Careers",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "Intel",
+   "ats": "workday",
+   "tenant": "intel",
+   "wd": 1,
+   "site": "External",
+   "sector": "Technology"
+  },
+  {
+   "name": "Invesco",
+   "ats": "workday",
+   "tenant": "invesco",
+   "wd": 1,
+   "site": "IVZ",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Johnson Controls",
+   "ats": "workday",
+   "tenant": "jci",
+   "wd": 5,
+   "site": "JCI",
+   "sector": "Industrial & Energy"
+  },
+  {
+   "name": "JPMorgan Chase",
+   "ats": "oracle",
+   "host": "jpmc.fa.oraclecloud.com",
+   "site": "CX_1001",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Lloyds Banking Group",
+   "ats": "workday",
+   "tenant": "lbg",
+   "wd": 3,
+   "site": "Lloyds_Technology_Centre",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "LSEG",
+   "ats": "workday",
+   "tenant": "lseg",
+   "wd": 3,
+   "site": "Careers",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Marvell",
+   "ats": "workday",
+   "tenant": "marvell",
+   "wd": 1,
+   "site": "MarvellCareers",
+   "sector": "Technology"
+  },
+  {
+   "name": "MassMutual India",
+   "ats": "workday",
+   "tenant": "massmutual",
+   "wd": 1,
+   "site": "MMINDCareersite",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Mastercard",
+   "ats": "workday",
+   "tenant": "mastercard",
+   "wd": 1,
+   "site": "CorporateCareers",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Medtronic",
+   "ats": "workday",
+   "tenant": "medtronic",
+   "wd": 1,
+   "site": "MedtronicCareers",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "MetLife",
+   "ats": "workday",
+   "tenant": "cw",
+   "wd": 1,
+   "site": "External",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Micron",
+   "ats": "workday",
+   "tenant": "micron",
+   "wd": 1,
+   "site": "External",
+   "sector": "Technology"
+  },
+  {
+   "name": "Microsoft",
+   "ats": "microsoft",
+   "sector": "Technology"
+  },
+  {
+   "name": "Mondelez",
+   "ats": "workday",
+   "tenant": "mdlz",
+   "wd": 3,
+   "site": "External",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "MongoDB",
+   "ats": "greenhouse",
+   "token": "mongodb",
+   "sector": "Technology"
+  },
+  {
+   "name": "Morgan Stanley",
+   "ats": "workday",
+   "tenant": "ms",
+   "wd": 5,
+   "site": "External",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Motorola Solutions",
+   "ats": "workday",
+   "tenant": "motorolasolutions",
+   "wd": 5,
+   "site": "Careers",
+   "sector": "Technology"
+  },
+  {
+   "name": "MSD (Merck)",
+   "ats": "workday",
+   "tenant": "msd",
+   "wd": 5,
+   "site": "SearchJobs",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "Nasdaq",
+   "ats": "workday",
+   "tenant": "nasdaq",
+   "wd": 1,
+   "site": "Global_External_Site",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "New Relic",
+   "ats": "greenhouse",
+   "token": "newrelic",
+   "sector": "Technology"
+  },
+  {
+   "name": "NielsenIQ",
+   "ats": "smartrecruiters",
+   "token": "NielsenIQ",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "Nike",
+   "ats": "workday",
+   "tenant": "nike",
+   "wd": 1,
+   "site": "nke",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "Northern Trust",
+   "ats": "workday",
+   "tenant": "ntrs",
+   "wd": 1,
+   "site": "northerntrust",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Notion",
+   "ats": "ashby",
+   "token": "notion",
+   "sector": "Technology"
+  },
+  {
+   "name": "Novartis",
+   "ats": "workday",
+   "tenant": "novartis",
+   "wd": 3,
+   "site": "Novartis_Careers",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "NVIDIA",
+   "ats": "workday",
+   "tenant": "nvidia",
+   "wd": 5,
+   "site": "NVIDIAExternalCareerSite",
+   "sector": "Technology"
+  },
+  {
+   "name": "NXP",
+   "ats": "workday",
+   "tenant": "nxp",
+   "wd": 3,
+   "site": "careers",
+   "sector": "Technology"
+  },
+  {
+   "name": "Okta",
+   "ats": "greenhouse",
+   "token": "okta",
+   "sector": "Technology"
+  },
+  {
+   "name": "OpenAI",
+   "ats": "ashby",
+   "token": "openai",
+   "sector": "Technology"
+  },
+  {
+   "name": "Otis",
+   "ats": "workday",
+   "tenant": "otis",
+   "wd": 504,
+   "site": "REC_Ext_Gateway",
+   "sector": "Industrial & Energy"
+  },
+  {
+   "name": "PayPal",
+   "ats": "workday",
+   "tenant": "paypal",
+   "wd": 1,
+   "site": "jobs",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Pfizer",
+   "ats": "workday",
+   "tenant": "pfizer",
+   "wd": 1,
+   "site": "PfizerCareers",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "Philips",
+   "ats": "workday",
+   "tenant": "philips",
+   "wd": 3,
+   "site": "jobs-and-careers",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "Prudential",
+   "ats": "workday",
+   "tenant": "pru",
+   "wd": 5,
+   "site": "Careers",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Pure Storage",
+   "ats": "greenhouse",
+   "token": "purestorage",
+   "sector": "Technology"
+  },
+  {
+   "name": "Red Hat",
+   "ats": "workday",
+   "tenant": "redhat",
+   "wd": 5,
+   "site": "jobs",
+   "sector": "Technology"
+  },
+  {
+   "name": "Rubrik",
+   "ats": "greenhouse",
+   "token": "rubrik",
+   "sector": "Technology"
+  },
+  {
+   "name": "S&P Global",
+   "ats": "workday",
+   "tenant": "spgi",
+   "wd": 5,
+   "site": "SPGI_Careers",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Salesforce",
+   "ats": "workday",
+   "tenant": "salesforce",
+   "wd": 12,
+   "site": "External_Career_Site",
+   "sector": "Technology"
+  },
+  {
+   "name": "Samsara",
+   "ats": "greenhouse",
+   "token": "samsara",
+   "sector": "Technology"
+  },
+  {
+   "name": "Sanofi",
+   "ats": "workday",
+   "tenant": "sanofi",
+   "wd": 3,
+   "site": "SanofiCareers",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "ServiceNow",
+   "ats": "smartrecruiters",
+   "token": "ServiceNow",
+   "sector": "Technology"
+  },
+  {
+   "name": "Shell",
+   "ats": "workday",
+   "tenant": "shell",
+   "wd": 3,
+   "site": "ShellCareers",
+   "sector": "Industrial & Energy"
+  },
+  {
+   "name": "State Street",
+   "ats": "workday",
+   "tenant": "statestreet",
+   "wd": 1,
+   "site": "Global",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Stripe",
+   "ats": "greenhouse",
+   "token": "stripe",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Stryker",
+   "ats": "workday",
+   "tenant": "stryker",
+   "wd": 1,
+   "site": "StrykerCareers",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "Synchrony",
+   "ats": "workday",
+   "tenant": "synchronyfinancial",
+   "wd": 5,
+   "site": "careers",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Takeda",
+   "ats": "workday",
+   "tenant": "takeda",
+   "wd": 502,
+   "site": "External",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "Target",
+   "ats": "workday",
+   "tenant": "target",
+   "wd": 5,
+   "site": "targetcareers",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "Thermo Fisher",
+   "ats": "workday",
+   "tenant": "thermofisher",
+   "wd": 5,
+   "site": "ThermoFisherCareers",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "TIAA / Nuveen",
+   "ats": "workday",
+   "tenant": "tiaa",
+   "wd": 1,
+   "site": "Search",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Toast",
+   "ats": "greenhouse",
+   "token": "toast",
+   "sector": "Technology"
+  },
+  {
+   "name": "Tower Research",
+   "ats": "greenhouse",
+   "token": "towerresearchcapital",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "TransUnion",
+   "ats": "workday",
+   "tenant": "transunion",
+   "wd": 5,
+   "site": "TransUnion",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Travelers",
+   "ats": "workday",
+   "tenant": "travelers",
+   "wd": 5,
+   "site": "External",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Twilio",
+   "ats": "greenhouse",
+   "token": "twilio",
+   "sector": "Technology"
+  },
+  {
+   "name": "Ubisoft",
+   "ats": "smartrecruiters",
+   "token": "Ubisoft2",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "Vanguard",
+   "ats": "workday",
+   "tenant": "vanguard",
+   "wd": 5,
+   "site": "vanguard_external",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Verizon",
+   "ats": "workday",
+   "tenant": "verizon",
+   "wd": 12,
+   "site": "verizon-careers",
+   "sector": "Technology"
+  },
+  {
+   "name": "Walmart Global Tech",
+   "ats": "workday",
+   "tenant": "walmart",
+   "wd": 504,
+   "site": "WalmartExternal",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "Warner Bros. Discovery",
+   "ats": "workday",
+   "tenant": "warnerbros",
+   "wd": 5,
+   "site": "global",
+   "sector": "Retail & Consumer"
+  },
+  {
+   "name": "Wells Fargo",
+   "ats": "workday",
+   "tenant": "wf",
+   "wd": 1,
+   "site": "WellsFargoJobs",
+   "sector": "Banking & Finance"
+  },
+  {
+   "name": "Western Digital",
+   "ats": "smartrecruiters",
+   "token": "WesternDigital",
+   "sector": "Technology"
+  },
+  {
+   "name": "Workday",
+   "ats": "workday",
+   "tenant": "workday",
+   "wd": 5,
+   "site": "Workday",
+   "sector": "Technology"
+  },
+  {
+   "name": "Zoetis",
+   "ats": "workday",
+   "tenant": "zoetis",
+   "wd": 5,
+   "site": "zoetis",
+   "sector": "Healthcare & Pharma"
+  },
+  {
+   "name": "Zscaler",
+   "ats": "greenhouse",
+   "token": "zscaler",
+   "sector": "Technology"
+  }
+ ]
+}
