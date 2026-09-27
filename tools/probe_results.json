@@ -1,0 +1,645 @@
+{
+ "generated": "2026-09-27 17:54 UTC",
+ "working": [
+  {
+   "name": "MetLife",
+   "ats": "workday",
+   "tenant": "cw",
+   "wd": 1,
+   "site": "External",
+   "india": 277,
+   "total": 2000,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Walmart Global Tech",
+   "ats": "workday",
+   "tenant": "walmart",
+   "wd": 504,
+   "site": "WalmartExternal",
+   "india": 273,
+   "total": 2000,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Takeda",
+   "ats": "workday",
+   "tenant": "takeda",
+   "wd": 502,
+   "site": "External",
+   "india": 108,
+   "total": 1764,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Lloyds Banking Group",
+   "ats": "workday",
+   "tenant": "lbg",
+   "wd": 3,
+   "site": "Lloyds_Technology_Centre",
+   "india": 51,
+   "total": 51,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Eli Lilly",
+   "ats": "workday",
+   "tenant": "lilly",
+   "wd": 115,
+   "site": "LLY",
+   "india": 50,
+   "total": 705,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Otis",
+   "ats": "workday",
+   "tenant": "otis",
+   "wd": 504,
+   "site": "REC_Ext_Gateway",
+   "india": 45,
+   "total": 1399,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Comcast",
+   "ats": "workday",
+   "tenant": "comcast",
+   "wd": 115,
+   "site": "Comcast_Careers",
+   "india": 31,
+   "total": 654,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "FactSet",
+   "ats": "workday",
+   "tenant": "factset",
+   "wd": 108,
+   "site": "FactSetCareers",
+   "india": 25,
+   "total": 91,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Addepar",
+   "ats": "greenhouse",
+   "token": "addepar1",
+   "india": 11,
+   "ok": true,
+   "sample": [
+    "ADM Support Analyst | Pune, India",
+    "ADM Support Analyst | Pune, India",
+    "Data Client Support Analyst | Pune, India"
+   ],
+   "secs": 0.1
+  },
+  {
+   "name": "MassMutual India",
+   "ats": "workday",
+   "tenant": "massmutual",
+   "wd": 1,
+   "site": "MMINDCareersite",
+   "india": 10,
+   "total": 10,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Qualcomm",
+   "ats": "workday",
+   "tenant": "qualcomm",
+   "wd": 12,
+   "site": "External",
+   "india": 0,
+   "total": 0,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Franklin Templeton",
+   "ats": "workday",
+   "tenant": "franklintempleton",
+   "wd": 5,
+   "site": "Primary-External-1",
+   "india": 0,
+   "total": 0,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "T. Rowe Price",
+   "ats": "workday",
+   "tenant": "troweprice",
+   "wd": 5,
+   "site": "TRowePrice",
+   "india": 0,
+   "total": 138,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Visa",
+   "ats": "smartrecruiters",
+   "token": "visa",
+   "india": 0,
+   "ok": true,
+   "sample": [],
+   "secs": 0.4
+  },
+  {
+   "name": "McDonald's",
+   "ats": "smartrecruiters",
+   "token": "McDonalds",
+   "india": 0,
+   "ok": true,
+   "sample": [],
+   "secs": 0.4
+  }
+ ],
+ "failed": [
+  {
+   "name": "UBS",
+   "ats": "workday",
+   "tenant": "ubs",
+   "ok": false,
+   "tried": [
+    "wd3/UBS_Experienced_Professionals:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd3/Careers:HTTP 422",
+    "wd1/UBS_Experienced_Professionals:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/Careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "BNY",
+   "ats": "workday",
+   "tenant": "bnymellon",
+   "ok": false,
+   "tried": [
+    "wd5/BNY_Careers:HTTP 422",
+    "wd5/BNYM_Careers:HTTP 422",
+    "wd5/Careers:HTTP 422",
+    "wd1/BNY_Careers:HTTP 422",
+    "wd1/BNYM_Careers:HTTP 422",
+    "wd1/Careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Nomura",
+   "ats": "workday",
+   "tenant": "nomura",
+   "ok": false,
+   "tried": [
+    "wd3/Nomura_Campus:HTTP 422",
+    "wd3/Nomura:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd3/Careers:HTTP 422",
+    "wd1/Nomura_Campus:HTTP 422",
+    "wd1/Nomura:HTTP 422"
+   ]
+  },
+  {
+   "name": "Moody's",
+   "ats": "workday",
+   "tenant": "moodys",
+   "ok": false,
+   "tried": [
+    "wd5/External:HTTP 422",
+    "wd5/Careers:HTTP 422",
+    "wd5/moodys:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/Careers:HTTP 422",
+    "wd1/moodys:HTTP 422"
+   ]
+  },
+  {
+   "name": "MSCI",
+   "ats": "workday",
+   "tenant": "msci",
+   "ok": false,
+   "tried": [
+    "wd1/MSCI:HTTP 401",
+    "wd1/Careers:HTTP 401",
+    "wd1/External:HTTP 401",
+    "wd5/MSCI:HTTP 422",
+    "wd5/Careers:HTTP 422",
+    "wd5/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "Principal Financial",
+   "ats": "workday",
+   "tenant": "principal",
+   "ok": false,
+   "tried": [
+    "wd5/Principal:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd1/Principal:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd3/Principal:HTTP 422",
+    "wd3/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "Chubb",
+   "ats": "workday",
+   "tenant": "chubb",
+   "ok": false,
+   "tried": [
+    "wd5/Chubb:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd5/Careers:HTTP 422",
+    "wd1/Chubb:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/Careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Swiss Re",
+   "ats": "workday",
+   "tenant": "swissre",
+   "ok": false,
+   "tried": [
+    "wd3/SwissRe:HTTP 422",
+    "wd3/Careers:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd1/SwissRe:HTTP 422",
+    "wd1/Careers:HTTP 422",
+    "wd1/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "AMD",
+   "ats": "workday",
+   "tenant": "amd",
+   "ok": false,
+   "tried": [
+    "wd1/External:HTTP 422",
+    "wd1/AMD:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd5/AMD:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd3/AMD:HTTP 422"
+   ]
+  },
+  {
+   "name": "Dell Technologies",
+   "ats": "workday",
+   "tenant": "dell",
+   "ok": false,
+   "tried": [
+    "wd501/External:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd12/External:HTTP 422",
+    "wd502/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "Intuit",
+   "ats": "workday",
+   "tenant": "intuit",
+   "ok": false,
+   "tried": [
+    "wd1/jobs:HTTP 401",
+    "wd1/Intuit:HTTP 401",
+    "wd5/jobs:HTTP 422",
+    "wd5/Intuit:HTTP 422",
+    "wd3/jobs:HTTP 422",
+    "wd3/Intuit:HTTP 422"
+   ]
+  },
+  {
+   "name": "McDonald's",
+   "ats": "workday",
+   "tenant": "mcdonalds",
+   "ok": false,
+   "tried": [
+    "wd5/McD_Careers:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd5/Careers:HTTP 422",
+    "wd12/McD_Careers:HTTP 422",
+    "wd12/External:HTTP 422",
+    "wd12/Careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Kenvue",
+   "ats": "workday",
+   "tenant": "kenvue",
+   "ok": false,
+   "tried": [
+    "wd1/KenvueCareers:HTTP 422",
+    "wd5/KenvueCareers:HTTP 404",
+    "wd3/KenvueCareers:HTTP 422",
+    "wd12/KenvueCareers:HTTP 422",
+    "wd501/KenvueCareers:HTTP 422",
+    "wd502/KenvueCareers:HTTP 422"
+   ]
+  },
+  {
+   "name": "John Deere",
+   "ats": "workday",
+   "tenant": "johndeere",
+   "ok": false,
+   "tried": [
+    "wd1/Deere:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/careers:HTTP 422",
+    "wd5/Deere:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd5/careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Eaton",
+   "ats": "workday",
+   "tenant": "eaton",
+   "ok": false,
+   "tried": [
+    "wd1/eaton_careers:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/Careers:HTTP 422",
+    "wd5/eaton_careers:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd5/Careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Emerson",
+   "ats": "workday",
+   "tenant": "emerson",
+   "ok": false,
+   "tried": [
+    "wd5/Emerson:HTTP 404",
+    "wd5/External:HTTP 404",
+    "wd5/careers:HTTP 404",
+    "wd1/Emerson:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Providence",
+   "ats": "workday",
+   "tenant": "providence",
+   "ok": false,
+   "tried": [
+    "wd5/Careers:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd1/Careers:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd3/Careers:HTTP 422",
+    "wd3/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "Liberty Mutual",
+   "ats": "workday",
+   "tenant": "libertymutual",
+   "ok": false,
+   "tried": [
+    "wd5/LMI:HTTP 422",
+    "wd1/LMI:HTTP 422",
+    "wd3/LMI:HTTP 422",
+    "wd12/LMI:HTTP 422",
+    "wd501/LMI:HTTP 422",
+    "wd502/LMI:HTTP 422"
+   ]
+  },
+  {
+   "name": "DTCC",
+   "ats": "workday",
+   "tenant": "dtcc",
+   "ok": false,
+   "tried": [
+    "wd1/dtcc:HTTP 422",
+    "wd5/dtcc:HTTP 422",
+    "wd3/dtcc:HTTP 422",
+    "wd12/dtcc:HTTP 422",
+    "wd501/dtcc:HTTP 422",
+    "wd502/dtcc:HTTP 422"
+   ]
+  },
+  {
+   "name": "American Express",
+   "ats": "workday",
+   "tenant": "aexp",
+   "ok": false,
+   "tried": [
+    "wd5/External:HTTP 422",
+    "wd5/Careers:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/Careers:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd3/Careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Wabtec",
+   "ats": "workday",
+   "tenant": "wabtec",
+   "ok": false,
+   "tried": [
+    "wd1/wabtec_careers:HTTP 403",
+    "wd1/External:HTTP 404",
+    "wd5/wabtec_careers:HTTP 422",
+    "wd5/External:HTTP 422",
+    "wd3/wabtec_careers:HTTP 422",
+    "wd3/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "ICE",
+   "ats": "workday",
+   "tenant": "ice",
+   "ok": false,
+   "tried": [
+    "wd5/External:HTTP 422",
+    "wd5/ICE:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd1/ICE:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd3/ICE:HTTP 422"
+   ]
+  },
+  {
+   "name": "Novo Nordisk",
+   "ats": "workday",
+   "tenant": "novonordisk",
+   "ok": false,
+   "tried": [
+    "wd3/NovoNordiskCareers:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd1/NovoNordiskCareers:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd5/NovoNordiskCareers:HTTP 422",
+    "wd5/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "Bayer",
+   "ats": "workday",
+   "tenant": "bayer",
+   "ok": false,
+   "tried": [
+    "wd3/Bayer_Careers:HTTP 422",
+    "wd3/External:HTTP 422",
+    "wd1/Bayer_Careers:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd5/Bayer_Careers:HTTP 422",
+    "wd5/External:HTTP 422"
+   ]
+  },
+  {
+   "name": "Chubb",
+   "ats": "workday",
+   "tenant": "chubb",
+   "ok": false,
+   "tried": [
+    "wd1/ChubbCareers:HTTP 422",
+    "wd1/chubb_careers:HTTP 422",
+    "wd1/Chubb_Careers:HTTP 422",
+    "wd1/External:HTTP 422",
+    "wd5/ChubbCareers:HTTP 422",
+    "wd5/chubb_careers:HTTP 422"
+   ]
+  },
+  {
+   "name": "Arcesium",
+   "ats": "greenhouse",
+   "token": "arcesium",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "D. E. Shaw",
+   "ats": "greenhouse",
+   "token": "deshaw",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Wayfair",
+   "ats": "greenhouse",
+   "token": "wayfairjobs",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Snowflake",
+   "ats": "greenhouse",
+   "token": "snowflakecomputing",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Nutanix",
+   "ats": "greenhouse",
+   "token": "nutanix1",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Uber",
+   "ats": "greenhouse",
+   "token": "uberjobs",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Arcesium",
+   "ats": "lever",
+   "token": "arcesium",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Plaid",
+   "ats": "lever",
+   "token": "plaid-2",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Sigmoid",
+   "ats": "lever",
+   "token": "sigmoidanalytics",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  },
+  {
+   "name": "Highradius-skip",
+   "ats": "lever",
+   "token": "x",
+   "ok": false,
+   "error": "FetchError: HTTP 404"
+  }
+ ],
+ "raw": [
+  {
+   "name": "ms-pcsx",
+   "ok": true,
+   "keys": [
+    "status",
+    "error",
+    "data",
+    "metadata"
+   ],
+   "snippet": "{\"status\": 200, \"error\": {\"message\": \"\", \"body\": \"\"}, \"data\": {\"positions\": [{\"id\": 1970393557004838, \"displayJobId\": \"200057345\", \"name\": \"Principal Software Engineer\", \"locations\": [\"India, Telangana, Hyderabad\"], \"standardizedLocations\": [\"Hyderabad, TS, IN\"], \"postedTs\": 1790489188, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1790024797, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"200057345\", \"positionUrl\": \"/careers/job/1970393557004838\"}, {\"id\": 1970393556991524, \"displayJobId\": \"200054326\", \"name\": \"SSE - Backend & Distributed Systems\", \"locations\": [\"India, Telangana, Hyderabad\"], \"standardizedLocations\": [\"Hyderabad, TS, IN\"], \"postedTs\": 1790350685, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1788938956, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"200054326\", \"positionUrl\": \"/careers/job/1970393556991524\"}, {\"id\": 1970393557006218, \"displayJobId\": \"200057409\", \"name\": \"Solution Architecture Manager\", \"locations\": [\"India, Karnataka, Bangalore\", \"India, Telangana, Hyderabad\", \"India, Uttar Pradesh, Noida\"], \"standardizedLocations\": [\"Bengaluru, KA, IN\", \"Hyderabad, TS, IN\", \"Noida, UP, IN\"], \"postedTs\": 1790346105, \"solrScore\": null, \"stars\": 0, \"department\": \"Solution Architecture\", \"creationTs\": 1790060659, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"200057409\", \"positionUrl\": \"/careers/job/1970393557006218\"}, {\"id\": 1970393557000845, \"displayJobId\": \"200056508\", \"name\": \"Software Engineer 2 - Backend\", \"locations\": [\"India, Telangana, Hyderabad\"], \"standardizedLocations\": [\"Hyderabad, TS, IN\"], \"postedTs\": 1790335239, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1789629774, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"200056508\", \"positionUrl\": \"/careers/job/1970393557000845\"}, {\"id\": 1970393557000927, \"displayJobId\": \"200056564\", \"name\": \"Senior Software Engineer - C# + Azure\", \"locations\": [\"India, Telangana, Hyderabad\", \"India, Karnataka, Bangalore\"], \"standardizedLocations\": [\"Hyderabad, TS, IN\", \"Bengaluru, KA, IN\"], \"postedTs\": 1790333070, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1789636089, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"200056564\", \"positionUrl\": \"/careers/job/1970393557000927\"}, {\"id\": 1970393557000073, \"displayJobId\": \"200056213\", \"name\": \"Data Engineer II\", \"locations\": [\"India, Karnataka, Bangalore\"], \"standardizedLocations\": [\"Bengaluru, KA, IN\"], \"postedTs\": 1790322078, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1789587664, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"200056213\", \"positionUrl\": \"/careers/job/1970393557000073\"}, {\"id\": 1970393557007747, \"displayJobId\": \"200057886\", \"name\": \"Principal Software Engineer\", \"locations\": [\"India, Telangana, Hyderabad\"], \"standardizedLocations\": [\"Hyderabad, TS, IN\"], \"postedTs\": 1790317151, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1790247293, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"200057886\", \"positionUrl\": \"/careers/job/1970393557007747\"}, {\"id\": 1970393556928899, \"displayJobId\": \"200043236\", \"name\": \"Senior Software Engineer\", \"locations\": [\"India, Telangana, Hyderabad\"], \"standardizedLocations\": [\"Hyderabad, TS, IN\"], \"postedTs\": 1790312338, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1783634969, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"200043236\", \"positionUrl\": \"/careers/job/1970393556928899\"}, {\"id\": 1970393557002143, \"displayJobId\": \"200056891\", \"name\": \"Senior Software Engineer\", \"locations\": [\"India, Telangana, Hyderabad\"], \"standardizedLocations\": [\"Hyderabad, TS, IN\"], \"postedTs\": 1790309768, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1789717519, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"200056891\", \"positionUrl\": \"/careers/job/1970393557002143\"}, {\"id\": 1970393556997800, \"displayJobId\": \"200055606\", \"name\": \"Applied Sciences INTERN\", \"locations\": [\"India, Multiple Locations, Multiple Locations\"], \"standardizedLocations\": [\"IN\"], \"postedTs\": 1790308904, \"solrScore\": null, \"stars\": 0, \"department\": \"Applied Sciences\", \"creationTs\": 1789370262, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"200055606\", \"positionUrl\": \"/careers/job/1970393556997800\"}], \"filterDef\": {\"facets\": {\"locations\": [[\"Remote\", 999999], [\"Redmond, WA, United States\", 765], [\"United States\", 249], [\"Mountain View, CA, United States\", 217], [\"Bengaluru, KA, India\", 132], [\"Hyderabad, TS, India\", 114], [\"New York, NY, United States\", 91], [\"Tokyo, Japan\", 90], [\"Atlanta, GA, United States\", 90], [\"Austin, TX, United States\", 72], [\"Reston, VA, United States\", 70]]}, \"smartFilters\": [{\"type\": \"toggle\", \"filterName\": \"include_remote\", \"title\": \"Include eligible remote jobs\", \"options\": null, \"tooltip\": \"When selected, the results will include remote job opportunities\", \"extraData\": {}, \"displayCount\": 10, \"translateOptions\": false, \"allowFreeText\": false}, {\"type\": \"multi_select\", \"filterName\": \"work_site\", \"title\": \"Work site\", \"options\": [{\"label\": \"3 DAYS / WEEK IN-OFFICE\", \"value\": \"3 days / week in-office\"}, {\"label\": \"FULLY ON-SITE\", \"value\": \"fully on-site\"}, {\"label\": \"0 DAYS / WEEK IN-OFFICE \\u2013 REMOTE\", \"value\": \"0 days / week in-office \\u2013 remote\"}, {\"label\": \"4 DAYS / WEEK IN-OFFICE\", \"value\": \"4 days / week in-office\"}, {\"label\": \"2 DAYS / WEEK IN-OFFICE\", \"value\": \"2 days / week in-office\"}, {\"label\": \"1 DAY / WEEK IN-OFFICE\", \"value\": \"1 day / week in-office\"}], \"tooltip\": null,"
+  },
+  {
+   "name": "facets:qualcomm",
+   "ok": true,
+   "total": 0,
+   "snippet": "{\"params\": [], \"top_facets\": [], \"sample_leaves\": [], \"sample_locs\": []}"
+  },
+  {
+   "name": "facets:franklintempleton",
+   "ok": true,
+   "total": 0,
+   "snippet": "{\"params\": [], \"top_facets\": [], \"sample_leaves\": [], \"sample_locs\": []}"
+  },
+  {
+   "name": "facets:troweprice",
+   "ok": true,
+   "total": 138,
+   "snippet": "{\"params\": [\"jobFamilyGroup\", \"locations\", \"remoteType\", \"timeType\"], \"top_facets\": [\"remoteType\", \"jobFamilyGroup\", \"timeType\", \"locationMainGroup\"], \"sample_leaves\": [[\"remoteType\", \"ed4929a03b221000688ca1aac19d0000\", \"US Remote Location\", 5], [\"jobFamilyGroup\", \"5136e4a0469101596cfe3a9ab100d237\", \"Technology Engineering\", 24], [\"jobFamilyGroup\", \"d3372256bd6c01181b5deba2b1009135\", \"Sales & Relationship Management\", 18], [\"jobFamilyGroup\", \"5136e4a0469101ad90f24399b100bc37\", \"Business Enablement\", 13], [\"jobFamilyGroup\", \"d3372256bd6c016f4b5e1ba3b1009735\", \"Technology Infrastructure & Operations\", 12], [\"jobFamilyGroup\", \"5136e4a0469101f4af201e9ab100d037\", \"Services & Operations\", 10], [\"jobFamilyGroup\", \"d3372256bd6c01aabce28da2b1008735\", \"Marketing & Communications\", 8], [\"jobFamilyGroup\", \"5136e4a0469101e583987199b100c037\", \"Finance\", 7], [\"jobFamilyGroup\", \"d3372256bd6c01c5f6becba2b1008f35\", \"Project Management\", 6], [\"jobFamilyGroup\", \"5136e4a0469101af38e0c899b100c837\", \"Investments Strategic Support\", 6], [\"jobFamilyGroup\", \"5136e4a0469101f4122b9099b100c437\", \"Investment Research\", 6], [\"jobFamilyGroup\", \"d3372256bd6c01d7421c33a2b1007d35\", \"Compliance\", 6], [\"jobFamilyGroup\", \"d3372256bd6c0166075884a2b1008535\", \"Legal\", 4], [\"jobFamilyGroup\", \"d3372256bd6c01598f0471a2b1008335\", \"Investment Specialists\", 4], [\"jobFamilyGroup\", \"5136e4a0469101797be90a9ab100ce37\", \"Risk Management\", 3], [\"jobFamilyGroup\", \"d3372256bd6c01a0a63affa2b1009335\", \"Technology Architecture\", 2], [\"jobFamilyGroup\", \"5136e4a0469101b3b91d579ab100d637\", \"Trading\", 2], [\"jobFamilyGroup\", \"5136e4a046910184a30ee799b100ca37\", \"Product\", 2], [\"jobFamilyGroup\", \"598b03f2169c105cec204d4eaf45e628\", \"Internship\", 1], [\"jobFamilyGroup\", \"d3372256bd6c01e86559aba2b1008b35\", \"Portfolio Management\", 1], [\"jobFamilyGroup\", \"5136e4a0469101e54764a399b100c637\", \"Leadership\", 1], [\"jobFamilyGroup\", \"d3372256bd6c012f02e25ba2b1008135\", \"Investment Quantitative\", 1], [\"jobFamilyGroup\", \"5136e4a046910174d4665199b100be37\", \"Business Management & Support\", 1], [\"timeType\", \"ad919cc501994fdf987dd13b61efe020\", \"Full time\", 138], [\"locations\", \"af379a35cc5c013c1c740a14f4014854\", \"Baltimore, MD\", 92], [\"locations\", \"af379a35cc5c01e13f7db86bfa01cb6c\", \"Colorado Springs, CO\", 26], [\"locations\", \"0502b9cdc12e10010e49bf3d20220000\", \"London, Warwick Court\", 1], [\"locations\", \"f7d0569676891031e3c298c33c23455d\", \"New York, NY\", 7], [\"locations\", \"4d716b0e15e910453cf53182af8a3e79\", \"Owings Mills, MD\", 52], [\"locations\", \"3984f6f2628201fd8e046e1305018267\", \"Washington DC\", 9]], \"sample_locs\": [\"Owings Mills, MD\", \"Baltimore, MD\", \"Baltimore, MD\", \"2 Locations\", \"Baltimore, MD\", \"Baltimore, MD\", \"Baltimore, MD\", \"Baltimore, MD\", \"2 Locations\", \"Washington DC\"]}"
+  },
+  {
+   "name": "facets:cvshealth",
+   "ok": true,
+   "total": 19203,
+   "snippet": "{\"params\": [\"jobFamilyGroup\", \"locations\", \"timeType\", \"workerSubType\"], \"top_facets\": [\"timeType\", \"workerSubType\", \"jobFamilyGroup\", \"locationMainGroup\"], \"sample_leaves\": [[\"timeType\", \"1aea6da227e21005504339b6b1770001\", \"Full time\", 7961], [\"timeType\", \"1aea6da227e21005504339b6b1770000\", \"Part time\", 11240], [\"workerSubType\", \"e65dbadf6a50100100868a7b763c0000\", \"Contingent Worker Program\", 3], [\"workerSubType\", \"e65dbadf6a50100100868b153f3f0001\", \"Extern\", 2], [\"workerSubType\", \"183bb31d97231001005066125c530000\", \"Intern (Seasonal) (Trainee)\", 42], [\"workerSubType\", \"183bb31d97231001005065789be50000\", \"Per Diem\", 229], [\"workerSubType\", \"183bb31d97231001005066125c530002\", \"Pharmacy Intern (Trainee)\", 3890], [\"workerSubType\", \"183bb31d97231001005066125c530001\", \"Regular\", 14854], [\"workerSubType\", \"183bb31d97231001005064deaff00000\", \"Seasonal (Seasonal)\", 183], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed79b8298a0000\", \"Actuarial & Underwriting\", 10], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed7cbe16d10000\", \"Audit\", 5], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed7cbe16d10002\", \"Business Administration\", 45], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed7df44fa00000\", \"Clinical Pharmacists\", 54], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed7d5902dc0001\", \"Clinical Services\", 1801], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed7e8f60560000\", \"Compliance\", 9], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed7e8f60560002\", \"Customer and Member Services\", 38], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed7f2a693c0001\", \"Data and Analytics\", 38], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed7fc545e50002\", \"Facilities and Real Estate\", 37], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed805f37060000\", \"Finance\", 30], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed80f93de10002\", \"Human Resources\", 3], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed81925eba0001\", \"Internships and Devlpmt Pgms\", 3941], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed822d382c0000\", \"Legal\", 4], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed8361150c0000\", \"Pharmacy Services\", 206], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed8361150c0002\", \"Plan Operations\", 59], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed83fb55d90000\", \"Product, Marketing, and Advtsg\", 53], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed849598c90000\", \"Project and Program Management\", 12], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed853031300000\", \"Quality Assurance\", 4], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed85ca38080000\", \"Retail Store & Pharmacy\", 12392], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed85ca38080002\", \"Risk Management\", 12], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed86646f6f0001\", \"Sales and Account Management\", 52], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed86fe4cf50001\", \"Technology\", 142], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed8831926c0000\", \"Training & Development\", 1], [\"jobFamilyGroup\", \"e65dbadf6a50100168ed88cb310c0000\", \"Transportation and Logistics\", 255], [\"locations\", \"69b7f7384b5e1008eaa745f4fc4c0000\", \"00037 - Rhode Island CVS Pharmacy, L.L.C.\", 2], [\"locations\", \"69b7f7384b5e1008eeccb2d65f190000\", \"00053 - Pennsylvania CVS Pharmacy, L.L.C.\", 1], [\"locations\", \"69b7f7384b5e1008ec39f487b8c60000\", \"00069 - German Dobson CVS, L.L.C.\", 1], [\"locations\", \"69b7f7384b5e1008f16c51d5b77a0000\", \"00071 - Connecticut CVS Pharmacy, L.L.C.\", 2], [\"locations\", \"69b7f7384b5e1008ecc50d44689d0000\", \"00074 - Virginia CVS Pharmacy, L.L.C.\", 1], [\"locations\", \"69b7f7384b5e1008f131cc79c4310000\", \"00076 - Rhode Island CVS Pharmacy, L.L.C.\", 6], [\"locations\", \"69b7f7384b5e1008f31e27031afb0000\", \"00106 - CVS Albany, L.L.C.\", 1]], \"sample_locs\": [\"2 Locations\", \"3 Locations\", \"VA - Lexington\", \"VA - Vinton\", \"VA - Roanoke\", \"VA - Lexington\", \"VA - Lexington\", \"VA - Vinton\", \"VA - Roanoke\", \"VA - Fredericksburg\"]}"
+  },
+  {
+   "name": "facets:elevancehealth",
+   "ok": true,
+   "total": 301,
+   "snippet": "{\"params\": [\"jobFamilyGroup\", \"locations\", \"timeType\", \"workerSubType\"], \"top_facets\": [\"timeType\", \"workerSubType\", \"jobFamilyGroup\", \"locationMainGroup\"], \"sample_leaves\": [[\"timeType\", \"fc72a7094b6e01036c42a459499f0005\", \"Full time\", 252], [\"timeType\", \"fc72a7094b6e01036c42a459499f0004\", \"Part time\", 9], [\"workerSubType\", \"fb574c8c226401016cb97e8a27b50000\", \"Interns\", 5], [\"workerSubType\", \"769260ff696101016cb1f13f553a0000\", \"PRN\", 7], [\"workerSubType\", \"6e104d39c29601016c24d4417d560000\", \"Regular\", 289], [\"jobFamilyGroup\", \"f42bff05a41401005720023245d70000\", \"ACT - Actuarial\", 5], [\"jobFamilyGroup\", \"f42bff05a414010057201443a10c0000\", \"ADM - Administrative Support\", 4], [\"jobFamilyGroup\", \"f42bff05a414010057201577dbc80000\", \"AFA - Accounting & Finance\", 10], [\"jobFamilyGroup\", \"f42bff05a414010057201612153c0000\", \"BSP - Business Support\", 19], [\"jobFamilyGroup\", \"f42bff05a414010057201746d6990000\", \"BUS - Business Development/Planning\", 1], [\"jobFamilyGroup\", \"f42bff05a4140100572017e0fa9c0000\", \"CLM - Claims\", 4], [\"jobFamilyGroup\", \"f42bff05a414010057201915b89a0000\", \"CUS - Customer Service\", 37], [\"jobFamilyGroup\", \"f42bff05a4140100572019aff6e90000\", \"EDT - Education & Training\", 1], [\"jobFamilyGroup\", \"f42bff05a414010057201b7ebefa0000\", \"FAC - Facilities, Corp Real Estate & Services\", 3], [\"jobFamilyGroup\", \"f42bff05a414010057201cb386eb0000\", \"FRD - Fraud\", 4], [\"jobFamilyGroup\", \"f42bff05a414010057201f1c4a500000\", \"IFT - Information Systems & Technology\", 28], [\"jobFamilyGroup\", \"f42bff05a41401005720205097570000\", \"LEG - Legal\", 3], [\"jobFamilyGroup\", \"f42bff05a41401005720218496470000\", \"MBR - Membership & Enrollment\", 1], [\"jobFamilyGroup\", \"f42bff05a414010057202352de780000\", \"MED - Medical\", 140], [\"jobFamilyGroup\", \"f42bff05a4140100572025ba11940000\", \"MKT - Marketing\", 1], [\"jobFamilyGroup\", \"f42bff05a4140100572026ed96ca0000\", \"PCG - Public Affairs/Communications\", 1], [\"jobFamilyGroup\", \"f42bff05a41401005720282156820000\", \"PND - Network Management/Relations\", 4], [\"jobFamilyGroup\", \"f42bff05a414010057202955250d0000\", \"PUR - Purchasing\", 1], [\"jobFamilyGroup\", \"f42bff05a414010057202a88febe0000\", \"QLT - Quality\", 4], [\"jobFamilyGroup\", \"f42bff05a414010057202c5662160000\", \"RDA - Reporting & Analysis\", 6], [\"jobFamilyGroup\", \"f42bff05a414010057202d8a075b0000\", \"SCA - NGS Service Contract Act\", 1], [\"jobFamilyGroup\", \"f42bff05a414010057202ebf15290000\", \"SLS - Sales\", 19], [\"jobFamilyGroup\", \"f42bff05a4140100572032f6d82d0000\", \"UND - Underwriting\", 4], [\"locations\", \"806a51ffd576100101d00e2d92820000\", \"AL-DOTHAN, 2511 ROSS CLARK CIR\", 1], [\"locations\", \"c55d252b4fe310020434dba29ae50000\", \"AL-HUNTSVILLE, 900 BOB WALLACE AVE SW, STE 122\", 1], [\"locations\", \"ef95457224251002036435219ba80000\", \"AL-MONTGOMERY, 3255-3261 MALCOLM DR,\", 1], [\"locations\", \"29d90fa5cc110100fb2eac277ffb0000\", \"Arizona\", 1], [\"locations\", \"29d90fa5cc110100fb2ebaa68dc50000\", \"Arizona - Scottsdale\", 1], [\"locations\", \"ac123ad7c2da1002008022417e9e0000\", \"AZ-CHANDLER, 145 S 79TH ST, STE 70\", 2], [\"locations\", \"250649eb7dcd10010d7330c59d740000\", \"Bowling Green - Ohio\", 3], [\"locations\", \"629242753e871000fbfdd1654b750000\", \"CA-BAKERSFIELD, 1491 WHITE LANE\", 1], [\"locations\", \"3ad9dca462c50101e68fa41fa1740000\", \"CA-CERRITOS, 12900 PARK PLAZA DR\", 2], [\"locations\", \"3ad9dca462c50101e68faa2ea9e50000\", \"CA-COSTA MESA, 3080 BRISTOL ST, STE 200\", 7], [\"locations\", \"715b486d77e610010215793e4e9c0000\", \"CA-GARDEN GROVE, 7373 LINCOLN WAY\", 1], [\"locations\", \"29d90fa5cc110100fb2f2e9d7d030000\", \"California - Cerritos\", 1]], \"sample_locs\": [\"NV-LAS VEGAS, 3634 S MARYLAND PKWY\", \"FL-LAKE MARY, 3200 LAKE EMMA RD, STE 1000\", \"IN-INDIANAPOLIS, 220 VIRGINIA AVE\", \"FL-LAKE MARY, 3200 LAKE EMMA RD, STE 1000\", \"5 Locations\", \"12 Locations\", \"4 Locations\", \"CO-DENVER, 700 BROADWAY\", \"2 Locations\", \"3 Locations\"]}"
+  },
+  {
+   "name": "facets:tmobile",
+   "ok": true,
+   "total": 2000,
+   "snippet": "{\"params\": [\"Job_Family_Group\", \"distance\", \"locationCountry\", \"locationRegionStateProvince\", \"locations\", \"timeType\", \"workerSubType\"], \"top_facets\": [\"Job_Family_Group\", \"workerSubType\", \"timeType\", \"locationMainGroup\", \"distance\"], \"sample_leaves\": [[\"Job_Family_Group\", \"426b19690b7b1036f85d1dadb2010a4d\", \"Sales - Group\", 2005], [\"Job_Family_Group\", \"426b19690b7b1036f85d894bbbf40a4f\", \"Finance - Group\", 25], [\"Job_Family_Group\", \"426b19690b7b1036f85d91748cc80a51\", \"Information Technology - Group\", 24], [\"Job_Family_Group\", \"bbbab46ad29a10aafba70344d2ac3358\", \"Network Operations - Group\", 14], [\"Job_Family_Group\", \"426b19690b7b1036f85cc4fbb38a0a2d\", \"Customer Service - Group\", 14], [\"Job_Family_Group\", \"426b19690b7b1036f85cfcf881be0a3f\", \"Marketing - Group\", 11], [\"Job_Family_Group\", \"426b19690b7b1036f85c9c0f4dd30a29\", \"Product Management - Group\", 9], [\"Job_Family_Group\", \"cfae1e7a6cf4100169eb710b65130000\", \"Sales Engineering - Group\", 8], [\"Job_Family_Group\", \"426b19690b7b1036f85c949575c80a27\", \"Strategy & Business Development - Group\", 8], [\"Job_Family_Group\", \"426b19690b7b1036f85cf4e99bf30a3d\", \"Legal Affairs - Group\", 7], [\"Job_Family_Group\", \"426b19690b7b1036f85d1a6ad3030a4b\", \"Human Resources - Group\", 6], [\"Job_Family_Group\", \"426b19690b7b1036f85d16cd22eb0a49\", \"Business Analysis - Group\", 4], [\"Job_Family_Group\", \"92a7d1c6b8651001696685c2c59e0000\", \"Product Management Technical - Group\", 3], [\"Job_Family_Group\", \"426b19690b7b1036f85cf1c56fb80a3b\", \"Supply Chain Operations - Group\", 3], [\"Job_Family_Group\", \"426b19690b7b1036f85ce8628c330a39\", \"Sales Operations - Group\", 3], [\"Job_Family_Group\", \"426b19690b7b1036f85c8cb4b9730a21\", \"Product Development - Group\", 3], [\"Job_Family_Group\", \"426b19690b7b1036f85d0ca1298f0a43\", \"Network Engineering - Group\", 2], [\"Job_Family_Group\", \"426b19690b7b1036f85ce5feb8820a37\", \"Communications - Group\", 2], [\"Job_Family_Group\", \"cfae1e7a6cf4100169e51795a8d60000\", \"Project Management Technical - Group\", 1], [\"Job_Family_Group\", \"426b19690b7b1036f85d106e2dbb0a45\", \"Executive - Group\", 1], [\"Job_Family_Group\", \"426b19690b7b1036f85cd4aeae300a33\", \"Program Management - Group\", 1], [\"workerSubType\", \"426b19690b7b1036f7d497e2559d0753\", \"Regular\", 2154], [\"timeType\", \"00e635b327af1034ee747b132575005b\", \"Part time\", 1576], [\"timeType\", \"00e635b327af1034ee747b165ed6005c\", \"Full time\", 578], [\"locationCountry\", \"bc33aa3152ec42d4995f4791a106ed09\", \"United States of America\", 2153], [\"locations\", \"0fb505f991311001b770eade7fbe0000\", \"Abbeville, Louisiana\", 1], [\"locations\", \"52fc236f39910100f6972a974c3a0000\", \"Aberdeen, South Dakota\", 3], [\"locations\", \"997fe2f887380100f697389d3d480000\", \"Abilene, Texas\", 2], [\"locations\", \"2d42a1a90be90100f68863a279380000\", \"Ada, Oklahoma\", 2], [\"locations\", \"9415a47f0a230100f6887f9e70ab0000\", \"Addison, Illinois\", 2], [\"locations\", \"2c64404709d00100f6637f607f1e0000\", \"Addison, Texas\", 3], [\"locations\", \"8083a1f7a8d1100094b3ab2f56fc0000\", \"Ahoskie, North Carolina\", 1], [\"locations\", \"0f173ba70c090100f6836ef3b72e0000\", \"Aiea, Hawaii\", 1], [\"locations\", \"c42684ca540a0100f684614714920000\", \"Aiken, South Carolina\", 1], [\"locations\", \"997fe2f887380100f697a3605a2f0000\", \"Albany, New York\", 4], [\"locations\", \"997fe2f887380100f697aa9914120000\", \"Albuquerque, New Mexico\", 1], [\"locations\", \"997fe2f887380100f697b3a576700000\", \"Alexandria, Virginia\", 1], [\"locations\", \"997fe2f887380100f697cffc1d9e0000\", \"Aliso Viejo, California\", 2], [\"locations\", \"52fc236f39910100f697e7f5ee080000\", \"Allentown, Pennsylvania\", 2], [\"locations\", \"b07b830e721010012116d68200af0000\", \"Alma, Georgia\", 1]], \"sample_locs\": [\"3 Locations\", \"Chandler, Arizona\", \"2 Locations\", \"Plantation, Florida\", \"Port Charlotte, Florida\", \"Dayton, Ohio\", \"3 Locations\", \"Knoxville, Tennessee\", \"4 Locations\", \"Indianapolis, Indiana\"]}"
+  },
+  {
+   "name": "facets:ghr",
+   "ok": true,
+   "total": 1950,
+   "snippet": "{\"params\": [\"jobFamilyGroup\", \"locations\", \"timeType\", \"workerSubType\"], \"top_facets\": [\"timeType\", \"workerSubType\", \"jobFamilyGroup\", \"locationMainGroup\"], \"sample_leaves\": [[\"timeType\", \"763d0bf7c064103624b3019f084b007d\", \"Full time\", 1949], [\"timeType\", \"763d0bf7c064103624b3019c196f007c\", \"Part time\", 1], [\"workerSubType\", \"13a0897a1ccc103871f67ead7af41fae\", \"EE - Intern (Fixed Term)\", 2], [\"workerSubType\", \"13a0897a1ccc103871f67e9ed29b1fad\", \"EE - Regular Employee\", 1948], [\"jobFamilyGroup\", \"13a0897a1ccc1038aa8d4f761a38936b\", \"All Jobs (Inactive)\", 15], [\"jobFamilyGroup\", \"13a0897a1ccc1038aa8d5112be539371\", \"All Jobs (Pre-Workday groupings) (Inactive)\", 15], [\"jobFamilyGroup\", \"13a0897a1ccc1038aa8d5459ab3e9373\", \"Band (Management Level)\", 1950], [\"jobFamilyGroup\", \"8fd2590ce16d1015cc49eac594130000\", \"JA Job Family\", 1950], [\"jobFamilyGroup\", \"185f7c87152b1019649f0371031b0000\", \"JA Role\", 1950], [\"jobFamilyGroup\", \"043531a109141019649ce55242f10000\", \"JA Sub Family\", 1950], [\"jobFamilyGroup\", \"f9c46029e3141019649dcfd520fe0000\", \"JA Sub Role\", 1950], [\"jobFamilyGroup\", \"4328dd8a488b103d49aea5515ad40000\", \"Job Family pre-JAT\", 156], [\"jobFamilyGroup\", \"13a0897a1ccc1038aa8d50d109cf936d\", \"Reg ADV2B Jobs\", 1950], [\"jobFamilyGroup\", \"13a0897a1ccc1038aa8d50eb5018936f\", \"Reg Dodd Frank Jobs\", 1178], [\"jobFamilyGroup\", \"1d279b738c3501131b2a65800f450000\", \"SAFELO/LO Job Group\", 304], [\"locations\", \"13a0897a1ccc103907b31896cd5a8e82\", \"Aberdeen\", 3], [\"locations\", \"13a0897a1ccc10390a7d437ca019c51a\", \"Abilene\", 2], [\"locations\", \"13a0897a1ccc10390aed73156ee23f92\", \"Abilene\", 1], [\"locations\", \"13a0897a1ccc103907b31f76c7378f0e\", \"Abingdon\", 2], [\"locations\", \"13a0897a1ccc103908c2302e1ab6a513\", \"Absecon\", 3], [\"locations\", \"13a0897a1ccc1039077396af4df287a1\", \"Acton\", 1], [\"locations\", \"13a0897a1ccc10390717be261e596e77\", \"Acworth\", 1], [\"locations\", \"13a0897a1ccc10390b3d0ea8e43756d8\", \"Addison\", 19], [\"locations\", \"13a0897a1ccc10390b1549724cbfdfb5\", \"Addison\", 8], [\"locations\", \"13a0897a1ccc103907b32d704fb0902b\", \"Adelphi\", 2], [\"locations\", \"13a0897a1ccc1039064911ce6c29eef2\", \"Agoura\", 3], [\"locations\", \"13a0897a1ccc10390a3771a908e6bd7e\", \"Aiken\", 2], [\"locations\", \"13a0897a1ccc103909b194269e32b494\", \"Akron\", 1], [\"locations\", \"13a0897a1ccc10390971e6f69322b0ef\", \"Albany\", 3], [\"locations\", \"13a0897a1ccc103908faad12a01ba809\", \"Albuquerque\", 4], [\"locations\", \"13a0897a1ccc103908faaec01c99a82c\", \"Albuquerque\", 2], [\"locations\", \"13a0897a1ccc103908faae45edf6a822\", \"Albuquerque\", 2], [\"locations\", \"13a0897a1ccc103908faac9849d0a7ff\", \"Albuquerque\", 2], [\"locations\", \"13a0897a1ccc103908faac5a776fa7fa\", \"Albuquerque\", 2], [\"locations\", \"13a0897a1ccc103908faabdf646ea7f0\", \"Albuquerque\", 2], [\"locations\", \"13a0897a1ccc103908fab625b9aaa8c7\", \"Albuquerque\", 1], [\"locations\", \"13a0897a1ccc103908faaff22128a845\", \"Albuquerque\", 1], [\"locations\", \"13a0897a1ccc103908faaf3b0a72a836\", \"Albuquerque\", 1], [\"locations\", \"13a0897a1ccc103908faadca1801a818\", \"Albuquerque\", 1], [\"locations\", \"13a0897a1ccc103908faacd59333a804\", \"Albuquerque\", 1]], \"sample_locs\": [\"Chandler\", \"Los Angeles\", \"Los Angeles\", \"Los Angeles\", \"Millbrae\", \"San Antonio\", \"San Jose\", \"Dublin\", \"Carlsbad\", \"San Rafael\"]}"
+  }
+ ]
+}
