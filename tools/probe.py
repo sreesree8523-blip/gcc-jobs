@@ -8,11 +8,13 @@ from concurrent.futures import ThreadPoolExecutor
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
 import sources as S  # noqa: E402
+S.HTTP_TIMEOUT = 12
+S.HTTP_RETRIES = 1
 
 HERE = os.path.dirname(__file__)
 cand = json.load(open(os.path.join(HERE, "candidates.json")))
 GENERIC_SITES = ["External", "Careers", "careers", "External_Careers", "ExternalCareers", "jobs"]
-ALL_WD = [1, 5, 3, 12, 10, 501, 502, 503, 504, 505, 115, 103, 108, 101, 102, 104, 105]
+ALL_WD = [1, 5, 3, 12, 501, 502, 503, 504, 115, 10, 103, 108]
 
 
 def probe_workday(row):
@@ -21,7 +23,7 @@ def probe_workday(row):
     order = [(n, s) for n in wds for s in sites]
     order += [(n, s) for n in ALL_WD for s in sites if (n, s) not in order]
     order += [(n, s) for n in wds for s in GENERIC_SITES if (n, s) not in order]
-    for n, s in order[:60]:
+    for n, s in order[:36]:
         c = {"tenant": tenant, "wd": n, "site": s}
         try:
             india, method, total = S.wd_probe(c)
@@ -75,7 +77,7 @@ def probe_facets(tenant, n, site):
 
 
 tasks = []
-with ThreadPoolExecutor(max_workers=12) as ex:
+with ThreadPoolExecutor(max_workers=24) as ex:
     for row in cand["workday"]:
         tasks.append(ex.submit(probe_workday, row))
     for ats in ["greenhouse", "lever", "smartrecruiters", "ashby", "oracle"]:

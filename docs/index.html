@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GCC Jobs India</title>
+<meta name="description" content="Daily list of jobs at Global Capability Centres in India, filterable by city and role.">
+<meta name="theme-color" content="#0f5c4c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f5c4c'/%3E%3Cpath d='M9 12h14v11H9z' fill='none' stroke='white' stroke-width='2.2'/%3E%3Cpath d='M13 12V9.5h6V12' fill='none' stroke='white' stroke-width='2.2'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#f6f5f1; --surface:#ffffff; --ink:#1c1f1e; --muted:#5f6664; --faint:#8b918f;
+  --line:#e3e1db; --accent:#0f5c4c; --accent-ink:#ffffff; --accent-soft:#e3efeb;
+  --new:#b4480e; --new-soft:#fbe9dd; --chip:#efede7; --shadow:0 1px 2px rgba(20,30,25,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121615; --surface:#1a1f1e; --ink:#e9ecea; --muted:#a4acaa; --faint:#7c8583;
+    --line:#2a3130; --accent:#5fc2a6; --accent-ink:#0b1a16; --accent-soft:#1d3530;
+    --new:#f0a36e; --new-soft:#3a2517; --chip:#232a29; --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121615; --surface:#1a1f1e; --ink:#e9ecea; --muted:#a4acaa; --faint:#7c8583;
+  --line:#2a3130; --accent:#5fc2a6; --accent-ink:#0b1a16; --accent-soft:#1d3530;
+  --new:#f0a36e; --new-soft:#3a2517; --chip:#232a29; --shadow:none;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px 48px}
+header{padding:22px 0 10px}
+h1{font-size:22px;margin:0;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:13px;margin-top:4px}
+.panel{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0 8px;border-bottom:1px solid var(--line)}
+.row{display:flex;gap:8px;align-items:center}
+select,input[type=search]{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);
+  border-radius:10px;padding:10px 12px;min-width:0;width:100%;appearance:none;-webkit-appearance:none}
+select{background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);
+  background-position:calc(100% - 17px) 55%,calc(100% - 12px) 55%;background-size:5px 5px;background-repeat:no-repeat;padding-right:30px}
+select:focus,input:focus,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.city{flex:0 0 46%}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:10px 0 2px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;font:inherit;font-size:13.5px;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  border-radius:999px;padding:7px 12px;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.chip .n{opacity:.7;margin-left:4px;font-variant-numeric:tabular-nums}
+.meta{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 0 4px;color:var(--muted);font-size:13px}
+.meta select{width:auto;padding:6px 28px 6px 10px;font-size:13px;border-radius:8px}
+.list{display:flex;flex-direction:column;gap:8px;margin-top:6px}
+.job{display:block;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);
+  border-radius:12px;padding:12px 14px;box-shadow:var(--shadow)}
+.job:active{transform:scale(.995)}
+.t{font-weight:600;font-size:15.5px;line-height:1.3}
+.co{color:var(--muted);font-size:13.5px;margin-top:3px}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px;font-size:12px}
+.tag{background:var(--chip);border-radius:6px;padding:2px 7px;color:var(--muted)}
+.tag.g{background:var(--accent-soft);color:var(--accent)}
+.tag.new{background:var(--new-soft);color:var(--new);font-weight:600}
+.more{display:block;width:100%;margin:14px 0;font:inherit;font-weight:600;padding:12px;border-radius:10px;
+  border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.empty{text-align:center;color:var(--muted);padding:40px 12px}
+details{margin-top:26px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:13.5px;color:var(--muted)}
+summary{cursor:pointer;color:var(--ink);font-weight:600}
+.cos{columns:2;column-gap:18px;margin-top:10px;font-size:13px}
+.cos div{break-inside:avoid;padding:1px 0}
+.err{color:var(--new)}
+.note{margin:10px 0 0}
+@media (min-width:640px){.city{flex-basis:34%}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>GCC Jobs India</h1>
+    <div class="sub" id="sub">Loading today's jobs…</div>
+  </header>
+
+  <div class="panel">
+    <div class="row">
+      <select class="city" id="city" aria-label="City"></select>
+      <input type="search" id="q" placeholder="Search title or company" aria-label="Search title or company" autocomplete="off">
+    </div>
+    <div class="chips" id="roles" role="group" aria-label="Role type"></div>
+  </div>
+
+  <div class="meta">
+    <span id="count"></span>
+    <select id="when" aria-label="Posted">
+      <option value="all">Any time</option>
+      <option value="new">New today</option>
+      <option value="7">Last 7 days</option>
+      <option value="30">Last 30 days</option>
+    </select>
+  </div>
+
+  <div class="list" id="list"></div>
+  <button class="more" id="more" hidden>Show more</button>
+
+  <details id="about">
+    <summary>Which companies are covered?</summary>
+    <p class="note">Jobs come straight from each company's own careers site and refresh every morning.
+      Tap a job to open it on the company's site and apply there.</p>
+    <p class="note">Not covered: companies whose careers sites don't offer a public job feed (for example Google, Apple, Meta, Goldman Sachs, HSBC).
+      Senior leadership roles are often filled through search firms and may never appear here.</p>
+    <div class="cos" id="cos"></div>
+  </details>
+</div>
+
+<script>
+const GROUPS = [
+  ["all", "All roles"], ["product", "Product"], ["dev", "Development"], ["lnd", "L&D"],
+  ["eng_lead", "Engineering leadership"], ["ops_lead", "Operations leadership"]
+];
+const GROUP_NAME = Object.fromEntries(GROUPS);
+const PAGE = 40;
+const store = {
+  get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } },
+  set(k,v){ try { localStorage.setItem(k,v); } catch(e){} }
+};
+const $ = id => document.getElementById(id);
+let DATA = null, shown = PAGE;
+const params = new URLSearchParams(location.search);
+const state = {
+  city: params.get("city") || store.get("city") || "Hyderabad",
+  role: params.get("role") || store.get("role") || "all",
+  when: params.get("when") || "all",
+  q: params.get("q") || ""
+};
+
+function daysAgo(iso, today){
+  if(!iso) return null;
+  const d = (new Date(today) - new Date(iso)) / 864e5;
+  return Math.max(0, Math.round(d));
+}
+function ago(n){
+  if(n === null) return "";
+  if(n === 0) return "Posted today";
+  if(n === 1) return "Posted yesterday";
+  if(n > 30) return "Posted 30+ days ago";
+  return `Posted ${n} days ago`;
+}
+function esc(s){ return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+
+function matches(j, skip){
+  if(skip !== "city" && state.city !== "all" && !j.c.includes(state.city)) return false;
+  if(skip !== "role" && state.role !== "all" && j.g !== state.role) return false;
+  if(state.when === "new" && !(j.seen === DATA.today && DATA.today !== DATA.baseline)) return false;
+  if(state.when === "7" || state.when === "30"){
+    const n = daysAgo(j.p || j.seen, DATA.today);
+    if(n === null || n > +state.when) return false;
+  }
+  if(state.q){
+    const q = state.q.toLowerCase();
+    if(!(j.t.toLowerCase().includes(q) || j.co.toLowerCase().includes(q))) return false;
+  }
+  return true;
+}
+
+function renderCities(){
+  const counts = {};
+  for(const j of DATA.jobs){ if(matches(j, "city")) for(const c of j.c) counts[c] = (counts[c]||0) + 1; }
+  const total = DATA.jobs.filter(j => matches(j, "city")).length;
+  const names = Object.keys(counts).sort((a,b) => {
+    const rank = x => x === "Hyderabad" ? 0 : x.startsWith("India (") ? 3 : x === "Remote" ? 2 : 1;
+    return rank(a) - rank(b) || counts[b] - counts[a];
+  });
+  if(state.city !== "all" && !names.includes(state.city)) names.unshift(state.city);
+  $("city").innerHTML = `<option value="all">All India (${total})</option>` +
+    names.map(n => `<option value="${esc(n)}"${n===state.city?" selected":""}>${esc(n)} (${counts[n]||0})</option>`).join("");
+  $("city").value = state.city;
+}
+
+function renderRoles(){
+  const counts = {all:0};
+  for(const j of DATA.jobs){ if(matches(j, "role")){ counts.all++; counts[j.g] = (counts[j.g]||0) + 1; } }
+  $("roles").innerHTML = GROUPS.map(([k, label]) =>
+    `<button class="chip" data-role="${k}" aria-pressed="${k===state.role}">${label}<span class="n">${counts[k]||0}</span></button>`).join("");
+}
+
+function renderList(){
+  const rows = DATA.jobs.filter(j => matches(j));
+  const cityLabel = state.city === "all" ? "India" : state.city;
+  $("count").textContent = `${rows.length.toLocaleString("en-IN")} job${rows.length===1?"":"s"} · ${cityLabel}`;
+  const isNew = j => j.seen === DATA.today && DATA.today !== DATA.baseline;
+  $("list").innerHTML = rows.length ? rows.slice(0, shown).map(j => {
+    const n = daysAgo(j.p, DATA.today);
+    const cities = j.c.filter(c => !c.startsWith("India (")).slice(0, 3);
+    return `<a class="job" href="${esc(j.u)}" target="_blank" rel="noopener">
+      <div class="t">${esc(j.t)}</div>
+      <div class="co">${esc(j.co)}</div>
+      <div class="tags">
+        ${isNew(j) ? '<span class="tag new">New</span>' : ""}
+        <span class="tag g">${esc(GROUP_NAME[j.g] || "")}</span>
+        ${cities.map(c => `<span class="tag">${esc(c)}</span>`).join("")}
+        ${n !== null ? `<span class="tag">${ago(n)}</span>` : ""}
+      </div></a>`;
+  }).join("") : `<div class="empty">No jobs match these filters yet.<br>Try another city or role, or clear the search.</div>`;
+  $("more").hidden = rows.length <= shown;
+  $("more").textContent = `Show more (${(rows.length - shown).toLocaleString("en-IN")} left)`;
+}
+
+function render(){ renderCities(); renderRoles(); renderList(); }
+
+function syncUrl(){
+  const p = new URLSearchParams();
+  if(state.city !== "Hyderabad") p.set("city", state.city);
+  if(state.role !== "all") p.set("role", state.role);
+  if(state.when !== "all") p.set("when", state.when);
+  if(state.q) p.set("q", state.q);
+  const s = p.toString();
+  history.replaceState(null, "", s ? "?" + s : location.pathname);
+}
+function update(){ shown = PAGE; syncUrl(); render(); }
+
+$("city").addEventListener("change", e => { state.city = e.target.value; store.set("city", state.city); update(); });
+$("roles").addEventListener("click", e => {
+  const b = e.target.closest("[data-role]"); if(!b) return;
+  state.role = b.dataset.role; store.set("role", state.role); update();
+});
+$("when").addEventListener("change", e => { state.when = e.target.value; update(); });
+let t; $("q").addEventListener("input", e => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim(); update(); }, 180); });
+$("more").addEventListener("click", () => { shown += PAGE; renderList(); });
+$("q").value = state.q; $("when").value = state.when;
+
+fetch("data/jobs.json?v=" + Date.now()).then(r => r.json()).then(d => {
+  DATA = d;
+  const ok = d.companies.filter(c => !c.error).length;
+  $("sub").textContent = `${d.jobs.length.toLocaleString("en-IN")} jobs from ${ok} GCCs · updated ${d.updated}`;
+  $("cos").innerHTML = d.companies.map(c =>
+    `<div>${esc(c.name)} <span style="color:var(--faint)">${c.error ? '<span class="err">· not reachable today</span>' : "· " + c.kept}</span></div>`).join("");
+  render();
+}).catch(() => {
+  $("sub").textContent = "Couldn't load the job list. Please refresh in a minute.";
+});
+</script>
+</body>
+</html>

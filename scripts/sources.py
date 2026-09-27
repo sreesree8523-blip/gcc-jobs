@@ -37,7 +37,13 @@ class FetchError(Exception):
     pass
 
 
-def http(url, data=None, headers=None, method=None, timeout=40, retries=3):
+HTTP_TIMEOUT = 40
+HTTP_RETRIES = 3
+
+
+def http(url, data=None, headers=None, method=None, timeout=None, retries=None):
+    timeout = timeout or HTTP_TIMEOUT
+    retries = retries or HTTP_RETRIES
     hdrs = {"User-Agent": UA, "Accept": "application/json, text/plain, */*",
             "Accept-Language": "en-US,en;q=0.9"}
     if headers:
