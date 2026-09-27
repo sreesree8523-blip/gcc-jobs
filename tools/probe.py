@@ -12,7 +12,7 @@ import sources as S  # noqa: E402
 HERE = os.path.dirname(__file__)
 cand = json.load(open(os.path.join(HERE, "candidates.json")))
 GENERIC_SITES = ["External", "Careers", "careers", "External_Careers", "ExternalCareers", "jobs"]
-ALL_WD = [1, 5, 3, 12, 10, 103, 108]
+ALL_WD = [1, 5, 3, 12, 10, 501, 502, 503, 504, 505, 115, 103, 108, 101, 102, 104, 105]
 
 
 def probe_workday(row):
@@ -21,7 +21,7 @@ def probe_workday(row):
     order = [(n, s) for n in wds for s in sites]
     order += [(n, s) for n in ALL_WD for s in sites if (n, s) not in order]
     order += [(n, s) for n in wds for s in GENERIC_SITES if (n, s) not in order]
-    for n, s in order[:40]:
+    for n, s in order[:60]:
         c = {"tenant": tenant, "wd": n, "site": s}
         try:
             india, method, total = S.wd_probe(c)
@@ -53,9 +53,25 @@ def probe_raw(label, url, data=None):
     try:
         r = S.http(url, data)
         return {"name": label, "ok": True, "keys": list(r)[:15] if isinstance(r, dict) else type(r).__name__,
-                "snippet": json.dumps(r)[:1500]}
+                "snippet": json.dumps(r)[:6000]}
     except Exception as e:  # noqa
         return {"name": label, "ok": False, "error": str(e)[:200]}
+
+
+def probe_facets(tenant, n, site):
+    c = {"tenant": tenant, "wd": n, "site": site}
+    try:
+        _, base = S.wd_base(c)
+        r = S.http(base + "/jobs", {"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": ""})
+        leaves = []
+        S._wd_leaves(r.get("facets"), leaves)
+        return {"name": "facets:" + tenant, "ok": True, "total": r.get("total"),
+                "snippet": json.dumps({"params": sorted({l[0] for l in leaves}),
+                                       "top_facets": [f.get("facetParameter") for f in r.get("facets") or []],
+                                       "sample_leaves": leaves[:40],
+                                       "sample_locs": [p.get("locationsText") for p in r.get("jobPostings", [])[:10]]})}
+    except Exception as e:  # noqa
+        return {"name": "facets:" + tenant, "ok": False, "error": str(e)[:200]}
 
 
 tasks = []
@@ -65,15 +81,11 @@ with ThreadPoolExecutor(max_workers=12) as ex:
     for ats in ["greenhouse", "lever", "smartrecruiters", "ashby", "oracle"]:
         for row in cand.get(ats, []):
             tasks.append(ex.submit(probe_simple, ats, row))
-    tasks.append(ex.submit(probe_simple, "amazon", ["Amazon", "amazon"]))
-    for label, url in [
-        ("ms-eightfold-v2", "https://apply.careers.microsoft.com/api/apply/v2/jobs?domain=microsoft.com&start=0&num=10&location=India&sort_by=timestamp"),
-        ("ms-pcsx", "https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=&location=India&start=0&sort_by=timestamp"),
-        ("ms-gcs", "https://gcsservices.careers.microsoft.com/search/api/v1/search?lc=India&l=en_us&pg=1&pgSz=20&o=Recent"),
-        ("google", "https://careers.google.com/api/v3/search/?location=India&page_size=20"),
-        ("apple", "https://jobs.apple.com/api/role/search"),
-    ]:
-        tasks.append(ex.submit(probe_raw, label, url))
+    tasks.append(ex.submit(probe_raw, "ms-pcsx", "https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=&location=India&start=0&sort_by=timestamp"))
+    for t, n, site in [("qualcomm", 12, "External"), ("franklintempleton", 5, "Primary-External-1"),
+                       ("troweprice", 5, "TRowePrice"), ("cvshealth", 1, "CVS_Health_Careers"),
+                       ("elevancehealth", 1, "ANT"), ("tmobile", 1, "External"), ("ghr", 1, "Lateral-US")]:
+        tasks.append(ex.submit(probe_facets, t, n, site))
     results = [t.result() for t in tasks]
 
 ok = sorted([r for r in results if r.get("ok") and "india" in r], key=lambda r: -r["india"])
