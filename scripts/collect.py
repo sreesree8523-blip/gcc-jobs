@@ -57,7 +57,8 @@ LND = [
        r"operations|head|director|analyst|content|solutions|strategy|technology|administrator)\b"),
     rx(r"\b(l&d|l & d|lnd|instructional design(er)?|curriculum|e-?learning|trainer|facilitator|"
        r"talent development|leadership development|capability development|learning & development|"
-       r"learning and development|enablement)\b"),
+       r"learning and development|(sales|gtm|go-to-market|revenue|partner|field|customer success|cs|"
+       r"customer|learning|talent|seller) enablement)\b"),
     rx(r"\b(head|director|vp|vice president|chief|lead)\b.{0,15}\blearning\b|\blearning officer\b"),
 ]
 DEV_NOT = rx(r"\b(sales engineer|pre-?sales|field service|service engineer|civil|mechanical|"
@@ -75,10 +76,14 @@ DEV = [
        r"cloud architect|data architect|devops|sre)\b"),
     rx(r"\bengineer\b.{0,25}\b(software|java|python|backend|frontend|full stack|data|cloud|devops|"
        r"platform|ml|ai|mobile|qa|test automation|salesforce)\b"),
-    rx(r"\b(software engineering|software development)\b"),
+    rx(r"\b(software engineering|software development|application development|application engineering)\b"),
 ]
 
 
+# "Software Engineer - Vice President", "Vice President - Data Analyst": bank ranks, not leadership.
+RANK_SUFFIX = rx(r"[\s,\-\u2013\u2014|/(]+(assistant vice president|vice president|avp|vp)\)?\s*$")
+RANK_PREFIX = rx(r"^\s*(assistant vice president|vice president|avp|vp)\s*[-\u2013\u2014:|]\s*")
+CHIEF_OK = rx(r"\bchief\b.{0,30}\bofficer\b|\b(cto|cio|coo|cpo)\b")
 IC_NOUN = rx(r"\b(engineer|developer|architect|analyst|scientist|designer|specialist|associate|"
               r"consultant|programmer|administrator)\b")
 STRONG_LEAD = rx(r"\b(director|head|chief|manager|managing director|leader|general manager|cto|cio|coo)\b")
@@ -90,13 +95,17 @@ def classify(title):
     if any(p.search(t) for p in LND) and not LND_NOT.search(t):
         return "lnd"
     # Banks use VP/AVP as ranks for individual contributors ("Software Engineer - VP").
-    lead_t = t
-    if IC_NOUN.search(t) and not STRONG_LEAD.search(t):
-        lead_t = BANK_RANK.sub(" ", t)
+    lead_t = RANK_PREFIX.sub("", RANK_SUFFIX.sub("", t))
+    if IC_NOUN.search(lead_t) and not STRONG_LEAD.search(lead_t):
+        lead_t = BANK_RANK.sub(" ", lead_t)
+    if rx(r"\bchief\b").search(lead_t) and not CHIEF_OK.search(lead_t):
+        lead_t = rx(r"\bchief\b").sub(" ", lead_t)
+    t_rest = lead_t
     if any(p.search(lead_t) for p in ENG_LEAD) and not rx(r"\bsales\b").search(t):
         return "eng_lead"
     if any(p.search(lead_t) for p in OPS_LEAD):
         return "ops_lead"
+    t = t_rest
     if any(p.search(t) for p in PRODUCT) and not rx(r"production|product (engineer|developer|security|design engineer)").search(t):
         return "product"
     if any(p.search(t) for p in DEV) and not DEV_NOT.search(t):

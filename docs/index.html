@@ -139,7 +139,7 @@ function ago(n){
   if(n === null) return "";
   if(n === 0) return "Posted today";
   if(n === 1) return "Posted yesterday";
-  if(n > 30) return "Posted 30+ days ago";
+  if(n >= 30) return "Posted 30+ days ago";
   return `Posted ${n} days ago`;
 }
 function esc(s){ return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
