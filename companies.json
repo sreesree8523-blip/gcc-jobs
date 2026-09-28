@@ -35,6 +35,20 @@
    "sector": "Technology"
   },
   {
+   "name": "AMD",
+   "ats": "jibe",
+   "host": "careers.amd.com",
+   "sector": "Technology"
+  },
+  {
+   "name": "American Express",
+   "ats": "oracle",
+   "host": "egug.fa.us2.oraclecloud.com",
+   "ui_host": "careers.americanexpress.com",
+   "site": "CX_1",
+   "sector": "Banking & Finance"
+  },
+  {
    "name": "Ameriprise",
    "ats": "workday",
    "tenant": "ameriprise",
@@ -75,12 +89,25 @@
    "sector": "Healthcare & Pharma"
   },
   {
+   "name": "Atlassian",
+   "ats": "atlassian",
+   "sector": "Technology"
+  },
+  {
    "name": "Autodesk",
    "ats": "workday",
    "tenant": "autodesk",
    "wd": 1,
    "site": "Ext",
    "sector": "Technology"
+  },
+  {
+   "name": "Barclays",
+   "ats": "workday",
+   "tenant": "barclays",
+   "wd": 3,
+   "site": "External_Career_Site_Barclays",
+   "sector": "Banking & Finance"
   },
   {
    "name": "Baxter",
@@ -371,10 +398,23 @@
    "sector": "Industrial & Energy"
   },
   {
+   "name": "General Motors",
+   "ats": "workday",
+   "tenant": "generalmotors",
+   "wd": 5,
+   "site": "Careers_GM",
+   "sector": "Industrial & Energy"
+  },
+  {
    "name": "GitLab",
    "ats": "greenhouse",
    "token": "gitlab",
    "sector": "Technology"
+  },
+  {
+   "name": "Goldman Sachs",
+   "ats": "goldman",
+   "sector": "Banking & Finance"
   },
   {
    "name": "GSK",
@@ -393,6 +433,14 @@
    "sector": "Banking & Finance"
   },
   {
+   "name": "Home Depot",
+   "ats": "workday",
+   "tenant": "homedepot",
+   "wd": 5,
+   "site": "CareerDepot",
+   "sector": "Retail & Consumer"
+  },
+  {
    "name": "HP",
    "ats": "workday",
    "tenant": "hp",
@@ -407,6 +455,13 @@
    "wd": 5,
    "site": "Jobsathpe",
    "sector": "Technology"
+  },
+  {
+   "name": "HSBC",
+   "ats": "eightfold",
+   "host": "portal.careers.hsbc.com",
+   "domain": "hsbc.com",
+   "sector": "Banking & Finance"
   },
   {
    "name": "Humana",
@@ -462,6 +517,14 @@
    "wd": 3,
    "site": "Lloyds_Technology_Centre",
    "sector": "Banking & Finance"
+  },
+  {
+   "name": "Lowe's",
+   "ats": "workday",
+   "tenant": "lowes",
+   "wd": 5,
+   "site": "LWS_External_CS",
+   "sector": "Retail & Consumer"
   },
   {
    "name": "LSEG",
@@ -673,6 +736,14 @@
    "sector": "Healthcare & Pharma"
   },
   {
+   "name": "Procter & Gamble",
+   "ats": "workday",
+   "tenant": "pg",
+   "wd": 5,
+   "site": "1000",
+   "sector": "Retail & Consumer"
+  },
+  {
    "name": "Prudential",
    "ats": "workday",
    "tenant": "pru",
@@ -684,6 +755,13 @@
    "name": "Pure Storage",
    "ats": "greenhouse",
    "token": "purestorage",
+   "sector": "Technology"
+  },
+  {
+   "name": "Qualcomm",
+   "ats": "eightfold",
+   "host": "careers.qualcomm.com",
+   "domain": "qualcomm.com",
    "sector": "Technology"
   },
   {
@@ -861,6 +939,14 @@
    "wd": 12,
    "site": "verizon-careers",
    "sector": "Technology"
+  },
+  {
+   "name": "Visa",
+   "ats": "workday",
+   "tenant": "visa",
+   "wd": 5,
+   "site": "Visa",
+   "sector": "Banking & Finance"
   },
   {
    "name": "Walmart Global Tech",

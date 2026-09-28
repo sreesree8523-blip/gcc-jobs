@@ -191,7 +191,7 @@ def main():
         for c, raw, err, secs in ex.map(run_company, companies):
             kept = 0
             for j in raw:
-                g = classify(j["title"])
+                g = classify(j.get("cls") or j["title"])
                 if not g:
                     continue
                 jid = f"{c['name']}|{j.get('ext_id') or j['url']}"

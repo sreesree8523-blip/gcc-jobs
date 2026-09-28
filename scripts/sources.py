@@ -323,14 +323,15 @@ def fetch_oracle(c, keep=None, cap=3000):
     for f in item.get("locationsFacet") or []:
         if (f.get("Name") or "").strip().lower() == "india":
             loc_id = f.get("Id")
-    if not loc_id:
-        raise FetchError("no India location facet")
+    extra = f",locationId={loc_id}" if loc_id else ",location=India"
     out, off = [], 0
     while True:
-        item = (call(f",locationId={loc_id}", off).get("items") or [{}])[0]
+        item = (call(extra, off).get("items") or [{}])[0]
         reqs = item.get("requisitionList") or []
         for q in reqs:
             locs = [q.get("PrimaryLocation") or ""] + [s.get("Name", "") for s in q.get("secondaryLocations") or []]
+            if not loc_id and not is_india("; ".join(locs)):
+                continue
             out.append({"title": q.get("Title", ""),
                         "url": (f"https://{c['ui_host']}/en/sites/{c['site']}/job/{q.get('Id')}" if c.get("ui_host")
                                 else f"https://{c['host']}/hcmUI/CandidateExperience/en/sites/{c['site']}/job/{q.get('Id')}"),
@@ -451,7 +452,51 @@ def fetch_atlassian(c, keep=None, cap=None):
     return [j for j in out if j["url"]]
 
 
+# ---------------------------------------------------------------- Goldman Sachs (GraphQL)
+GS_QUERY = """query GetRoles($searchQueryInput: RoleSearchQueryInput!) {
+  roleSearch(searchQueryInput: $searchQueryInput) {
+    totalCount
+    items { roleId corporateTitle jobTitle jobFunction division
+            locations { primary state country city } }
+  }
+}"""
+
+
+def fetch_goldman(c, keep=None, cap=3000):
+    out, page, size = [], 0, 50
+    while True:
+        body = {"operationName": "GetRoles", "query": GS_QUERY, "variables": {"searchQueryInput": {
+            "page": {"pageSize": size, "pageNumber": page},
+            "sort": {"sortStrategy": "POSTED_DATE", "sortOrder": "DESC"},
+            "filters": [{"filterCategoryType": "LOCATION", "filters": [{"filter": "India", "subFilters": []}]}],
+            "experiences": ["EARLY_CAREER", "PROFESSIONAL"], "searchTerm": ""}}}
+        r = http("https://api-higher.gs.com/gateway/api/v1/graphql", body,
+                 headers={"Origin": "https://higher.gs.com", "Referer": "https://higher.gs.com/"})
+        rs = ((r.get("data") or {}).get("roleSearch")) or {}
+        items = rs.get("items") or []
+        for it in items:
+            locs = it.get("locations") or []
+            cities = [l.get("city") or "" for l in locs if (l.get("country") or "") == "India"]
+            if not cities:
+                continue
+            title = it.get("jobTitle") or ""
+            # GS titles end with "- <city>"; drop it so the rank ("- Vice President") is last.
+            for cty in cities:
+                title = re.sub(rf"\s*[-\u2013]\s*{re.escape(cty)}\s*$", "", title, flags=re.I)
+            rid = (it.get("roleId") or "").split("_")[0]
+            out.append({"title": title.strip(), "url": f"https://higher.gs.com/roles/{rid}",
+                        "cls": f"{it.get('jobFunction') or ''} | {title.strip()}",
+                        "location": "; ".join(c + ", India" for c in cities if c) or "India",
+                        "posted_date": None, "ext_id": rid})
+        page += 1
+        if not items or page * size >= (rs.get("totalCount") or 0) or page * size >= cap:
+            break
+        time.sleep(0.5)
+    return out
+
+
 FETCHERS = {
+    "goldman": fetch_goldman,
     "eightfold": fetch_eightfold,
     "jibe": fetch_jibe,
     "atlassian": fetch_atlassian,
