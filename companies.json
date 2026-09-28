@@ -10,6 +10,14 @@
    "sector": "Industrial & Energy"
   },
   {
+   "name": "Accenture",
+   "ats": "workday",
+   "tenant": "accenture",
+   "wd": 103,
+   "site": "AccentureCareers",
+   "sector": "IT Services"
+  },
+  {
    "name": "Addepar",
    "ats": "greenhouse",
    "token": "addepar1",

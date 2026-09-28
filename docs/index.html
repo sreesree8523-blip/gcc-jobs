@@ -48,6 +48,8 @@ select:focus,input:focus,button:focus-visible,a:focus-visible{outline:2px solid 
 .chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .chip .n{opacity:.7;margin-left:4px;font-variant-numeric:tabular-nums}
 .meta{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 0 4px;color:var(--muted);font-size:13px}
+.gcc{display:flex;align-items:center;gap:5px;white-space:nowrap;margin-left:auto;cursor:pointer}
+.gcc input{width:16px;height:16px;accent-color:var(--accent);margin:0}
 .meta select{width:auto;padding:6px 28px 6px 10px;font-size:13px;border-radius:8px}
 .list{display:flex;flex-direction:column;gap:8px;margin-top:6px}
 .job{display:block;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);
@@ -88,6 +90,7 @@ summary{cursor:pointer;color:var(--ink);font-weight:600}
 
   <div class="meta">
     <span id="count"></span>
+    <label class="gcc"><input type="checkbox" id="gcc"> GCCs only</label>
     <select id="when" aria-label="Posted">
       <option value="all">Any time</option>
       <option value="new">New today</option>
@@ -103,8 +106,9 @@ summary{cursor:pointer;color:var(--ink);font-weight:600}
     <summary>Which companies are covered?</summary>
     <p class="note">Jobs come straight from each company's own careers site and refresh every morning.
       Tap a job to open it on the company's site and apply there.</p>
-    <p class="note">Not covered: companies whose careers sites don't offer a public job feed (for example Google, Apple, Meta, Goldman Sachs, HSBC).
+    <p class="note">Not covered: companies whose careers sites don't offer a public job feed (for example Google, Apple, Meta, UBS).
       Senior leadership roles are often filled through search firms and may never appear here.</p>
+    <p class="note">Accenture is an IT services firm, not a GCC. Tick "GCCs only" to hide it.</p>
     <div class="cos" id="cos"></div>
   </details>
 </div>
@@ -127,7 +131,8 @@ const state = {
   city: params.get("city") || store.get("city") || "Hyderabad",
   role: params.get("role") || store.get("role") || "all",
   when: params.get("when") || "all",
-  q: params.get("q") || ""
+  q: params.get("q") || "",
+  gcc: (params.get("gcc") || store.get("gcc")) === "1"
 };
 
 function daysAgo(iso, today){
@@ -145,6 +150,7 @@ function ago(n){
 function esc(s){ return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 
 function matches(j, skip){
+  if(state.gcc && j.sec === "IT Services") return false;
   if(skip !== "city" && state.city !== "all" && !j.c.includes(state.city)) return false;
   if(skip !== "role" && state.role !== "all" && j.g !== state.role) return false;
   if(state.when === "new" && !(j.seen === DATA.today && DATA.today !== DATA.baseline)) return false;
@@ -194,6 +200,7 @@ function renderList(){
       <div class="tags">
         ${isNew(j) ? '<span class="tag new">New</span>' : ""}
         <span class="tag g">${esc(GROUP_NAME[j.g] || "")}</span>
+        ${j.sec === "IT Services" ? '<span class="tag">IT services</span>' : ""}
         ${cities.map(c => `<span class="tag">${esc(c)}</span>`).join("")}
         ${n !== null ? `<span class="tag">${ago(n)}</span>` : ""}
       </div></a>`;
@@ -210,6 +217,7 @@ function syncUrl(){
   if(state.role !== "all") p.set("role", state.role);
   if(state.when !== "all") p.set("when", state.when);
   if(state.q) p.set("q", state.q);
+  if(state.gcc) p.set("gcc", "1");
   const s = p.toString();
   history.replaceState(null, "", s ? "?" + s : location.pathname);
 }
@@ -221,6 +229,8 @@ $("roles").addEventListener("click", e => {
   state.role = b.dataset.role; store.set("role", state.role); update();
 });
 $("when").addEventListener("change", e => { state.when = e.target.value; update(); });
+$("gcc").checked = state.gcc;
+$("gcc").addEventListener("change", e => { state.gcc = e.target.checked; store.set("gcc", state.gcc ? "1" : "0"); update(); });
 let t; $("q").addEventListener("input", e => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim(); update(); }, 180); });
 $("more").addEventListener("click", () => { shown += PAGE; renderList(); });
 $("q").value = state.q; $("when").value = state.when;
