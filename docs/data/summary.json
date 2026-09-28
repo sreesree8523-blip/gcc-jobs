@@ -1,16 +1,17 @@
 {
- "updated": "2026-09-28 12:26 IST",
- "total": 5327,
- "new_total": 89,
+ "updated": "2026-09-28 12:30 IST",
+ "total": 5325,
+ "new_total": 91,
  "new_by_group": {
-  "dev": 68,
+  "dev": 69,
   "product": 6,
   "eng_lead": 14,
+  "lnd": 1,
   "ops_lead": 1
  },
  "new_hyd_by_group": {
-  "eng_lead": 5,
   "dev": 11,
+  "eng_lead": 5,
   "ops_lead": 1
  },
  "companies_ok": 135,
