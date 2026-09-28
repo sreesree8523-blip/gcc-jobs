@@ -37,3 +37,13 @@ jobs:
           git add docs/data
           git commit -m "Jobs update $(TZ=Asia/Kolkata date +'%Y-%m-%d %H:%M IST')" || exit 0
           for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+      - name: Send phone notification
+        continue-on-error: true
+        run: |
+          python scripts/notify.py
+          git add docs/data/notify_state.json
+          git commit -m "Notified" || exit 0
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+      - name: Alert if the refresh failed
+        if: failure()
+        run: python scripts/notify.py failed
