@@ -332,7 +332,8 @@ def fetch_oracle(c, keep=None, cap=3000):
         for q in reqs:
             locs = [q.get("PrimaryLocation") or ""] + [s.get("Name", "") for s in q.get("secondaryLocations") or []]
             out.append({"title": q.get("Title", ""),
-                        "url": f"https://{c['host']}/hcmUI/CandidateExperience/en/sites/{c['site']}/job/{q.get('Id')}",
+                        "url": (f"https://{c['ui_host']}/en/sites/{c['site']}/job/{q.get('Id')}" if c.get("ui_host")
+                                else f"https://{c['host']}/hcmUI/CandidateExperience/en/sites/{c['site']}/job/{q.get('Id')}"),
                         "location": "; ".join(x for x in locs if x),
                         "posted_date": (q.get("PostedDate") or "")[:10] or None,
                         "ext_id": q.get("Id")})
@@ -375,7 +376,85 @@ def fetch_microsoft(c, keep=None, cap=3000):
     return out
 
 
+# ---------------------------------------------------------------- Eightfold (Qualcomm, HSBC, ...)
+def fetch_eightfold(c, keep=None, cap=3000):
+    """Tries the newer 'pcsx' search first, then the older v2 API."""
+    try:
+        return fetch_microsoft(c, keep, cap)
+    except FetchError:
+        pass
+    host, domain = c["host"], c["domain"]
+    out, start = [], 0
+    while True:
+        r = http(f"https://{host}/api/apply/v2/jobs?domain={domain}&start={start}&num=100"
+                 f"&location=India&sort_by=timestamp")
+        pos = r.get("positions") or []
+        for p in pos:
+            locs = p.get("locations") or [p.get("location") or ""]
+            text = "; ".join(x for x in locs if x)
+            if not is_india(text):
+                continue
+            ts = p.get("t_update") or p.get("t_create")
+            out.append({"title": p.get("name", ""),
+                        "url": p.get("canonicalPositionUrl") or f"https://{host}/careers/job/{p.get('id')}",
+                        "location": text,
+                        "posted_date": time.strftime("%Y-%m-%d", time.gmtime(ts)) if ts else None,
+                        "ext_id": str(p.get("id"))})
+        start += len(pos)
+        if not pos or start >= (r.get("count") or 0) or start >= cap:
+            break
+        time.sleep(1.0)
+    return out
+
+
+# ---------------------------------------------------------------- Jibe / iCIMS (e.g. AMD)
+def fetch_jibe(c, keep=None, cap=3000):
+    host = c["host"]
+    out, page = [], 1
+    while True:
+        r = http(f"https://{host}/api/jobs?location=India&page={page}&limit=100&sortBy=posted_date&descending=true")
+        items = r.get("jobs") or []
+        for it in items:
+            d = it.get("data") or it
+            loc = d.get("full_location") or ", ".join(
+                x for x in [d.get("city"), d.get("state"), d.get("country")] if x)
+            if not is_india(loc + " " + (d.get("country") or "")):
+                continue
+            rid = d.get("req_id") or d.get("slug") or d.get("id")
+            out.append({"title": d.get("title", ""),
+                        "url": f"https://{host}{c.get('path', '/careers-home/jobs/')}{rid}",
+                        "location": loc,
+                        "posted_date": (d.get("posted_date") or d.get("create_date") or "")[:10] or None,
+                        "ext_id": str(rid)})
+        if not items or page * 100 >= (r.get("totalCount") or r.get("count") or 0) or page * 100 >= cap:
+            break
+        page += 1
+        time.sleep(0.5)
+    return out
+
+
+# ---------------------------------------------------------------- Atlassian (one public JSON feed)
+def fetch_atlassian(c, keep=None, cap=None):
+    r = http("https://www.atlassian.com/endpoint/careers/listings")
+    out = []
+    for j in r if isinstance(r, list) else r.get("listings") or r.get("data") or []:
+        locs = j.get("locations") or []
+        text = "; ".join(x if isinstance(x, str) else (x.get("name") or "") for x in locs) or (j.get("location") or "")
+        if not is_india(text):
+            continue
+        post = j.get("portalJobPost") or {}
+        out.append({"title": j.get("title", ""),
+                    "url": post.get("portalUrl") or j.get("applyUrl"),
+                    "location": text,
+                    "posted_date": (post.get("updatedDate") or "")[:10] or None,
+                    "ext_id": str(j.get("id") or post.get("id") or j.get("title"))})
+    return [j for j in out if j["url"]]
+
+
 FETCHERS = {
+    "eightfold": fetch_eightfold,
+    "jibe": fetch_jibe,
+    "atlassian": fetch_atlassian,
     "microsoft": fetch_microsoft,
     "workday": fetch_workday,
     "greenhouse": fetch_greenhouse,

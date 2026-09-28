@@ -1,0 +1,38 @@
+name: Probe big employers
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "tools/probe2.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-writes
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install browser
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Run probe
+        run: python tools/probe2.py
+      - name: Save results
+        run: |
+          git config user.name "gcc-jobs-bot"
+          git config user.email "gcc-jobs-bot@users.noreply.github.com"
+          git add tools/probe2_results.json
+          git commit -m "Probe 2 results" || exit 0
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
