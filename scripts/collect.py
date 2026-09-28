@@ -174,10 +174,12 @@ def main():
     path = os.path.join(DATA, "jobs.json")
     prev = {}
     prev_by_co = {}
+    known_cos = None
     baseline = None
     if os.path.exists(path):
         old = json.load(open(path))
         baseline = old.get("baseline")
+        known_cos = {r["name"] for r in old.get("companies", [])}
         for j in old.get("jobs", []):
             prev[j["id"]] = j.get("seen")
             prev_by_co.setdefault(j["co"], []).append(j)
@@ -196,10 +198,14 @@ def main():
                     continue
                 jid = f"{c['name']}|{j.get('ext_id') or j['url']}"
                 cities = cities_of(j.get("location"))
+                first_seen = prev.get(jid)
+                if not first_seen and known_cos is not None and c["name"] not in known_cos:
+                    # Company just added to the list: its existing jobs aren't "new today".
+                    first_seen = baseline
                 jobs.append({
                     "id": jid, "t": j["title"].strip(), "co": c["name"], "sec": c.get("sector", ""),
                     "g": g, "c": cities, "loc": (j.get("location") or "")[:160], "u": j["url"],
-                    "p": posted_iso(j, today), "seen": prev.get(jid) or today.isoformat(),
+                    "p": posted_iso(j, today), "seen": first_seen or today.isoformat(),
                 })
                 kept += 1
             stale = False

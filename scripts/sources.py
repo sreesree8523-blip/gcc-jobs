@@ -483,9 +483,17 @@ def fetch_goldman(c, keep=None, cap=3000):
             # GS titles end with "- <city>"; drop it so the rank ("- Vice President") is last.
             for cty in cities:
                 title = re.sub(rf"\s*[-\u2013]\s*{re.escape(cty)}\s*$", "", title, flags=re.I)
+            # GS puts its rank inside the title ("...-Vice President-..."). Below Managing Director
+            # that rank is not a leadership role, so leave it out when sorting by role.
+            rank = (it.get("corporateTitle") or "").strip()
+            cls_title = title
+            if rank and rank.lower() != "managing director":
+                cls_title = re.sub(rf"\s*[-\u2013]?\s*{re.escape(rank)}\s*[-\u2013]?\s*", " - ", cls_title, flags=re.I)
+            for cty in cities:
+                cls_title = re.sub(rf"\s*[-\u2013]?\s*{re.escape(cty)}\s*[-\u2013]?\s*", " - ", cls_title, flags=re.I)
             rid = (it.get("roleId") or "").split("_")[0]
             out.append({"title": title.strip(), "url": f"https://higher.gs.com/roles/{rid}",
-                        "cls": f"{it.get('jobFunction') or ''} | {title.strip()}",
+                        "cls": f"{it.get('jobFunction') or ''} | {cls_title.strip(' -')}",
                         "location": "; ".join(c + ", India" for c in cities if c) or "India",
                         "posted_date": None, "ext_id": rid})
         page += 1
