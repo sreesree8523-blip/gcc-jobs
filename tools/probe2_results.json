@@ -1,0 +1,1412 @@
+{
+ "generated": "2026-09-28 06:30 UTC",
+ "workday": [
+  {
+   "name": "Dell Technologies",
+   "ok": false,
+   "tried": 26,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Visa",
+   "ats": "workday",
+   "tenant": "visa",
+   "wd": 5,
+   "site": "Visa",
+   "india": 72,
+   "total": 768,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "UBS",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "BNY",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Nomura",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Moody's",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "MSCI",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Principal Financial",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Swiss Re",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Intuit",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "McDonald's",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Kenvue",
+   "ok": false,
+   "tried": 26,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "John Deere",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Eaton",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Emerson",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Providence",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Liberty Mutual",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "DTCC",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "American Express",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "ICE",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Novo Nordisk",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Bayer",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Chubb",
+   "ok": false,
+   "tried": 78,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Wabtec",
+   "ok": false,
+   "redirect": "https://community.workday.com/maintenance-page?d=1&s=1&e=1&o=",
+   "tried": 52
+  },
+  {
+   "name": "Franklin Templeton",
+   "ats": "workday",
+   "tenant": "franklintempleton",
+   "wd": 5,
+   "site": "Primary-External-1",
+   "india": 0,
+   "total": 0,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Accenture",
+   "ats": "workday",
+   "tenant": "accenture",
+   "wd": 103,
+   "site": "AccentureCareers",
+   "india": 2000,
+   "total": 2000,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Barclays",
+   "ats": "workday",
+   "tenant": "barclays",
+   "wd": 3,
+   "site": "External_Career_Site_Barclays",
+   "india": 329,
+   "total": 783,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Standard Chartered",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Optum / UnitedHealth",
+   "ok": false,
+   "tried": 26,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Honeywell",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Siemens Healthineers",
+   "ok": false,
+   "tried": 26,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "ABB",
+   "ok": false,
+   "tried": 26,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Lowe's",
+   "ats": "workday",
+   "tenant": "lowes",
+   "wd": 5,
+   "site": "LWS_External_CS",
+   "india": 38,
+   "total": 12610,
+   "method": "location-facet",
+   "ok": true
+  },
+  {
+   "name": "Home Depot",
+   "ats": "workday",
+   "tenant": "homedepot",
+   "wd": 5,
+   "site": "CareerDepot",
+   "india": 8,
+   "total": 1005,
+   "method": "text-search",
+   "ok": true
+  },
+  {
+   "name": "Kroger",
+   "ok": false,
+   "tried": 26,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Tesco",
+   "ok": false,
+   "tried": 26,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Ford",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "General Motors",
+   "ats": "workday",
+   "tenant": "generalmotors",
+   "wd": 5,
+   "site": "Careers_GM",
+   "india": 9,
+   "total": 799,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Unilever",
+   "ok": false,
+   "redirect": "https://community.workday.com/maintenance-page?d=3&s=1&e=1&o=",
+   "tried": 26
+  },
+  {
+   "name": "PepsiCo",
+   "ok": false,
+   "tried": 52,
+   "last": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "name": "Procter & Gamble",
+   "ats": "workday",
+   "tenant": "pg",
+   "wd": 5,
+   "site": "1000",
+   "india": 29,
+   "total": 814,
+   "method": "country-facet",
+   "ok": true
+  },
+  {
+   "name": "Carelon (Elevance)",
+   "ats": "workday",
+   "tenant": "elevancehealth",
+   "wd": 1,
+   "site": "ANT",
+   "india": 107,
+   "total": 275,
+   "method": "text-search",
+   "ok": true
+  }
+ ],
+ "direct": [
+  {
+   "name": "HSBC",
+   "ats": "eightfold",
+   "host": "portal.careers.hsbc.com",
+   "domain": "hsbc.com",
+   "india": 162,
+   "ok": true,
+   "sample": [
+    "Business Analysis, SWIFT, SEPA, ISO 20022 / Senior Consultant Specialist | Pune, Maharashtra, India | https://portal.careers.hsbc.com/careers/job/563774612352510",
+    "Universal Banker- Vizag | Hyderabad, Telangana, India | https://portal.careers.hsbc.com/careers/job/563774612340492",
+    "Legal Team Personal Assistant | Bangalore, Karnataka, India | https://portal.careers.hsbc.com/careers/job/563774612340406",
+    "Vice President Portfolio Counsellor, Wealth & Premier Banking India | Hyderabad, Telangana, India | https://portal.careers.hsbc.com/careers/job/563774612335185"
+   ]
+  },
+  {
+   "name": "Qualcomm",
+   "ats": "eightfold",
+   "host": "careers.qualcomm.com",
+   "domain": "qualcomm.com",
+   "india": 581,
+   "ok": true,
+   "sample": [
+    "Senior Accountant,GAOC | Hyderabad, TS, IN | https://careers.qualcomm.com/careers/job/446721144578",
+    "Sales Operations Analyst | Bengaluru, KA, IN | https://careers.qualcomm.com/careers/job/446721156193",
+    "Staff  Engineer, Systems Software & Platform Engineering | Bengaluru, KA, IN | https://careers.qualcomm.com/careers/job/446720349272",
+    "NOC Design --Sr Lead/Staff | Bengaluru, KA, IN | https://careers.qualcomm.com/careers/job/446720362616"
+   ]
+  },
+  {
+   "name": "AMD",
+   "ats": "jibe",
+   "host": "careers.amd.com",
+   "india": 196,
+   "ok": true,
+   "sample": [
+    "PD Clocking Engineer | Bangalore, India | https://careers.amd.com/careers-home/jobs/92545",
+    "CPU/Cores Post Silicon Validation (Functional) | Bangalore, India | https://careers.amd.com/careers-home/jobs/92800",
+    "Senior Analog/Mixed-Signal Layout Engineer - SERDES | Bangalore, India | https://careers.amd.com/careers-home/jobs/92875",
+    "DFT Engineer | Hyderabad, India | https://careers.amd.com/careers-home/jobs/92575"
+   ]
+  },
+  {
+   "name": "Atlassian",
+   "ats": "atlassian",
+   "india": 49,
+   "ok": true,
+   "sample": [
+    "Account Executive, Enterprise (India) | Remote - India - Remote; Remote - Remote | https://careers-apac-atlassian.icims.com/jobs/25642/account-executive%2c-enterprise-%28india%29/job",
+    "Account Executive, Mid Market | Bengaluru - India -   Bengaluru,  560071 India; Remote - India - Remote; Remote - Remote | https://globalcareers-atlassian.icims.com/jobs/25480/account-executive%2c-mid-market/job",
+    "Account Manager, Strategic | Bengaluru - India -   Bengaluru,  560071 India; Remote - Remote | https://careers-apac-atlassian.icims.com/jobs/25498/account-manager%2c-strategic/job",
+    "CMK/Encryption Platform Product Manager | Bengaluru - India -   Bengaluru,  560071 India; Remote - Remote | https://careers-apac-atlassian.icims.com/jobs/27197/cmk-encryption-platform-product-manager/job"
+   ]
+  },
+  {
+   "name": "American Express",
+   "ats": "oracle",
+   "host": "careers.americanexpress.com",
+   "site": "CX_1",
+   "ok": false,
+   "error": "FetchError: not json from https://careers.americanexpress.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisi"
+  }
+ ],
+ "sniff": [
+  {
+   "name": "Goldman Sachs",
+   "start": "https://higher.gs.com/results?LOCATION=Bengaluru%7CHyderabad&page=1&sort=POSTED_DATE",
+   "final": "https://higher.gs.com/results?LOCATION=Bengaluru|Hyderabad&page=1&sort=POSTED_DATE",
+   "title": "Opportunities | Goldman Sachs",
+   "text": "Careers Home\nCareers Blog\nStudents\nhelp_outline\nperson\nexpand_more\nFind Opportunities\nsearch\nSearch\nWe found opportunities that match your search!\nLocations\n(2)\nexpand_more\nExperience Level\nexpand_more\nJob Function\nexpand_more\nDivisions\nexpand_more\nBengaluru\nclose\nHyderabad\nclose\nclose\nShowing 20 of 133 matches\nSort:\u00a0\nPosting Date\nexpand_more\nInternal Audit-Hyderabad-Associate-Data Analytics & Reporting\nHyderabad\u00b7India\n\u00b7Associate\nData Analytics & Reporting\nshare\nShare\nbookmark_border\nSave\nGBM - TxB - Project Management - Vice President - Bengaluru\nBengaluru\u00b7India\n\u00b7Vice President\nProject Management\nshare\nShare\nbookmark_border\nSave\nThe Core Engineering - Search & Entity Model Eng - Vice President - Hyderabad\nHyderabad\u00b7India\n\u00b7Vice President\nSoftware Engineering\nshare\nShare\nbookmark_border\nSav",
+   "captures": [
+    {
+     "url": "https://graphql.contentful.com/content/v1/spaces/9mvtzqjujsdv/environments/master/?access_token=6wNO9NMBb-xH5KA--3XiPLbY_ArIrbAAHISlHx0Abik",
+     "method": "POST",
+     "status": 200,
+     "post": "{\"operationName\":\"GetFooter\",\"variables\":{\"pageTitle\":\"Footer\"},\"query\":\"query GetFooter($pageTitle: String!) {\\n  footer: footerLayoutCollection(limit: 1, where: {title: $pageTitle}) {\\n    items {\\n      footerLinksCollection(limit: 10) {\\n        items {\\n          ... on Footer {\\n            footerId\\n            footerName\\n            footerLink\\n            __typename\\n          }\\n          __typename\\n        }\\n        __typename\\n      }\\n      copyRights\\n      socialMediaIconsCollection(limit: 10) {\\n        items {\\n          ... on SocialIcon {\\n            name\\n            altText\\n            url\\n            footerIcon {\\n              url\\n              __typename\\n            }\\n            __typename\\n          }\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "accept": "*/*",
+      "content-type": "application/json"
+     },
+     "body": "{\"data\":{\"footer\":{\"__typename\":\"FooterLayoutCollection\",\"items\":[{\"__typename\":\"FooterLayout\",\"copyRights\":\"Goldman Sachs\",\"footerLinksCollection\":{\"__typename\":\"FooterLayoutFooterLinksCollection\",\"items\":[{\"__typename\":\"Footer\",\"footerId\":\"privacy_cookies\",\"footerName\":\"Privacy and Cookies\",\"footerLink\":\"https://www.goldmansachs.com/privacy-and-cookies/index.html\"},{\"__typename\":\"Footer\",\"footerId\":\"terms_conditions\",\"footerName\":\"Terms & Conditions\",\"footerLink\":\"https://www.goldmansachs.com/terms-and-conditions/index.html\"},{\"__typename\":\"Footer\",\"footerId\":\"security_fraud\",\"footerName\":\"Security & Fraud Awareness\",\"footerLink\":\"https://www.goldmansachs.com/security/index.html\"},{\"__typename\":\"Footer\",\"footerId\":\"Regulatory_Disclosures\",\"footerName\":\"Regulatory Disclosures\",\"footerLink\":\"https://www.goldmansachs.com/disclosures/index.html\"},{\"__typename\":\"Footer\",\"footerId\":\"disability_accommodation\",\"footerName\":\"Disability Accommodation for Applicants\",\"footerLink\":\"https://www.goldmansachs.com/careers/footer/disability-statement.html\"}]},\"socialMediaIconsCollection\":{\"__typename\":\"FooterLayoutSocialMediaIconsCollection\",\"items\":[{\"__typename\":\"SocialIcon\",\"name\":\"Facebook\",\"altText\":\"Goldman Sachs Facebook Page\",\"url\":\"https://www.facebook.com/goldmansachs\",\"footerIcon\":{\"__typename\":\"Asset\",\"url\":\"https://images.ctfassets.net/9mvtzqjujsdv/5LoGNNuvnW6EHrkHEj6Q9A/0ac5d05db394931083f3489393201129/footer-facebook.svg\"}},{\"__typename\":\"SocialIcon\",\"name\":\"Linked In\",\"altTe"
+    },
+    {
+     "url": "https://graphql.contentful.com/content/v1/spaces/9mvtzqjujsdv/environments/master/?access_token=6wNO9NMBb-xH5KA--3XiPLbY_ArIrbAAHISlHx0Abik",
+     "method": "POST",
+     "status": 200,
+     "post": "{\"operationName\":\"GetAppHeaderContent\",\"variables\":{},\"query\":\"query GetAppHeaderContent {\\n  rsAppHeaderCollection(limit: 1) {\\n    items {\\n      buttonReferencesCollection(limit: 10) {\\n        items {\\n          ctaButton\\n          buttonId\\n          __typename\\n        }\\n        __typename\\n      }\\n      contactGsCareers {\\n        emailTo\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "accept": "*/*",
+      "content-type": "application/json"
+     },
+     "body": "{\"data\":{\"rsAppHeaderCollection\":{\"__typename\":\"RsAppHeaderCollection\",\"items\":[{\"__typename\":\"RsAppHeader\",\"contactGsCareers\":{\"__typename\":\"ContactViaEmail\",\"emailTo\":\"CareersFeedback@gs.com\"},\"buttonReferencesCollection\":{\"__typename\":\"RsAppHeaderButtonReferencesCollection\",\"items\":[{\"__typename\":\"CtaButton\",\"ctaButton\":\"Contact GS Careers Team\",\"buttonId\":\"gsCareersDLBtn\"},{\"__typename\":\"CtaButton\",\"ctaButton\":\"Login\",\"buttonId\":\"accountLogin\"},{\"__typename\":\"CtaButton\",\"ctaButton\":\"Log out\",\"buttonId\":\"accountLogout\"},{\"__typename\":\"CtaButton\",\"ctaButton\":\"Employee Login\",\"buttonId\":\"employeeLogin\"},{\"__typename\":\"CtaButton\",\"ctaButton\":\"Students\",\"buttonId\":\"studentCareersHomeBtn\"},{\"__typename\":\"CtaButton\",\"ctaButton\":\"Careers Blog\",\"buttonId\":\"careersBlogBtn\"},{\"__typename\":\"CtaButton\",\"ctaButton\":\"Careers Home\",\"buttonId\":\"careersHomeBtn\"}]}}]}}}"
+    },
+    {
+     "url": "https://graphql.contentful.com/content/v1/spaces/9mvtzqjujsdv/environments/master/?access_token=6wNO9NMBb-xH5KA--3XiPLbY_ArIrbAAHISlHx0Abik",
+     "method": "POST",
+     "status": 200,
+     "post": "{\"operationName\":\"GetBannerContent\",\"variables\":{\"id\":\"oe-banner\"},\"query\":\"query GetBannerContent($id: String) {\\n  bannerCollection(where: {bannerId: $id}, limit: 1) {\\n    items {\\n      contentTitle\\n      text\\n      status\\n      emphasis\\n      iconName\\n      active\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "accept": "*/*",
+      "content-type": "application/json"
+     },
+     "body": "{\"data\":{\"bannerCollection\":{\"__typename\":\"BannerCollection\",\"items\":[{\"__typename\":\"Banner\",\"contentTitle\":\"OE | Banner\",\"text\":\"Please note some features will be temporarily unavailable due to maintenance scheduled from 10:00 - 12:00 PM  EST July 9th\",\"status\":\"information\",\"emphasis\":\"subtle\",\"iconName\":\"info\",\"active\":false}]}}}"
+    },
+    {
+     "url": "https://api-higher.gs.com/gateway/api/v1/graphql",
+     "method": "POST",
+     "status": 200,
+     "post": "{\"operationName\":\"GetFilterCategories\",\"variables\":{\"experiences\":[\"PROFESSIONAL\",\"EARLY_CAREER\"]},\"query\":\"query GetFilterCategories($experiences: [RoleSearchExperience!]) {\\n  roleSearchFilterCategories(experiences: $experiences) {\\n    code\\n    description\\n    __typename\\n  }\\n}\"}",
+     "req_headers": {
+      "x-datadog-origin": "rum",
+      "x-higher-session-id": "67248d95-76d1-40bb-945f-21cb459b3274",
+      "x-datadog-parent-id": "519453888138603178",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "x-higher-request-id": "1a491d46-1ff6-49af-8ce0-c33e6aa8ec5a",
+      "sec-ch-ua-mobile": "?0",
+      "x-datadog-trace-id": "6828109283703720173",
+      "traceparent": "00-00000000000000005ec2513776b508ed-0735788f1fb26aaa-01",
+      "accept": "*/*",
+      "content-type": "application/json",
+      "x-datadog-sampling-priority": "1"
+     },
+     "body": "{\"data\":{\"roleSearchFilterCategories\":[{\"code\":\"EXPERIENCE_LEVEL\",\"description\":\"Experience Level\",\"__typename\":\"RoleSearchFilterCategoryTypeGraphQlDTO\"},{\"code\":\"JOB_FUNCTION\",\"description\":\"Job Function\",\"__typename\":\"RoleSearchFilterCategoryTypeGraphQlDTO\"},{\"code\":\"DIVISION\",\"description\":\"Divisions\",\"__typename\":\"RoleSearchFilterCategoryTypeGraphQlDTO\"},{\"code\":\"SKILLSET\",\"description\":\"Skillsets\",\"__typename\":\"RoleSearchFilterCategoryTypeGraphQlDTO\"},{\"code\":\"LOCATION\",\"description\":\"Locations\",\"__typename\":\"RoleSearchFilterCategoryTypeGraphQlDTO\"}]}}"
+    },
+    {
+     "url": "https://browser-intake-datadoghq.com/api/v2/replay?ddsource=browser&ddtags=sdk_version%3A5.1.0%2Capi%3Axhr%2Cenv%3APROD%2Cservice%3Ahigher-role-search%2Cversion%3A2.0.22&dd-api-key=pub88ebcb29fcbb8c0200aa8c1aedc005fb&dd-evp-origin-version=5.1.0&dd-evp-origin=browser&dd-request-id=a1d0d63e-5a2d-4a84-99a9-52e23a43be55",
+     "method": "POST",
+     "status": 202,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryQ7hzE6BhlNn2nNYT",
+      "sec-ch-ua-mobile": "?0",
+      "accept-language": "en-IN"
+     },
+     "body": "{\"request_id\":\"a1d0d63e-5a2d-4a84-99a9-52e23a43be55\"}"
+    },
+    {
+     "url": "https://api-higher.gs.com/gateway/api/v1/graphql",
+     "method": "POST",
+     "status": 200,
+     "post": "{\"operationName\":\"GetRoleFilters\",\"variables\":{\"filterCategories\":[\"EXPERIENCE_LEVEL\",\"JOB_FUNCTION\",\"DIVISION\",\"SKILLSET\",\"LOCATION\"],\"experiences\":[\"EARLY_CAREER\",\"PROFESSIONAL\"]},\"query\":\"query GetRoleFilters($filterCategories: [RoleSearchFilterCategoryType!], $experiences: [RoleSearchExperience!]!) {\\n  roleSearchFilters(categories: $filterCategories, experiences: $experiences) {\\n    filterCategoryType {\\n      code\\n      description\\n      __typename\\n    }\\n    filters {\\n      filter\\n      count\\n      subFilters {\\n        filter\\n        count\\n        subFilters {\\n          filter\\n          count\\n          subFilters {\\n            filter\\n            count\\n            __typename\\n          }\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}",
+     "req_headers": {
+      "x-datadog-origin": "rum",
+      "x-higher-session-id": "67248d95-76d1-40bb-945f-21cb459b3274",
+      "x-datadog-parent-id": "2482085280399400894",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "x-higher-request-id": "c8b6aa8f-6799-4722-878d-4627fa437f44",
+      "sec-ch-ua-mobile": "?0",
+      "x-datadog-trace-id": "2371399520075147428",
+      "traceparent": "00-000000000000000020e8e74c9e9c68a4-22722369706e9fbe-01",
+      "accept": "*/*",
+      "content-type": "application/json",
+      "x-datadog-sampling-priority": "1"
+     },
+     "body": "{\"data\":{\"roleSearchFilters\":[{\"filterCategoryType\":{\"code\":\"LOCATION\",\"description\":\"Locations\",\"__typename\":\"RoleSearchFilterCategoryTypeGraphQlDTO\"},\"filters\":[{\"filter\":\"Australia\",\"count\":9,\"subFilters\":[{\"filter\":\"NSW\",\"count\":8,\"subFilters\":[{\"filter\":\"Sydney\",\"count\":8,\"subFilters\":[],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"},{\"filter\":\"New South Wales\",\"count\":1,\"subFilters\":[{\"filter\":\"Sydney\",\"count\":1,\"subFilters\":[],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"},{\"filter\":\"VIC\",\"count\":1,\"subFilters\":[{\"filter\":\"Melbourne\",\"count\":1,\"subFilters\":[],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"},{\"filter\":\"Brazil\",\"count\":3,\"subFilters\":[{\"filter\":\"Sao Paulo\",\"count\":3,\"subFilters\":[{\"filter\":\"Sao Paulo\",\"count\":3,\"subFilters\":[],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"},{\"filter\":\"China\",\"count\":10,\"subFilters\":[{\"filter\":\"Beijing\",\"count\":7,\"subFilters\":[{\"filter\":\"Beijing\",\"count\":5,\"subFilters\":[],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"},{\"filter\":\"Guangdong\",\"count\":1,\"subFilters\":[{\"filter\":\"Shenzhen\",\"count\":1,\"subFilters\":[],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"},{\"filter\":\"Shanghai\",\"count\":2,\"subFilters\":[{\"filter\":\"Shanghai\",\"count\":2,\"subFilters\":[],\"__typename\""
+    },
+    {
+     "url": "https://api-higher.gs.com/gateway/api/v1/graphql",
+     "method": "POST",
+     "status": 200,
+     "post": "{\"operationName\":\"GetRoleFilters\",\"variables\":{\"filterCategories\":[],\"experiences\":[\"EARLY_CAREER\",\"PROFESSIONAL\"]},\"query\":\"query GetRoleFilters($filterCategories: [RoleSearchFilterCategoryType!], $experiences: [RoleSearchExperience!]!) {\\n  roleSearchFilters(categories: $filterCategories, experiences: $experiences) {\\n    filterCategoryType {\\n      code\\n      description\\n      __typename\\n    }\\n    filters {\\n      filter\\n      count\\n      subFilters {\\n        filter\\n        count\\n        subFilters {\\n          filter\\n          count\\n          subFilters {\\n            filter\\n            count\\n            __typename\\n          }\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}",
+     "req_headers": {
+      "x-datadog-origin": "rum",
+      "x-higher-session-id": "67248d95-76d1-40bb-945f-21cb459b3274",
+      "x-datadog-parent-id": "474392240956010996",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "x-higher-request-id": "e2f6bedd-25d0-4961-a825-28167abdfd04",
+      "sec-ch-ua-mobile": "?0",
+      "x-datadog-trace-id": "2938456761133263291",
+      "traceparent": "00-000000000000000028c77edb0b3169bb-0695613ace6271f4-01",
+      "accept": "*/*",
+      "content-type": "application/json",
+      "x-datadog-sampling-priority": "1"
+     },
+     "body": "{\"data\":{\"roleSearchFilters\":[{\"filterCategoryType\":{\"code\":\"LOCATION\",\"description\":\"Locations\",\"__typename\":\"RoleSearchFilterCategoryTypeGraphQlDTO\"},\"filters\":[{\"filter\":\"Australia\",\"count\":9,\"subFilters\":[{\"filter\":\"NSW\",\"count\":8,\"subFilters\":[{\"filter\":\"Sydney\",\"count\":8,\"subFilters\":[],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"},{\"filter\":\"New South Wales\",\"count\":1,\"subFilters\":[{\"filter\":\"Sydney\",\"count\":1,\"subFilters\":[],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"},{\"filter\":\"VIC\",\"count\":1,\"subFilters\":[{\"filter\":\"Melbourne\",\"count\":1,\"subFilters\":[],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"},{\"filter\":\"Brazil\",\"count\":3,\"subFilters\":[{\"filter\":\"Sao Paulo\",\"count\":3,\"subFilters\":[{\"filter\":\"Sao Paulo\",\"count\":3,\"subFilters\":[],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"},{\"filter\":\"China\",\"count\":10,\"subFilters\":[{\"filter\":\"Beijing\",\"count\":7,\"subFilters\":[{\"filter\":\"Beijing\",\"count\":5,\"subFilters\":[],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"},{\"filter\":\"Guangdong\",\"count\":1,\"subFilters\":[{\"filter\":\"Shenzhen\",\"count\":1,\"subFilters\":[],\"__typename\":\"SearchFilterGraphQlDTO\"}],\"__typename\":\"SearchFilterGraphQlDTO\"},{\"filter\":\"Shanghai\",\"count\":2,\"subFilters\":[{\"filter\":\"Shanghai\",\"count\":2,\"subFilters\":[],\"__typename\""
+    },
+    {
+     "url": "https://graphql.contentful.com/content/v1/spaces/9mvtzqjujsdv/environments/master/?access_token=6wNO9NMBb-xH5KA--3XiPLbY_ArIrbAAHISlHx0Abik",
+     "method": "POST",
+     "status": 200,
+     "post": "{\"operationName\":\"GetSearchResultHeadingQuery\",\"variables\":{},\"query\":\"query GetSearchResultHeadingQuery {\\n  searchResultsHeadingCollection(limit: 5) {\\n    items {\\n      headingId\\n      heading {\\n        title\\n        subTitle\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "accept": "*/*",
+      "content-type": "application/json"
+     },
+     "body": "{\"data\":{\"searchResultsHeadingCollection\":{\"__typename\":\"SearchResultsHeadingCollection\",\"items\":[{\"__typename\":\"SearchResultsHeading\",\"heading\":null,\"headingId\":null},{\"__typename\":\"SearchResultsHeading\",\"headingId\":\"IM_PREFETCH_HEADING\",\"heading\":{\"__typename\":\"HeadingBlock\",\"title\":\"We found roles for you!\",\"subTitle\":\"To broaden your search, please adjust your filters.\"}},{\"__typename\":\"SearchResultsHeading\",\"headingId\":\"IM_RESULT_HEADING\",\"heading\":{\"__typename\":\"HeadingBlock\",\"title\":\"We found opportunities that match your search!\",\"subTitle\":null}},{\"__typename\":\"SearchResultsHeading\",\"headingId\":\"MORE_RESULTS\",\"heading\":{\"__typename\":\"HeadingBlock\",\"title\":\"We found opportunities that match your search!\",\"subTitle\":null}},{\"__typename\":\"SearchResultsHeading\",\"headingId\":\"LOW_RESULTS\",\"heading\":{\"__typename\":\"HeadingBlock\",\"title\":\"We found a few opportunities that match you.\",\"subTitle\":\"You can expand your results by reducing the number of filters below, or further refining your search criteria.\"}}]}}}"
+    },
+    {
+     "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.1.0%2Capi%3Afetch%2Cenv%3APROD%2Cservice%3Ahigher-role-search%2Cversion%3A2.0.22&dd-api-key=pub88ebcb29fcbb8c0200aa8c1aedc005fb&dd-evp-origin-version=5.1.0&dd-evp-origin=browser&dd-request-id=f2580560-69cb-4f8e-bdd2-c79ac3d0e358&batch_time=1790576984394",
+     "method": "POST",
+     "status": 202,
+     "post": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":20},\"discarded\":false},\"application\":{\"id\":\"9dc0c1a4-2261-457e-9450-c7c91cc35c08\"},\"date\":1790576983471,\"service\":\"higher-role-search\",\"version\":\"2.0.22\",\"source\":\"browser\",\"session\":{\"id\":\"67248d95-76d1-40bb-945f-21cb459b3274\",\"type\":\"user\"},\"view\":{\"id\":\"ac173f9c-73a7-4a49-b6a2-ec2a9292cfcb\",\"url\":\"https://higher.gs.com/results?LOCATION=Bengaluru%7CHyderabad&page=1&sort=POSTED_DATE\",\"referrer\":\"\"},\"action\":{\"id\":[]},\"display\":{\"viewport\":{\"width\":1280,\"height\":720}},\"resource\":{\"id\":\"f4e73cab-1d0d-476a-8641-5870ec895b76\",\"type\":\"document\",\"url\":\"https://higher.gs.com/results?LOCATION=Bengaluru%7CHyderabad&page=1&sort=POSTED_DATE\",\"duration\":653900000,\"size\":8437,\"download\":{\"duration\":900000,\"start\":273400000},\"first_byte\":{\"duration\":161100000,\"start\":112300000},\"connect\":{\"duration\":41200000,\"start\":70900000},\"ssl\":{\"duration\":29200000,\"start\":82900000},\"dns\":{\"duration\":69000000,\"start\":1900000},\"redirect\":{\"duration\":0,\"start\":0}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":20},\"discarded\":false},\"application\":{\"id\":\"9dc0c1a4-2261-457e-9450-c7c91cc35c08\"},\"date\":1790576983750,\"service\":\"higher-role-search\",\"version\":\"2.0.22\",\"source\":\"browser\",\"session\":{\"id\":\"67248d95-76d1-40bb-945f-21cb459b3274\",\"type\":\"user\"},\"view\":{\"id\":\"ac173f9c-73a7-4a49-b6a2-ec2a9292cfcb\",\"url\":\"https://higher.gs.com/results?LOCATION=Bengaluru%7CHyderabad&page=1&sort=POSTED_DATE\",\"referrer\":\"\"},\"action\":{\"id\":[]},\"display\":{\"viewport\":{\"width\":1280,\"height\":720}},\"resource\":{\"id\":\"79069204-cb9a-45b4-9e5b-f40c883a63f6\",\"type\":\"css\",\"url\":\"https://higher.gs.com/_next/static/css/06234f82f5371afe.css\",\"duration\":111700000,\"size\":108619,\"download\":{\"duration\":600000,\"start\":111100000},\"first_byte\":{\"duration\":104000000,\"start\":7100000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":20},\"discarded\":false},\"application\":{\"id\":\"9dc0c1a4-2261-457e-9450-c7c91cc35c08\"},\"date\":1790576983750,\"service\":\"higher-role-search\",\"version\":\"2.0.22\",\"source\":\"browser\",\"session\":{\"id\":\"67248d95-76d1-40bb-945f-21cb459b3274\",\"type\":\"user\"},\"view\":{\"id\":\"ac173f9c-73a7-4a49-b6a2-ec2a9292cfcb\",\"url\":\"https://higher.gs.com/results?LOCATION=Bengaluru%7CHyderabad&page=1&sort=POSTED_DATE\",\"referrer\":\"\"},\"action\":{\"id\":[]},\"display\":{\"vie",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "text/plain;charset=UTF-8",
+      "sec-ch-ua-mobile": "?0",
+      "accept-language": "en-IN"
+     },
+     "body": "{\"request_id\":\"f2580560-69cb-4f8e-bdd2-c79ac3d0e358\"}"
+    },
+    {
+     "url": "https://api-higher.gs.com/gateway/api/v1/graphql",
+     "method": "POST",
+     "status": 200,
+     "post": "{\"operationName\":\"GetRoles\",\"variables\":{\"searchQueryInput\":{\"page\":{\"pageSize\":20,\"pageNumber\":0},\"sort\":{\"sortStrategy\":\"POSTED_DATE\",\"sortOrder\":\"DESC\"},\"filters\":[{\"filterCategoryType\":\"LOCATION\",\"filters\":[{\"filter\":\"India\",\"subFilters\":[{\"filter\":\"Karnataka\",\"subFilters\":[{\"filter\":\"Bengaluru\",\"subFilters\":[]}]},{\"filter\":\"Telangana\",\"subFilters\":[{\"filter\":\"Hyderabad\",\"subFilters\":[]}]}]}]}],\"experiences\":[\"EARLY_CAREER\",\"PROFESSIONAL\"],\"searchTerm\":\"\"}},\"query\":\"query GetRoles($searchQueryInput: RoleSearchQueryInput!) {\\n  roleSearch(searchQueryInput: $searchQueryInput) {\\n    totalCount\\n    items {\\n      roleId\\n      corporateTitle\\n      jobTitle\\n      jobFunction\\n      locations {\\n        primary\\n        state\\n        country\\n        city\\n        __typename\\n      }\\n      status\\n      division\\n      skills\\n      jobType {\\n        code\\n        description\\n        __typename\\n      }\\n      externalSource {\\n        sourceId\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}",
+     "req_headers": {
+      "x-datadog-origin": "rum",
+      "x-higher-session-id": "67248d95-76d1-40bb-945f-21cb459b3274",
+      "x-datadog-parent-id": "397479131280161330",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "x-higher-request-id": "9aea2bcd-7a2b-4046-88a3-11692ee73b8c",
+      "sec-ch-ua-mobile": "?0",
+      "x-datadog-trace-id": "5203970568844805077",
+      "traceparent": "00-0000000000000000483837a9199503d5-05842129f995ba32-01",
+      "accept": "*/*",
+      "content-type": "application/json",
+      "x-datadog-sampling-priority": "1"
+     },
+     "body": "{\"data\":{\"roleSearch\":{\"totalCount\":133,\"items\":[{\"roleId\":\"182856_GS_MID_CAREER\",\"corporateTitle\":\"Associate\",\"jobTitle\":\"Internal Audit-Hyderabad-Associate-Data Analytics & Reporting\",\"jobFunction\":\"Data Analytics & Reporting\",\"locations\":[{\"primary\":true,\"state\":\"Telangana\",\"country\":\"India\",\"city\":\"Hyderabad\",\"__typename\":\"RoleLocationGraphQlDTO\"}],\"status\":\"POSTED\",\"division\":\"Internal Audit\",\"skills\":[],\"jobType\":null,\"externalSource\":{\"sourceId\":\"182856\",\"__typename\":\"ExternalSourceGraphQlDTO\"},\"__typename\":\"ExternalRoleGraphQlDTO\"},{\"roleId\":\"184665_GS_MID_CAREER\",\"corporateTitle\":\"Vice President\",\"jobTitle\":\"GBM - TxB - Project Management - Vice President - Bengaluru\",\"jobFunction\":\"Project Management\",\"locations\":[{\"primary\":true,\"state\":\"Karnataka\",\"country\":\"India\",\"city\":\"Bengaluru\",\"__typename\":\"RoleLocationGraphQlDTO\"}],\"status\":\"POSTED\",\"division\":\"Global Banking & Markets\",\"skills\":[],\"jobType\":null,\"externalSource\":{\"sourceId\":\"184665\",\"__typename\":\"ExternalSourceGraphQlDTO\"},\"__typename\":\"ExternalRoleGraphQlDTO\"},{\"roleId\":\"174133_GS_MID_CAREER\",\"corporateTitle\":\"Vice President\",\"jobTitle\":\"The Core Engineering - Search & Entity Model Eng - Vice President - Hyderabad\",\"jobFunction\":\"Software Engineering\",\"locations\":[{\"primary\":true,\"state\":\"Telangana\",\"country\":\"India\",\"city\":\"Hyderabad\",\"__typename\":\"RoleLocationGraphQlDTO\"}],\"status\":\"POSTED\",\"division\":\"The Core Engineering\",\"skills\":[],\"jobType\":null,\"externalSource\":{\"sourceId\":\"174133\",\"__typename\":\""
+    },
+    {
+     "url": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.1.0%2Capi%3Afetch%2Cenv%3APROD%2Cservice%3Ahigher-role-search%2Cversion%3A2.0.22&dd-api-key=pub88ebcb29fcbb8c0200aa8c1aedc005fb&dd-evp-origin-version=5.1.0&dd-evp-origin=browser&dd-request-id=7b50024b-e59b-4f19-8b80-582a546e59cf&batch_time=1790576984850",
+     "method": "POST",
+     "status": 202,
+     "post": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":20},\"discarded\":false},\"application\":{\"id\":\"9dc0c1a4-2261-457e-9450-c7c91cc35c08\"},\"date\":1790576984273,\"service\":\"higher-role-search\",\"version\":\"2.0.22\",\"source\":\"browser\",\"session\":{\"id\":\"67248d95-76d1-40bb-945f-21cb459b3274\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"id\":\"ac173f9c-73a7-4a49-b6a2-ec2a9292cfcb\",\"url\":\"https://higher.gs.com/results?LOCATION=Bengaluru%7CHyderabad&page=1&sort=POSTED_DATE\",\"referrer\":\"\"},\"action\":{\"id\":[]},\"display\":{\"viewport\":{\"width\":1280,\"height\":720}},\"long_task\":{\"id\":\"df316864-ddf2-4735-9f36-7de1a7985337\",\"duration\":89000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":20},\"discarded\":false},\"application\":{\"id\":\"9dc0c1a4-2261-457e-9450-c7c91cc35c08\"},\"date\":1790576984376,\"service\":\"higher-role-search\",\"version\":\"2.0.22\",\"source\":\"browser\",\"session\":{\"id\":\"67248d95-76d1-40bb-945f-21cb459b3274\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"id\":\"ac173f9c-73a7-4a49-b6a2-ec2a9292cfcb\",\"url\":\"https://higher.gs.com/results?LOCATION=Bengaluru%7CHyderabad&page=1&sort=POSTED_DATE\",\"referrer\":\"\"},\"action\":{\"id\":[]},\"display\":{\"viewport\":{\"width\":1280,\"height\":720}},\"resource\":{\"id\":\"8d636ab9-bf1b-44d1-a39d-3e8d539f10b9\",\"type\":\"xhr\",\"duration\":29000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://graphql.contentful.com/content/v1/spaces/9mvtzqjujsdv/environments/master/?access_token=6wNO9NMBb-xH5KA--3XiPLbY_ArIrbAAHISlHx0Abik\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":20},\"discarded\":false},\"application\":{\"id\":\"9dc0c1a4-2261-457e-9450-c7c91cc35c08\"},\"date\":1790576984393,\"service\":\"higher-role-search\",\"version\":\"2.0.22\",\"source\":\"browser\",\"session\":{\"id\":\"67248d95-76d1-40bb-945f-21cb459b3274\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"id\":\"ac173f9c-73a7-4a49-b6a2-ec2a9292cfcb\",\"url\":\"https://higher.gs.com/results?LOCATION=Bengaluru%7CHyderabad&page=1&sort=POSTED_DATE\",\"referrer\":\"\"},\"action\":{\"id\":[]},\"display\":{\"viewport\":{\"width\":1280,\"height\":720}},\"resource\":{\"id\":\"7035c14e-4839-4899-abe0-5a360faf436f\",\"type\":\"image\",\"url\":\"https://images.ctfassets.net/9mvtzqjujsdv/5LoGNNuvnW6EHrkHEj6Q9A/0ac5d05db394931083f3489393201129/footer-facebook.svg\",\"duration\":39700000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"configuration\":{\"session_sample_rate",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "text/plain;charset=UTF-8",
+      "sec-ch-ua-mobile": "?0",
+      "accept-language": "en-IN"
+     },
+     "body": "{\"request_id\":\"7b50024b-e59b-4f19-8b80-582a546e59cf\"}"
+    },
+    {
+     "url": "https://browser-intake-datadoghq.com/api/v2/replay?ddsource=browser&ddtags=sdk_version%3A5.1.0%2Capi%3Axhr%2Cenv%3APROD%2Cservice%3Ahigher-role-search%2Cversion%3A2.0.22&dd-api-key=pub88ebcb29fcbb8c0200aa8c1aedc005fb&dd-evp-origin-version=5.1.0&dd-evp-origin=browser&dd-request-id=6d13a994-97c0-43d0-8a2f-8bdc44e9f3c1",
+     "method": "POST",
+     "status": 202,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryiVnbPs5OFGKPQYzw",
+      "sec-ch-ua-mobile": "?0",
+      "accept-language": "en-IN"
+     },
+     "body": "{\"request_id\":\"6d13a994-97c0-43d0-8a2f-8bdc44e9f3c1\"}"
+    },
+    {
+     "url": "https://graphql.contentful.com/content/v1/spaces/9mvtzqjujsdv/environments/master/?access_token=6wNO9NMBb-xH5KA--3XiPLbY_ArIrbAAHISlHx0Abik",
+     "method": "POST",
+     "status": 200,
+     "post": "{\"operationName\":\"GetRoleActionContent\",\"variables\":{\"id\":\"SHARE_ROLE\"},\"query\":\"query GetRoleActionContent($id: String!) {\\n  rsRoleActionsCollection(where: {id: $id}, limit: 1) {\\n    items {\\n      heading {\\n        title\\n        subTitle\\n        __typename\\n      }\\n      email {\\n        emailBody\\n        emailSubject\\n        __typename\\n      }\\n      labelReferenceCollection(limit: 10) {\\n        items {\\n          label\\n          labelId\\n          __typename\\n        }\\n        __typename\\n      }\\n      buttonReferencesCollection(limit: 10) {\\n        items {\\n          buttonId\\n          ctaButton\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "accept": "*/*",
+      "content-type": "application/json"
+     },
+     "body": "{\"data\":{\"rsRoleActionsCollection\":{\"__typename\":\"RsRoleActionsCollection\",\"items\":[{\"__typename\":\"RsRoleActions\",\"heading\":{\"__typename\":\"HeadingBlock\",\"title\":\"Share Opportunity\",\"subTitle\":null},\"email\":{\"__typename\":\"ContactViaEmail\",\"emailBody\":\"Check out this opportunity at Goldman Sachs \",\"emailSubject\":\"Goldman Sachs | \"},\"labelReferenceCollection\":{\"__typename\":\"RsRoleActionsLabelReferenceCollection\",\"items\":[{\"__typename\":\"Labels\",\"label\":\"Copy & Paste\",\"labelId\":\"copyAndPaste\"},{\"__typename\":\"Labels\",\"label\":\"Send To\",\"labelId\":\"sendTo\"}]},\"buttonReferencesCollection\":{\"__typename\":\"RsRoleActionsButtonReferencesCollection\",\"items\":[{\"__typename\":\"CtaButton\",\"buttonId\":\"copyRoleURL\",\"ctaButton\":\"Copy\"},{\"__typename\":\"CtaButton\",\"buttonId\":\"shareRoleEmail\",\"ctaButton\":\"Email\"},{\"__typename\":\"CtaButton\",\"buttonId\":\"shareRoleLongLabel\",\"ctaButton\":\"Share this role\"},{\"__typename\":\"CtaButton\",\"buttonId\":\"shareRoleShortLabel\",\"ctaButton\":\"Share\"}]}}]}}}"
+    },
+    {
+     "url": "https://graphql.contentful.com/content/v1/spaces/9mvtzqjujsdv/environments/master/?access_token=6wNO9NMBb-xH5KA--3XiPLbY_ArIrbAAHISlHx0Abik",
+     "method": "POST",
+     "status": 200,
+     "post": "{\"operationName\":\"GetRoleActionContent\",\"variables\":{\"id\":\"BOOKMARK_ROLE\"},\"query\":\"query GetRoleActionContent($id: String!) {\\n  rsRoleActionsCollection(where: {id: $id}, limit: 1) {\\n    items {\\n      heading {\\n        title\\n        subTitle\\n        __typename\\n      }\\n      email {\\n        emailBody\\n        emailSubject\\n        __typename\\n      }\\n      labelReferenceCollection(limit: 10) {\\n        items {\\n          label\\n          labelId\\n          __typename\\n        }\\n        __typename\\n      }\\n      buttonReferencesCollection(limit: 10) {\\n        items {\\n          buttonId\\n          ctaButton\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "accept": "*/*",
+      "content-type": "application/json"
+     },
+     "body": "{\"data\":{\"rsRoleActionsCollection\":{\"__typename\":\"RsRoleActionsCollection\",\"items\":[{\"__typename\":\"RsRoleActions\",\"email\":null,\"labelReferenceCollection\":{\"items\":[],\"__typename\":\"RsRoleActionsLabelReferenceCollection\"},\"heading\":{\"__typename\":\"HeadingBlock\",\"title\":\"Save Opportunity to Favorites\",\"subTitle\":\"To favorite this role, log into your account or create one using your name and email address.\"},\"buttonReferencesCollection\":{\"__typename\":\"RsRoleActionsButtonReferencesCollection\",\"items\":[{\"__typename\":\"CtaButton\",\"buttonId\":\"bookmarkRoleLongLabel\",\"ctaButton\":\"Save to Favorites\"},{\"__typename\":\"CtaButton\",\"buttonId\":\"bookmarkRoleShortLabel\",\"ctaButton\":\"Save\"}]}}]}}}"
+    },
+    {
+     "url": "https://higher.gs.com/_next/data/ab13d4b478f23c8638dd7568c85df1cf6b2a91a8/roles/182856.json?roleId=182856",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/results?LOCATION=Bengaluru|Hyderabad&page=1&sort=POSTED_DATE",
+      "purpose": "prefetch",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-nextjs-data": "1"
+     },
+     "body": "{\"pageProps\":{\"role\":{\"roleId\":\"182856_GS_MID_CAREER\",\"corporateTitle\":\"Associate\",\"jobTitle\":\"Internal Audit-Hyderabad-Associate-Data Analytics & Reporting\",\"jobFunction\":\"Data Analytics & Reporting\",\"locations\":[{\"primary\":true,\"state\":\"Telangana\",\"country\":\"India\",\"city\":\"Hyderabad\",\"__typename\":\"RoleLocationGraphQlDTO\"}],\"division\":\"Internal Audit\",\"descriptionHtml\":\"<p><strong>WHAT WE DO</strong></p><p>Internal Audit\u2019s mission is to independently assess the firm\u2019s internal control structure, including governance processes and controls, risk management, capital and anti-financial crime frameworks. Internal Audit communicates on the effectiveness of governance, risk management and controls, raises awareness of control risk, assesses control culture and conduct risk, and monitors management\u2019s implementation of control measures. Data Strategy and Analytics (DSA) partners with audit teams to translate data needs into durable, reusable capabilities. The team designs data products, engineering patterns and AI-ready data foundations that improve the efficiency, consistency and insight of audit work.About the Role</p><p>We are looking for a hands\u2011on <strong>Full Stack</strong>\u00a0<strong>Data Analyst</strong>\u00a0to join our Internal Audit Data Analytics team supporting the Internal Audit Division. In this role you will design, build, and ship analytical applications end\u2011to\u2011end \u2014 from data models and Python services through to modern React front\u2011ends \u2014 that directly enable audit teams t"
+    },
+    {
+     "url": "https://higher.gs.com/_next/data/ab13d4b478f23c8638dd7568c85df1cf6b2a91a8/roles/184665.json?roleId=184665",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/results?LOCATION=Bengaluru|Hyderabad&page=1&sort=POSTED_DATE",
+      "purpose": "prefetch",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-nextjs-data": "1"
+     },
+     "body": "{\"pageProps\":{\"role\":{\"roleId\":\"184665_GS_MID_CAREER\",\"corporateTitle\":\"Vice President\",\"jobTitle\":\"GBM - TxB - Project Management - Vice President - Bengaluru\",\"jobFunction\":\"Project Management\",\"locations\":[{\"primary\":true,\"state\":\"Karnataka\",\"country\":\"India\",\"city\":\"Bengaluru\",\"__typename\":\"RoleLocationGraphQlDTO\"}],\"division\":\"Global Banking & Markets\",\"descriptionHtml\":\"<p><strong>TRANSACTION BANKING\u00a0</strong></p><p>We aim to build a modern and digital-first transaction banking solution to serve our clients. Our business combines the strength, heritage, and expertise of a 150-year-old firm with the agility and entrepreneurial spirit of a tech start-up. Our goal is to provide a best-in-class digital product that helps clients to succeed by giving them a holistic view of their business. Through the use of modern technology built on the cloud, we are the alternative to legacy platforms. We\u2019re a team of diverse experts helping our clients to build the future of their Treasury.\u00a0</p><p><strong>Responsibilities</strong></p><p>The Transaction Banking Delivery team\u00a0is a group of Project Managers and Roadmap Portfolio Managers who are responsible for planning and execution of cross-functional products and features build, drive impact assessment, track detailed project plans and commitments, manage risks and dependencies, and partner with product, engineering, risk, operations, sales and core functions.</p><ul><li>Lead complex and strategic cross divisional initiatives in partners"
+    },
+    {
+     "url": "https://higher.gs.com/_next/data/ab13d4b478f23c8638dd7568c85df1cf6b2a91a8/roles/174133.json?roleId=174133",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://higher.gs.com/results?LOCATION=Bengaluru|Hyderabad&page=1&sort=POSTED_DATE",
+      "purpose": "prefetch",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-nextjs-data": "1"
+     },
+     "body": "{\"pageProps\":{\"role\":{\"roleId\":\"174133_GS_MID_CAREER\",\"corporateTitle\":\"Vice President\",\"jobTitle\":\"The Core Engineering - Search & Entity Model Eng - Vice President - Hyderabad\",\"jobFunction\":\"Software Engineering\",\"locations\":[{\"primary\":true,\"state\":\"Telangana\",\"country\":\"India\",\"city\":\"Hyderabad\",\"__typename\":\"RoleLocationGraphQlDTO\"}],\"division\":\"The Core Engineering\",\"descriptionHtml\":\"<p>The Core Engineering\u00a0</p><p>The Core Engineering builds and operates the platforms, applications, data solutions, models, and analytics that power critical processes for The Core divisions of the firm (e.g., Risk, responsible for the risk profile of firm activities; Controllers, responsible for the financial control and reporting obligations; Compliance, responsible for the firm\u2019s compliance, regulatory, and reputational risks; Corporate Treasury, responsible for the firm\u2019s liquidity, funding, balance sheet, etc.; and Human Capital Management, responsible for attracting, developing, and managing a global workforce). A centralized engineering structure in support of The Core enables a common platform model and operating framework that promotes consistent governance and scalable solutions, leveraging cloud, AI, and machine learning for innovation and efficiency. The Core Engineering\u2019s 2,000&#43; engineers and strats deliver engineering, data, analytics, and quantitative capabilities within six business units:\u00a0</p><ul><li><p>Metrics &amp; Analytics Platforms: responsible for the measureme"
+    }
+   ]
+  },
+  {
+   "name": "UBS",
+   "start": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=searchResults&SearchType=linkquery&LinkID=4138",
+   "final": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=searchResults&SearchType=linkquery&LinkID=4138#keyWordSearch=&locationSearch=",
+   "title": "Job Search",
+   "text": "Opportunityawaits...\nhttp://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=searchResults&SearchType=linkquery&LinkID=4138\n\nPersonalize your visit with cookies\n\n\n\nWe're all about transparency. These are the reasons why our cookies are good for you.\n\n\u2714 Show website with the correct country and language settings\n\n\u2714 Improved experience by showing you relevant information quicker\n\n\u2714 Show you advertising you might be interested in\n\n\n\n\nYou can find all the details in our privacy statement and our cookie notice.\n\nAgree to all Decline all Set preferences\nSkip to main content\nJob search About us Professional careers Early careers Apprentices FAQ Sign In\nBack\nSave this search\nSearch job opportunities that match your interests\ntitle, function category, business d",
+   "captures": [
+    {
+     "url": "https://jobs.ubs.com/TgNewUI/Search/Ajax/HomeSearch",
+     "method": "POST",
+     "status": 200,
+     "post": "partnerId=25008&siteId=5012",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=searchResults&SearchType=linkquery&LinkID=4138",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "*/*",
+      "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "rft": "v7grPiC5OQscsxX5JfftdsM2IWUttiQrKYdE_zY0K7aZ1JUF6BIcDJCE3lhpqClJEw0UfY5V_jxPb14Mlz4N-bkX2Aw1"
+     },
+     "body": "{\"Questions\":[]}"
+    },
+    {
+     "url": "https://jobs.ubs.com/TgNewUI/CandidateZone/Ajax/AngularTgsettingLoad?partnerId=25008&siteId=5012",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=searchResults&SearchType=linkquery&LinkID=4138",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json, text/plain, */*",
+      "rft": "v7grPiC5OQscsxX5JfftdsM2IWUttiQrKYdE_zY0K7aZ1JUF6BIcDJCE3lhpqClJEw0UfY5V_jxPb14Mlz4N-bkX2Aw1"
+     },
+     "body": "{\"tgSettings\":{\"LoginType\":\"0\",\"DateFormat\":\"1\",\"SSLEncrypt\":\"Yes\",\"ProximitySearch\":\"No\",\"RemoveApplyNow\":\"Yes\",\"DefLanguageId\":\"1\",\"DefLocaleId\":\"1033\",\"DefCountryId\":\"223\",\"CandRemainsLoggedIn\":\"No\",\"CandidateSelfDelete\":\"0\",\"DisableJobCart\":\"No\",\"DisableAgents\":\"No\",\"LockOutPeriod\":\"10\",\"SiteGeneralJobSubmissionType\":\"0\",\"SimilarJobsThresholdScore\":\"50\",\"TimeOutSec\":\"600\",\"EnableUSphoneno\":\"No\",\"SSOGateway\":\"0\",\"EnableJobReferralStatusCheck\":\"Yes\",\"EnableJobSubmissionWithdrawal\":\"No\",\"PeriodMaxforSubmissionsOption\":\"3\",\"MaxTotalReqSubmissionPerPeriod\":\"5\",\"MaxConReqSubmission\":\"5\",\"TGPasswordStrength\":\"Strong\",\"EnablePostToMySocialNetworkLink\":\"yes\",\"EnableCommHistPage\":\"no\",\"ShowSocMediaButtonsOnJobDetailsPage\":\"no\",\"EnableSMIntegrationLogin\":\"yes\",\"GoogleDriveClientID\":\"\",\"ProximityDefaultDistance\":\"5\",\"ProximityDefaultMeasurement\":\"Miles\",\"HideCreateAnAccountForThisGateway\":\"no\",\"EnableTalentSuiteAuthentication\":\"No\",\"MapsProviderforProximitysearch\":\"None\",\"LoginDetailsManagement\":\"Enhanced\",\"HideKeywordSearchBox\":\"no\",\"HideLocationSearchBox\":\"no\",\"HideAdvancedSearch\":\"yes\",\"HideAdvancedSearchHomePage\":\"no\",\"EnableSocialReferral\":\"no\",\"EnableJobtoJobNavigation\":\"yes\",\"ShowJobsNearMe\":\"no\",\"ShowFeaturedJobs\":\"no\",\"ShowMostRecentJobs\":\"yes\",\"HideHighlightedJobsSection\":\"no\",\"EmbedTGInOtherWebPages\":\"ALLOW\",\"SuggestMatchingRoles\":\"no\",\"ResponsiveCandidateZone\":\"yes\",\"EmailValidationForCreateAccount\":\"no\",\"DisableSmartSignin\":\"no\",\"EnableconversationalAI\":\"no\",\"Splashscree"
+    },
+    {
+     "url": "https://jobs.ubs.com/TGNewUI/NG-Widgets/browser/assets/i18n/GlobalResources.en-US.json",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=searchResults&SearchType=linkquery&LinkID=4138",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json, text/plain, */*",
+      "rft": "v7grPiC5OQscsxX5JfftdsM2IWUttiQrKYdE_zY0K7aZ1JUF6BIcDJCE3lhpqClJEw0UfY5V_jxPb14Mlz4N-bkX2Aw1"
+     },
+     "body": "{\r\n  \"Label_Authorize\": \"Authorize\",\r\n  \"Label_Postto\": \"Post to\",\r\n  \"Button_AuthFacebook\": \"Authorize Facebook\",\r\n  \"Button_AuthLinkedIn\": \"Authorize LinkedIn\",\r\n  \"Button_AuthTwitter\": \"Authorize Twitter\",\r\n  \"Button_Cancel\": \"Cancel\",\r\n  \"Button_Post\": \"Post\",\r\n  \"Button_Send\": \"Send\",\r\n  \"Label_CharactersRemaining\": \"Characters remaining:\",\r\n  \"Label_PostToFacebook\": \"Post to Facebook\",\r\n  \"Label_PostToLinkedIn\": \"Post to LinkedIn\",\r\n  \"Label_PostToTwitter\": \"Post to Twitter\",\r\n  \"Option_CopyReferralLink\": \"Copy referral link\",\r\n  \"Option_PostToNetwork\": \"Post to my network\",\r\n  \"View_Similar_Jobs\": \"View Similar Jobs\",\r\n  \"Option_SendToFbContacts\": \"Send to my Facebook contacts\",\r\n  \"Option_SendToLiContacts\": \"Send to my LinkedIn contacts\",\r\n  \"Option_SendViaEmail\": \"Send via email\",\r\n  \"Workflow_Pagetitle\": \"Listing the Networks\",\r\n  \"Link_Apply\": \"Use the link to view/apply\",\r\n  \"Button_Ok\": \"OK\",\r\n  \"Heading_Contacts\": \"Contacts\",\r\n  \"Label_Subject\": \"Subject\",\r\n  \"MMM\": \"MMM\",\r\n  \"M\": \"M\",\r\n  \"YYYY\": \"YYYY\",\r\n  \"Message_Authorizing\": \"authorizing...\",\r\n  \"Message_Loading\": \"Loading\",\r\n  \"Heading_ReferralOptions\": \"Select referral method\",\r\n  \"Label_ShowDetails\": \"Show details\",\r\n  \"Message_PostFailed\": \"All posts did not go through\",\r\n  \"Message_PostPartiallySucceeded\": \"Some posts did not go through\",\r\n  \"Message_PostSucceeded\": \"The referral was successfully posted\",\r\n  \"Message_ReferredBy\": \"You have been referred by [employee_name] at [client_name].\",\r\n  \"Prompt"
+    }
+   ]
+  },
+  {
+   "name": "HSBC",
+   "start": "https://portal.careers.hsbc.com/careers?location=India",
+   "final": "https://portal.careers.hsbc.com/careers?location=India",
+   "title": "HSBC jobs in India",
+   "text": "Skip To Main Content\n\nEnglish\n\nJoin Talent Network\nExplore CareersCandidate LoginContact UsFeedbackFAQs\nCareers at HSBC\nSearch\nIndia\n\u00d7\nGo\nAdvanced options \n162 open jobs in India.\u00a0\u00a0\u00a0Use your resume to get matched with the right job.\nUpload your resume\nLet your resume search for jobs\n\nDrag & drop file\n\n(doc, docx, pdf or txt)\n\nSelect File\nWhen you upload your resume:\nJobs will be labeled when they're a good or great match\nGreat matches will be shown first in search results\nRelevant skills and experience will be listed so you know why those jobs are a match\nShow Map\nSelecting an option from the list below will update the main content\nBusiness Analysis, SWIFT, SEPA, ISO 20022 / Senior Consultant Specialist\n\nPune, Maharashtra, India\n\nTechnology\n\nHSBC\n\nHybrid\nUniversal Banker- Vizag\n\nHyderabad,",
+   "captures": [
+    {
+     "url": "https://portal.careers.hsbc.com/api/apply/v2/jobs/563774612352510/insights?domain=hsbc.com",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://portal.careers.hsbc.com/careers?location=India",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-browser-request-time": "1790576992.116",
+      "content-type": "application/json"
+     },
+     "body": "{\"skills\": {\"Analysis\": 3, \"Artificial Intelligence\": 2, \"Agile\": 2, \"Accounting\": 2, \"Retail Sales\": 1, \"Problem Solving\": 1, \"Governance\": 1, \"General Business\": 1, \"Electronics\": 1, \"Customer Service Oriented\": 1}, \"companies\": {\"Infosys\": {\"name\": \"Infosys\", \"count\": 2, \"logo\": \"https://static.vscdn.net/images/logos/1780484581-infosys.com_infosys.png\"}, \"Credit Suisse\": {\"name\": \"Credit Suisse\", \"count\": 2, \"logo\": \"https://static.vscdn.net/images/logos/1780484612-credit-suisse.com_credit_suisse.png\"}, \"Accenture\": {\"name\": \"Accenture\", \"count\": 2, \"logo\": \"https://static.vscdn.net/images/logos/1780484625-accenture.com_accenture.png\"}}, \"schools\": {\"University of Oxford\": {\"name\": \"University of Oxford\", \"count\": 1, \"logo\": \"https://static.vscdn.net/images/logos/1780485204-ox.ac.uk_university_of_oxford.png\"}, \"University of Hertfordshire\": {\"name\": \"University of Hertfordshire\", \"count\": 1, \"logo\": \"\"}, \"University of Cambridge\": {\"name\": \"University of Cambridge\", \"count\": 1, \"logo\": \"https://static.vscdn.net/images/logos/1780485151-cam.ac.uk_university_of_cambridge.png\"}, \"Udacity\": {\"name\": \"Udacity\", \"count\": 1, \"logo\": \"https://static.vscdn.net/images/logos/1780484950-udacity.com_udacity.png\"}, \"Instituto TECNOL\\u00d3GICO y de Estudios Superiores de Monterrey\": {\"name\": \"Tecnol\\u00f3gico de Monterrey\", \"count\": 1, \"logo\": \"https://static.vscdn.net/images/logos/1780487502-tec.mx_tecnol\\u00f3gico_de_monterrey.png\"}}, \"degrees\": {\"Business Administration\": 4, \"Computer "
+    },
+    {
+     "url": "https://portal.careers.hsbc.com/api/apply/v2/jobs/563774612352510?domain=hsbc.com&location=India",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://portal.careers.hsbc.com/careers?location=India",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-browser-request-time": "1790576992.118",
+      "content-type": "application/json"
+     },
+     "body": "{\"id\": 563774612352510, \"name\": \"Business Analysis, SWIFT, SEPA, ISO 20022 / Senior Consultant Specialist\", \"posting_name\": \"Business Analysis, SWIFT, SEPA, ISO 20022 / Senior Consultant Specialist\", \"location\": \"Pune, Maharashtra, India\", \"locations\": [\"Pune, Maharashtra, India\"], \"hot\": 0, \"department\": \"Technology\", \"business_unit\": \"GCIO\", \"t_update\": 1790399797, \"t_create\": 1790346669, \"ats_job_id\": \"61504\", \"display_job_id\": \"61504\", \"type\": \"ATS\", \"job_description\": \"<p><span style=\\\"font-family: arial, helvetica, sans-serif;\\\">Some careers shine brighter than others.</span></p><p><span style=\\\"font-family: arial, helvetica, sans-serif;\\\">If you\\u2019re looking for a career that will help you stand out, join HSBC and fulfil your potential. Whether you want a career that could take you to the top, or simply take you in an exciting new direction, HSBC offers opportunities, support and rewards that will take you further.\\u00a0</span></p><p><span style=\\\"font-family: arial, helvetica, sans-serif;\\\">HSBC is one of the largest banking and financial services organisations in the world, with operations in 64 countries and territories. We aim to be where the growth is, enabling businesses to thrive and economies to prosper, and, ultimately, helping people to fulfil their hopes and realise their ambitions.\\u00a0</span></p><p><span style=\\\"font-family: arial, helvetica, sans-serif;\\\">We are currently seeking an experienced professional to join our team in the role of Senior Consu"
+    },
+    {
+     "url": "https://portal.careers.hsbc.com/api/apply/v2/jobs/563774612352510/jobs?domain=hsbc.com",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://portal.careers.hsbc.com/careers?location=India",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-browser-request-time": "1790576992.118",
+      "content-type": "application/json"
+     },
+     "body": "{\"positions\": [{\"id\": 563774612318611, \"name\": \"Senior Consultant Specialist\", \"posting_name\": \"Senior Consultant Specialist\", \"location\": \"Xi'an, Shaanxi, China\", \"locations\": [\"Xi'an, Shaanxi, China\"], \"hot\": 0, \"department\": \"Technology\", \"business_unit\": \"GCIO\", \"t_update\": 1790299043, \"t_create\": 1790051218, \"ats_job_id\": \"60901\", \"display_job_id\": \"60901\", \"type\": \"ATS\", \"id_locale\": \"60901-en_GB\", \"job_description\": \"\", \"locale\": \"en_GB\", \"stars\": 0.0, \"medallionProgram\": null, \"location_flexibility\": null, \"work_location_option\": \"onsite\", \"canonicalPositionUrl\": \"https://portal.careers.hsbc.com/careers/job/563774612318611\", \"isPrivate\": false}, {\"id\": 563774612017280, \"name\": \"Senior Consultant Specialist\", \"posting_name\": \"Senior Consultant Specialist\", \"location\": \"Xi'an, Shaanxi, China\", \"locations\": [\"Xi'an, Shaanxi, China\"], \"hot\": 0, \"department\": null, \"business_unit\": \"GCIO\", \"t_update\": 1789355987, \"t_create\": 1785141931, \"ats_job_id\": \"53744\", \"display_job_id\": \"53744\", \"type\": \"ATS\", \"id_locale\": \"53744-en_GB\", \"job_description\": \"\", \"locale\": \"en_GB\", \"stars\": 0.0, \"medallionProgram\": null, \"location_flexibility\": null, \"work_location_option\": \"onsite\", \"canonicalPositionUrl\": \"https://portal.careers.hsbc.com/careers/job/563774612017280\", \"isPrivate\": false}, {\"id\": 563774612313464, \"name\": \"Senior Consultant Specialist\", \"posting_name\": \"Senior Consultant Specialist\", \"location\": \"Xi'an, Shaanxi, China\", \"locations\": [\"Xi'an, Shaanxi, China\"], \"hot\": 0, "
+    },
+    {
+     "url": "https://portal.careers.hsbc.com/vslog?event=pageInteractiveTime&namespace=job_details_page",
+     "method": "POST",
+     "status": 200,
+     "post": "{\"data_json\":{\"appName\":\"careers\",\"pageNamespace\":\"job_details_page\",\"path\":\"/careers\",\"visitCount\":1,\"pageVisitTs\":1790576992094,\"pageVisitTimeFromPageLoad\":1480.399999999965,\"events\":[{\"eventName\":\"job_details_page_loaded\",\"ts\":1790576992121,\"timeFromPageLoad\":1507.399999999965}],\"apiMetrics\":[{\"name\":\"https://portal.careers.hsbc.com/api/apply/v2/jobs/563774612352510/insights?domain=hsbc.com\",\"entryType\":\"resource\",\"startTime\":1504.2000000000116,\"duration\":234.19999999995343,\"navigationId\":642,\"initiatorType\":\"fetch\",\"deliveryType\":\"\",\"nextHopProtocol\":\"h3\",\"renderBlockingStatus\":\"non-blocking\",\"contentType\":\"application/json\",\"contentEncoding\":\"gzip\",\"workerStart\":0,\"workerRouterEvaluationStart\":0,\"workerCacheLookupStart\":0,\"workerMatchedSourceType\":\"\",\"workerFinalSourceType\":\"\",\"redirectStart\":0,\"redirectEnd\":0,\"fetchStart\":1504.2000000000116,\"domainLookupStart\":1504.5999999999767,\"domainLookupEnd\":1504.5999999999767,\"connectStart\":1504.5999999999767,\"secureConnectionStart\":1504.5999999999767,\"connectEnd\":1504.5999999999767,\"requestStart\":1505.0999999999767,\"responseStart\":1737.2999999999884,\"firstInterimResponseStart\":0,\"finalResponseHeadersStart\":1737.2999999999884,\"responseEnd\":1738.399999999965,\"transferSize\":1142,\"encodedBodySize\":842,\"decodedBodySize\":2311,\"responseStatus\":200,\"serverTiming\":[],\"traceId\":\"23ce65519a5743038c71578eb8932af1\"},{\"name\":\"https://portal.careers.hsbc.com/api/apply/v2/jobs/563774612352510/jobs?domain=hsbc.com\",\"entryType\":\"resource\",\"startTime\":1504.5999999999767,\"duration\":297.70000000001164,\"navigationId\":642,\"initiatorType\":\"fetch\",\"deliveryType\":\"\",\"nextHopProtocol\":\"h3\",\"renderBlockingStatus\":\"non-blocking\",\"contentType\":\"application/json\",\"contentEncoding\":\"gzip\",\"workerStart\":0,\"workerRouterEvaluationStart\":0,\"workerCacheLookupStart\":0,\"workerMatchedSourceType\":\"\",\"workerFinalSourceType\":\"\",\"redirectStart\":0,\"redirectEnd\":0,\"fetchStart\":1504.5999999999767,\"domainLookupStart\":1504.5999999999767,\"domainLookupEnd\":1504.5999999999767,\"connectStart\":1504.5999999999767,\"secureConnectionStart\":1504.5999999999767,\"connectEnd\":1504.5999999999767,\"requestStart\":1505.7999999999884,\"responseStart\":1801.5999999999767,\"firstInterimResponseStart\":0,\"finalResponseHeadersStart\":1801.5999999999767,\"responseEnd\":1802.2999999999884,\"transferSize\":1161,\"encodedBodySize\":861,\"decodedBodySize\":6698,\"responseStatus\":200,\"serverTiming\":[],\"traceId\":\"0887968458a14e148f7c87d845c1058e\"},{\"name\":\"https://portal.careers.hsbc.com/api/apply/v2/jo",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "x-csrf-token": "IjVhMTUzN2VlOTM4YTU3MzIzNjc1OGZlOWFjZTkwNmMxYWU5YjQ2ZTki.HZua4A.rmIqYuMUuRQJ5ZzPJ-QhSupnBO4",
+      "referer": "https://portal.careers.hsbc.com/careers?location=India",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-browser-request-time": "1790576993.302",
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json"
+     },
+     "body": "{\"appName\": \"careers\", \"pageNamespace\": \"job_details_page\", \"path\": \"/careers\", \"visitCount\": 1, \"pageVisitTs\": 1790576992094, \"pageVisitTimeFromPageLoad\": 1480.399999999965, \"events\": [{\"eventName\": \"job_details_page_loaded\", \"ts\": 1790576992121, \"timeFromPageLoad\": 1507.399999999965}], \"apiMetrics\": [{\"name\": \"https://portal.careers.hsbc.com/api/apply/v2/jobs/563774612352510/insights?domain=hsbc.com\", \"entryType\": \"resource\", \"startTime\": 1504.2000000000116, \"duration\": 234.19999999995343, \"navigationId\": 642, \"initiatorType\": \"fetch\", \"deliveryType\": \"\", \"nextHopProtocol\": \"h3\", \"renderBlockingStatus\": \"non-blocking\", \"contentType\": \"application/json\", \"contentEncoding\": \"gzip\", \"workerStart\": 0, \"workerRouterEvaluationStart\": 0, \"workerCacheLookupStart\": 0, \"workerMatchedSourceType\": \"\", \"workerFinalSourceType\": \"\", \"redirectStart\": 0, \"redirectEnd\": 0, \"fetchStart\": 1504.2000000000116, \"domainLookupStart\": 1504.5999999999767, \"domainLookupEnd\": 1504.5999999999767, \"connectStart\": 1504.5999999999767, \"secureConnectionStart\": 1504.5999999999767, \"connectEnd\": 1504.5999999999767, \"requestStart\": 1505.0999999999767, \"responseStart\": 1737.2999999999884, \"firstInterimResponseStart\": 0, \"finalResponseHeadersStart\": 1737.2999999999884, \"responseEnd\": 1738.399999999965, \"transferSize\": 1142, \"encodedBodySize\": 842, \"decodedBodySize\": 2311, \"responseStatus\": 200, \"serverTiming\": [], \"traceId\": \"23ce65519a5743038c71578eb8932af1\"}, {\"name\": \"https://portal.careers.hsbc.com/api/apply"
+    }
+   ]
+  },
+  {
+   "name": "American Express",
+   "start": "https://careers.americanexpress.com/en/sites/CX_1/jobs?location=India",
+   "final": "https://careers.americanexpress.com/en/sites/CX_1/jobs?location=India",
+   "title": "Search Jobs - American Express Careers",
+   "text": "Skip to main content.\nAbout Team Amex\n \nCareer Areas\n \nLocations\n \nStudents\n \nJobs\nAmerican English\nSearch Jobs - American Express Careers\n\nFIND YOUR PLACE ON TEAM AMEX\n\nFIND JOBS\nJob title, skill, keyword\nNEAR LOCATION\nCity, state, country\nUpload resume & get matched to open jobs.\nMatch Me\nJob search results 59\n59 OPEN JOBS\nLOCATIONS\nWORKPLACE\nPOSTING DATES\nCAREER AREA\nDistance\n\nClick this button to view jobs plotted on the map. Use list view if you're using a keyboard or other assistive tool.\n\nApprentice - Enterprise Technology Services\n Bengaluru, KA, India and 2 more (Hybrid) 25/09/2026 \nCustomer Service Analyst\n Gurugram, HR, India (Hybrid) 25/09/2026 \nCustomer Service Analyst T3-I\n Gurugram, HR, India (Hybrid) 25/09/2026 \nSenior Associate-Digital Product Ops\n Bengaluru, KA, India (Hy",
+   "captures": [
+    {
+     "url": "https://egug.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=WORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DAT",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://careers.americanexpress.com/",
+      "accept-language": "en",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "content-type": "application/vnd.oracle.adf.resourceitem+json;charset=utf-8",
+      "ora-irc-language": "en"
+     },
+     "body": "{\n  \"items\" : [ {\n    \"SearchId\" : 1,\n    \"Keyword\" : null,\n    \"CorrectedKeyword\" : null,\n    \"UseExactKeywordFlag\" : false,\n    \"SuggestedKeyword\" : null,\n    \"ExecuteSpellCheckFlag\" : true,\n    \"Location\" : \"India\",\n    \"LocationId\" : null,\n    \"Radius\" : 0,\n    \"RadiusUnit\" : \"MI\",\n    \"SelectedTitlesFacet\" : null,\n    \"SelectedCategoriesFacet\" : null,\n    \"SelectedPostingDatesFacet\" : null,\n    \"SelectedLocationsFacet\" : null,\n    \"LastSelectedFacet\" : null,\n    \"Facets\" : \"WORK_LOCATIONS;WORKPLACE_TYPES;TITLES;CATEGORIES;ORGANIZATIONS;POSTING_DATES;FLEX_FIELDS;LOCATIONS\",\n    \"Offset\" : 0,\n    \"Limit\" : 10,\n    \"SortBy\" : \"DISTANCE_ASC\",\n    \"TotalJobsCount\" : 59,\n    \"Latitude\" : null,\n    \"Longitude\" : null,\n    \"SiteNumber\" : \"CX_1\",\n    \"JobFamilyId\" : null,\n    \"PostingStartDate\" : null,\n    \"PostingEndDate\" : null,\n    \"SelectedWorkLocationsFacet\" : null,\n    \"RequisitionId\" : null,\n    \"CandidateNumber\" : null,\n    \"WorkLocationZipCode\" : null,\n    \"WorkLocationCountryCode\" : null,\n    \"SelectedFlexFieldsFacets\" : null,\n    \"OrganizationId\" : null,\n    \"SelectedOrganizationsFacet\" : null,\n    \"UserTargetFacetName\" : null,\n    \"UserTargetFacetInputTerm\" : null,\n    \"HotJobFlag\" : null,\n    \"WorkplaceType\" : null,\n    \"SelectedWorkplaceTypesFacet\" : null,\n    \"BotQRShortCode\" : null,\n    \"requisitionList\" : [ {\n      \"Id\" : \"26009713\",\n      \"Title\" : \"Apprentice - Enterprise Technology Services\",\n      \"PostedDate\" : \"2026-09-25\",\n      \"PostingEndDate\" : null,\n  "
+    },
+    {
+     "nav_error": "Timeout 20000ms exceeded.\n=========================== logs ===========================\n\"load\" event fired\n============================================================"
+    }
+   ]
+  },
+  {
+   "name": "Uber",
+   "start": "https://www.uber.com/in/en/careers/list/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+   "final": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+   "title": "Jobs",
+   "text": "Skip to main content\nUber\nLogin\nHome\nSearch jobs\nSaved jobs\nExplore\nFind your next move\nSearch by skill\nLocation\nCountry\nAll countries\nRadius in miles\nTeam\nAll teams\nAll teams\nAdministration\nBusiness Development\nCustomer Support\nEngineer\nFinance\nLegal\nMarketing\nOperations\nPeople\nPlaces\nPolicy & Comms\nProduct\nRisk Management\nSales\nScience\nSystem Operations\nUniversity\nSearch\nClear filters\n\nGet job alerts for this search by email\n\nCreate alert\n\nNo jobs found.\n\nTry adjusting your filters, or check all available roles.\n\nAll jobs\nGet ahead, stay ahead\n\nJoin our talent community to stay connected, receive updates, and be the first to know about new opportunities at Uber.\n\nJoin our talent community\nUber\n\n\u00a9 2026 Uber Technologies Inc.\n\nUber.com\nCookies\nSitemap\nPeople stories\nWe care about your priv",
+   "captures": [
+    {
+     "url": "https://jobs.uber.com/en/?_rsc=1tnrg",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/jobs",
+      "x-deployment-id": "dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2"
+     },
+     "body": ":HL[\"/_next/static/chunks/551a0367c39d995a.css?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"style\"]\n:HL[\"/_next/static/chunks/f42363b27d63d8e2.css?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"style\"]\n:HL[\"/_next/static/media/UberMoveText_Bold-s.p.05c34f70.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMoveText_Light-s.p.7583dd6f.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMoveText_Medium-s.p.ddf9369c.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMoveText_Regular-s.p.05c1635f.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Bold-s.p.d924021a.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Light-s.p.88853406.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Medium-s.p.eff5761a.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Regular-s.p.caf5b142.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n0:{\"buildId\":\"2026-09-22T07:53:01.774Z\",\"tree\":{\"name\":\"\",\"paramType\":null,\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name\":\"locale\",\"paramType\":\"d\",\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name\":\"__PAGE__\",\"paramType\":null,\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":null,\"isRootLayout\":false}},\"isRootLayout\":false}},\"isRootLayout\":true},\"staleTime\":1209600}\n"
+    },
+    {
+     "url": "https://jobs.uber.com/api/jobs/search/?location=IND-Karnataka-Bangalore",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+     },
+     "body": "{\"jobs\":[],\"totalPages\":1,\"totalJobs\":0,\"page\":1,\"pageSize\":10}"
+    },
+    {
+     "url": "https://jobs.uber.com/en/jobs/saved-jobs/?_rsc=1tnrg",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/jobs",
+      "x-deployment-id": "dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2"
+     },
+     "body": ":HL[\"/_next/static/chunks/551a0367c39d995a.css?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"style\"]\n:HL[\"/_next/static/chunks/f42363b27d63d8e2.css?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"style\"]\n:HL[\"/_next/static/media/UberMoveText_Bold-s.p.05c34f70.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMoveText_Light-s.p.7583dd6f.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMoveText_Medium-s.p.ddf9369c.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMoveText_Regular-s.p.05c1635f.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Bold-s.p.d924021a.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Light-s.p.88853406.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Medium-s.p.eff5761a.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Regular-s.p.caf5b142.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n0:{\"buildId\":\"2026-09-22T07:53:01.774Z\",\"tree\":{\"name\":\"\",\"paramType\":null,\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name\":\"locale\",\"paramType\":\"d\",\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name\":\"jobs\",\"paramType\":null,\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name\":\"saved-jobs\",\"paramType\":null,\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name"
+    },
+    {
+     "url": "https://jobs.uber.com/en/?_rsc=pkpaw",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/_index",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/jobs",
+      "x-deployment-id": "dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2"
+     },
+     "body": "1:\"$Sreact.fragment\"\n2:I[54371,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"default\"]\n3:I[579350,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"default\"]\n4:I[806121,[\"/_next/static/chunks/53a95ecc65818199.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"default\"]\n:HL[\"/_next/static/chunks/551a0367c39d995a.css?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"style\"]\n0:{\"buildId\":\"2026-09-22T07:53:01.774Z\",\"rsc\":[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/551a0367c39d995a.css?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"precedence\":\"next\"}]],[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"template\":[\"$\",\"$L3\",null,{}],\"notFound\":[[\"$\",\"$L4\",null,{}],[]]}]]}],\"loading\":null,\"isPartial\":false}\n"
+    },
+    {
+     "url": "https://jobs.uber.com/en/jobs/saved-jobs/?_rsc=q16pe",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%22children%22%3A%5B%5B%22locale%22%2C%22en%22%2C%22d%22%5D%2C%7B%22children%22%3A%5B%22jobs%22%2C%7B%22children%22%3A%5B%22saved-jobs%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2Cnull%2Cnull%2Cfalse%5D%7D%2Cnull%2C%22refetch%22%2Cfalse%5D%7D%2Cnull%2Cnull%2Cfalse%5D%7D%2Cnull%2Cnull%2Cfalse%5D%7D%2Cnull%2Cnull%2Ctrue%5D",
+      "next-url": "/en/jobs",
+      "x-deployment-id": "dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2"
+     },
+     "body": "1:\"$Sreact.fragment\"\n2:I[54371,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"default\"]\n3:I[579350,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"default\"]\n4:I[806121,[\"/_next/static/chunks/53a95ecc65818199.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"default\"]\n7:I[235972,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"OutletBoundary\"]\n8:\"$Sreact.suspense\"\na:I[235972,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"ViewportBoundary\"]\nc:I[235972,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"MetadataBoundary\"]\ne:I[879914,[],\"default\"]\nf:I[324782,[\"/_next/static/chunks/fa98109a5e9f3001.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/a3fe18dc99846d16.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/846cfee69842e9c2.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/9e2334dda9e481a3.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/00cbce61c5056944.js?dpl=dpl_9WC"
+    },
+    {
+     "url": "https://jobs.uber.com/en/cookies/?_rsc=1tnrg",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/jobs",
+      "x-deployment-id": "dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2"
+     },
+     "body": ":HL[\"/_next/static/chunks/551a0367c39d995a.css?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"style\"]\n:HL[\"/_next/static/chunks/f42363b27d63d8e2.css?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"style\"]\n:HL[\"/_next/static/media/UberMoveText_Bold-s.p.05c34f70.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMoveText_Light-s.p.7583dd6f.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMoveText_Medium-s.p.ddf9369c.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMoveText_Regular-s.p.05c1635f.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Bold-s.p.d924021a.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Light-s.p.88853406.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Medium-s.p.eff5761a.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Regular-s.p.caf5b142.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n0:{\"buildId\":\"2026-09-22T07:53:01.774Z\",\"tree\":{\"name\":\"\",\"paramType\":null,\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name\":\"locale\",\"paramType\":\"d\",\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name\":\"slug\",\"paramType\":\"c\",\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name\":\"__PAGE__\",\"paramType\":null,\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":null,\"isRootLayout\":f"
+    },
+    {
+     "url": "https://jobs.uber.com/en/cookies/?_rsc=1mzkx",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/_head",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/jobs",
+      "x-deployment-id": "dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2"
+     },
+     "body": "1:\"$Sreact.fragment\"\n2:I[235972,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"ViewportBoundary\"]\n3:I[235972,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"MetadataBoundary\"]\n4:\"$Sreact.suspense\"\n5:I[921623,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"IconMark\"]\n0:{\"buildId\":\"2026-09-22T07:53:01.774Z\",\"rsc\":[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$L2\",null,{\"children\":[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$L3\",null,{\"children\":[\"$\",\"$4\",null,{\"name\":\"Next.Metadata\",\"children\":[[\"$\",\"title\",\"0\",{\"children\":\"Cookies\"}],[\"$\",\"meta\",\"1\",{\"name\":\"author\",\"content\":\"Uber Careers\"}],[\"$\",\"link\",\"2\",{\"rel\":\"manifest\",\"href\":\"/manifest.webmanifest\"}],[\"$\",\"meta\",\"3\",{\"name\":\"robots\",\"content\":\"noindex, nofollow\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:title\",\"content\":\"Cookies\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:url\",\"content\":\"https://jobs.uber.com/en/cookies/\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:locale\",\"content\":\"en\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:image\",\"content\":\"https://uber-careers-v2-cdn.happydance.website/a"
+    },
+    {
+     "url": "https://jobs.uber.com/en/cookies/?_rsc=u5t7h",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/$d$locale/$c$slug",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/jobs",
+      "x-deployment-id": "dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2"
+     },
+     "body": "1:\"$Sreact.fragment\"\n2:I[54371,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"default\"]\n3:I[579350,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"default\"]\n0:{\"buildId\":\"2026-09-22T07:53:01.774Z\",\"rsc\":[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"template\":[\"$\",\"$L3\",null,{}]}]]}],\"loading\":null,\"isPartial\":false}\n"
+    },
+    {
+     "url": "https://jobs.uber.com/en/jobs/?_rsc=1tnrg",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/jobs",
+      "x-deployment-id": "dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2"
+     },
+     "body": ":HL[\"/_next/static/chunks/551a0367c39d995a.css?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"style\"]\n:HL[\"/_next/static/chunks/f42363b27d63d8e2.css?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"style\"]\n:HL[\"/_next/static/media/UberMoveText_Bold-s.p.05c34f70.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMoveText_Light-s.p.7583dd6f.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMoveText_Medium-s.p.ddf9369c.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMoveText_Regular-s.p.05c1635f.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Bold-s.p.d924021a.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Light-s.p.88853406.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Medium-s.p.eff5761a.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/UberMove_Regular-s.p.caf5b142.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n0:{\"buildId\":\"2026-09-22T07:53:01.774Z\",\"tree\":{\"name\":\"\",\"paramType\":null,\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name\":\"locale\",\"paramType\":\"d\",\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name\":\"jobs\",\"paramType\":null,\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":{\"children\":{\"name\":\"__PAGE__\",\"paramType\":null,\"paramKey\":null,\"hasRuntimePrefetch\":false,\"slots\":null,\"isRootLayout\":"
+    },
+    {
+     "url": "https://jobs.uber.com/en/cookies/?_rsc=7ww7v",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/$d$locale/$c$slug/__PAGE__",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/jobs",
+      "x-deployment-id": "dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2"
+     },
+     "body": "1:\"$Sreact.fragment\"\n2:I[800160,[\"/_next/static/chunks/fa98109a5e9f3001.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/a3fe18dc99846d16.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/846cfee69842e9c2.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/9e2334dda9e481a3.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/00cbce61c5056944.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/85764477a1a61847.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/3942953a9490a5bd.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/93a5feda9ff303a2.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/562d81ac93986645.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/035419f568496961.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/40236cc019049f5a.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/f95f3dab2574ffe0.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/d5be75f133766307.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f2c83ed7c151ae2.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/37a8ccebd3b05b1c.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/e057a802cfcab610.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/ec05baea7a9fbcbc.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/e0d360604b7b34b6.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/3eb64"
+    },
+    {
+     "url": "https://jobs.uber.com/en/jobs/?_rsc=1njgx",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/$d$locale/jobs/__PAGE__",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/jobs",
+      "x-deployment-id": "dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2"
+     },
+     "body": "1:\"$Sreact.fragment\"\n2:I[800160,[\"/_next/static/chunks/fa98109a5e9f3001.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/a3fe18dc99846d16.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/846cfee69842e9c2.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/9e2334dda9e481a3.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/00cbce61c5056944.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/85764477a1a61847.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/3942953a9490a5bd.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/93a5feda9ff303a2.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/562d81ac93986645.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/035419f568496961.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/40236cc019049f5a.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/f95f3dab2574ffe0.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/d5be75f133766307.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f2c83ed7c151ae2.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/37a8ccebd3b05b1c.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/e057a802cfcab610.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/acae5e775ff0f9ad.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/ec05baea7a9fbcbc.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/97261"
+    },
+    {
+     "url": "https://jobs.uber.com/en/jobs/?_rsc=1mzkx",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/_head",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/jobs",
+      "x-deployment-id": "dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2"
+     },
+     "body": "1:\"$Sreact.fragment\"\n2:I[235972,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"ViewportBoundary\"]\n3:I[235972,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"MetadataBoundary\"]\n4:\"$Sreact.suspense\"\n5:I[921623,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"IconMark\"]\n0:{\"buildId\":\"2026-09-22T07:53:01.774Z\",\"rsc\":[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$L2\",null,{\"children\":[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$L3\",null,{\"children\":[\"$\",\"$4\",null,{\"name\":\"Next.Metadata\",\"children\":[[\"$\",\"title\",\"0\",{\"children\":\"Jobs\"}],[\"$\",\"link\",\"1\",{\"rel\":\"manifest\",\"href\":\"/manifest.webmanifest\"}],[\"$\",\"meta\",\"2\",{\"property\":\"og:title\",\"content\":\"Jobs\"}],[\"$\",\"meta\",\"3\",{\"property\":\"og:image\",\"content\":\"https://uber-careers-v2.vercel.app/opengraph-image.png?opengraph-image.bd5336ea.png\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:image:type\",\"content\":\"image/png\"}],[\"$\",\"meta\",\"7\",{\"name\":\"twitter:card\""
+    },
+    {
+     "url": "https://jobs.uber.com/en/?_rsc=yybeg",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://jobs.uber.com/en/jobs/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%22children%22%3A%5B%5B%22locale%22%2C%22en%22%2C%22d%22%5D%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2Cnull%2C%22refetch%22%2Cfalse%5D%7D%2Cnull%2Cnull%2Cfalse%5D%7D%2Cnull%2Cnull%2Ctrue%5D",
+      "next-url": "/en/jobs",
+      "x-deployment-id": "dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2"
+     },
+     "body": "1:\"$Sreact.fragment\"\n2:I[54371,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"default\"]\n3:I[579350,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"default\"]\n4:I[806121,[\"/_next/static/chunks/53a95ecc65818199.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"default\"]\n7:I[235972,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"OutletBoundary\"]\n8:\"$Sreact.suspense\"\na:I[235972,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"ViewportBoundary\"]\nc:I[235972,[\"/_next/static/chunks/86d385dacc8f6252.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/5f4fd6081132cac5.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\"],\"MetadataBoundary\"]\ne:I[879914,[],\"default\"]\nf:I[324782,[\"/_next/static/chunks/fa98109a5e9f3001.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/a3fe18dc99846d16.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/846cfee69842e9c2.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/9e2334dda9e481a3.js?dpl=dpl_9WC3hFN1pW5qxqnxgC6gTUvUeWb2\",\"/_next/static/chunks/00cbce61c5056944.js?dpl=dpl_9WC"
+    }
+   ]
+  },
+  {
+   "name": "Chubb",
+   "start": "https://about.chubb.com/careers/engineering-centers/india-engineering-center.html",
+   "final": "https://about.chubb.com/careers/engineering-centers/india-engineering-center.html",
+   "title": "Explore Jobs at Chubb - A World Leader in Insurance",
+   "text": "skip to main content\nAbout Us\nClimate & Environment\nOur Culture\nGovernance\nStories\nCareers\nInvestors\nNews\nDream careers in technology begin at Chubb\u2019s Engineering Center in India\nFind Jobs\nDriving superior outcomes through engineering excellence\n\nThe Chubb Engineering Center India (CECI) is the largest engineering center in Chubb\u2019s global network, driving innovation and engineering excellence at scale. Powered by a dynamic workforce with a start-up mindset and a can-do attitude, we empower Chubb\u2019s businesses worldwide through technology-led digital transformation and a sharp engineering focus. Our teams are based in technology hubs across Hyderabad, Bengaluru, and Bhubaneswar.\u00a0\n\nDiscover where your skills fit in \u2013 explore opportunities across a world of possibilities at Chubb India.\nSoftwa",
+   "captures": [
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=1&ae=g&auid=573649789.1790577021&dt=Explore%20Jobs%20at%20Chubb%20-%20A%20World%20Leader%20in%20Insurance&en=consent_update&dl=https%3A%2F%2Fabout.chubb.com%2Fcareers%2Fengineering-centers%2Findia-engineering-center.html&scrsrc=www.googletagmanager.com&rnd=1321451102.1790577020&navt=n&npa=0&ep.ads_data_redaction=0&gcu=1&gtm=45He69n1v72351423za20",
+     "method": "POST",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://about.chubb.com/",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+     },
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-W1MY9HEW53&gtm=45je69n1v9172510952z8851975776za20gzb851975776zd851975776xf1&_p=1790577019430&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&_eu=AAAAAGA&cid=159335722.1790577021&frm=0&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Windows&uapv=10.",
+     "method": "POST",
+     "status": 204,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://about.chubb.com/",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+     },
+     "body": ""
+    },
+    {
+     "nav_error": "Timeout 20000ms exceeded.\n=========================== logs ===========================\n\"load\" event fired\n============================================================"
+    }
+   ]
+  },
+  {
+   "name": "Qualcomm",
+   "start": "https://careers.qualcomm.com/careers?location=India&domain=qualcomm.com",
+   "final": "https://careers.qualcomm.com/careers?domain=qualcomm.com&start=0&location=India&pid=446717801058&sort_by=distance&filter_include_remote=0&filter_include_relocation=0",
+   "title": "Careers at Qualcomm | Qualcomm",
+   "text": "Skip to main content\nOur Company\nOur Business\nSearch for Jobs\nJoin Talent Network\nFAQs\nProfile\nEnglish\nSign In\nJobs\nSearch jobs\nJob Cart\n0\nAll Filters\n2\nClear All\nGet personalized job recommendations\nUse AI to see how you match and get help on your career journey\nUpload your resume\n581 jobs\nSort: Distance\nShow map\nTurn on job alerts for this search\nManage\nEngineer - Linker Developer\nHyderabad, Telang\u0101na, India\nSoftware Engineering\nPosted 3 months ago\nSourcing Specialist Associate-Travel\nHyderabad, Telang\u0101na, India\nSourcing\nPosted 6 days ago\nAudio HW Systems senior Engineer\nHyderabad, Telang\u0101na, India\nSystems Engineering\nPosted 2 months ago\nSr Engineer: LPAI Architecture and Systems Engineer\nHyderabad, Telang\u0101na, India\nSystems Engineering\nPosted 4 months ago\nSenior Engineer- Power Architect",
+   "captures": [
+    {
+     "url": "https://careers.qualcomm.com/api/pcsx/job_cart?domain=qualcomm.com",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "x-csrf-token": "ImJhZThhOTJmMmI4NDQ3YTQ3MDg0NTM2NGIzOTVmMjQ1ODE0ZGQzNTEi.HZubDw.opU_CZprQ0Wdr_TITvp5d8qPp2w",
+      "referer": "https://careers.qualcomm.com/careers?location=India&domain=qualcomm.com",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-browser-request-time": "1790577040.751",
+      "sentry-trace": "39c7ae14a5e14cf1a2dc9ac612a65963-965076c9970bf94a-1",
+      "accept": "application/json, text/plain, */*"
+     },
+     "body": "{\"status\": 200, \"error\": {\"message\": \"\", \"body\": \"\"}, \"data\": {\"jobCartData\": [], \"invalidPositionIds\": []}, \"metadata\": null}\n"
+    },
+    {
+     "url": "https://careers.qualcomm.com/api/pcsx/search?domain=qualcomm.com&query=&location=India&start=0&",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "x-csrf-token": "ImJhZThhOTJmMmI4NDQ3YTQ3MDg0NTM2NGIzOTVmMjQ1ODE0ZGQzNTEi.HZubDw.opU_CZprQ0Wdr_TITvp5d8qPp2w",
+      "referer": "https://careers.qualcomm.com/careers?location=India&domain=qualcomm.com",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-browser-request-time": "1790577040.751",
+      "sentry-trace": "39c7ae14a5e14cf1a2dc9ac612a65963-a08397c521174986-1",
+      "accept": "application/json, text/plain, */*"
+     },
+     "body": "{\"status\": 200, \"error\": {\"message\": \"\", \"body\": \"\"}, \"data\": {\"positions\": [{\"id\": 446717801058, \"displayJobId\": \"3088862\", \"name\": \"Engineer - Linker Developer\", \"locations\": [\"Hyderabad, Telang\\u0101na, India\"], \"standardizedLocations\": [\"Hyderabad, TS, IN\"], \"postedTs\": 1783468800, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1775001600, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"3088862\", \"positionUrl\": \"/careers/job/446717801058\"}, {\"id\": 446717845704, \"displayJobId\": \"3089190\", \"name\": \"Sourcing  Specialist Associate-Travel\", \"locations\": [\"Hyderabad, Telang\\u0101na, India\"], \"standardizedLocations\": [\"Hyderabad, TS, IN\"], \"postedTs\": 1790035200, \"solrScore\": null, \"stars\": 0, \"department\": \"Sourcing\", \"creationTs\": 1775520000, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"3089190\", \"positionUrl\": \"/careers/job/446717845704\"}, {\"id\": 446718020739, \"displayJobId\": \"3089602\", \"name\": \"Audio HW Systems senior  Engineer\", \"locations\": [\"Hyderabad, Telang\\u0101na, India\"], \"standardizedLocations\": [\"Hyderabad, TS, IN\"], \"postedTs\": 1785283200, \"solrScore\": null, \"stars\": 0, \"department\": \"Systems Engineering\", \"creationTs\": 1776038400, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"3089602\", \"positionUrl\": \"/careers/job/446718020739\"}, {\"id\": 446718020821, \"displayJobId\": \"3089613\", \"name\": \"Sr Engineer: LPAI Archite"
+    },
+    {
+     "url": "https://careers.qualcomm.com/api/pcsx/job_cart?domain=qualcomm.com",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "x-csrf-token": "ImJhZThhOTJmMmI4NDQ3YTQ3MDg0NTM2NGIzOTVmMjQ1ODE0ZGQzNTEi.HZubDw.opU_CZprQ0Wdr_TITvp5d8qPp2w",
+      "referer": "https://careers.qualcomm.com/careers?location=India&domain=qualcomm.com",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-browser-request-time": "1790577040.751",
+      "sentry-trace": "39c7ae14a5e14cf1a2dc9ac612a65963-bc5da491bd218615-1",
+      "accept": "application/json, text/plain, */*"
+     },
+     "body": "{\"status\": 200, \"error\": {\"message\": \"\", \"body\": \"\"}, \"data\": {\"jobCartData\": [], \"invalidPositionIds\": []}, \"metadata\": null}\n"
+    },
+    {
+     "url": "https://careers.qualcomm.com/api/pcsx/match_details?position_id=446717801058&domain=qualcomm.com",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "x-csrf-token": "ImJhZThhOTJmMmI4NDQ3YTQ3MDg0NTM2NGIzOTVmMjQ1ODE0ZGQzNTEi.HZubEA.6mLEgI5fdll0LzP2PUWD2Ge_9sk",
+      "referer": "https://careers.qualcomm.com/careers?location=India&domain=qualcomm.com",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-browser-request-time": "1790577041.113",
+      "sentry-trace": "39c7ae14a5e14cf1a2dc9ac612a65963-8578b81bf5a1e221-1",
+      "accept": "application/json, text/plain, */*"
+     },
+     "body": "{\"status\": 200, \"error\": {\"message\": \"\", \"body\": \"\"}, \"data\": {}, \"metadata\": null}\n"
+    },
+    {
+     "url": "https://careers.qualcomm.com/api/pcsx/position_details?position_id=446717801058&domain=qualcomm.com&hl=en&queried_location=India",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "x-csrf-token": "ImJhZThhOTJmMmI4NDQ3YTQ3MDg0NTM2NGIzOTVmMjQ1ODE0ZGQzNTEi.HZubEA.6mLEgI5fdll0LzP2PUWD2Ge_9sk",
+      "referer": "https://careers.qualcomm.com/careers?location=India&domain=qualcomm.com",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-browser-request-time": "1790577041.113",
+      "sentry-trace": "39c7ae14a5e14cf1a2dc9ac612a65963-a8a10d219319839d-1",
+      "accept": "application/json, text/plain, */*"
+     },
+     "body": "{\"status\": 200, \"error\": {\"message\": \"\", \"body\": \"\"}, \"data\": {\"id\": 446717801058, \"displayJobId\": \"3088862\", \"name\": \"Engineer - Linker Developer\", \"locations\": [\"Hyderabad, Telang\\u0101na, India\"], \"standardizedLocations\": [\"Hyderabad, TS, IN\"], \"postedTs\": 1783468800, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1775001600, \"jobDescription\": \"<h2><br><b>Company:</b></h2>Qualcomm India Private Limited<p style=\\\"text-align:inherit\\\"></p><h2><b>Job Area:</b></h2>Engineering Group, Engineering Group &gt; Software Engineering<p style=\\\"text-align:inherit\\\"></p><p style=\\\"text-align:left\\\"><u><b>General Summary:</b></u></p><p>Hiring: Linker Expert for Embedded Systems Innovation - 1- 3 Yrs</p><p>Are you passionate about toolchains and low-level systems? Do you have deep expertise in linkers and thrive on solving complex challenges in embedded environments? If so, we want you on our team!</p><p>Role Overview:</p><p>Join us in advancing the Qualcomm open-source embedded linker and shaping the future of toolchain technology. This is a unique opportunity to work on cutting-edge embedded systems, improve performance, and contribute to open-source innovation.</p><p>What You\\u2019ll Do:</p><ul><li>Enhance and optimize the Qualcomm open-source linker for embedded platforms.</li><li>Collaborate with compiler and runtime teams to deliver a robust, high-performance toolchain.</li><li>Contribute to open-source projects and engage with the global developer community.</li><"
+    },
+    {
+     "url": "https://careers.qualcomm.com/api/pcsx/position_insights?position_id=446717801058&domain=qualcomm.com",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "x-csrf-token": "ImJhZThhOTJmMmI4NDQ3YTQ3MDg0NTM2NGIzOTVmMjQ1ODE0ZGQzNTEi.HZubEA.6mLEgI5fdll0LzP2PUWD2Ge_9sk",
+      "referer": "https://careers.qualcomm.com/careers?location=India&domain=qualcomm.com",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-browser-request-time": "1790577041.113",
+      "sentry-trace": "39c7ae14a5e14cf1a2dc9ac612a65963-8db933907e7cdb3d-1",
+      "accept": "application/json, text/plain, */*"
+     },
+     "body": "{\"status\": 200, \"error\": {\"message\": \"\", \"body\": \"\"}, \"data\": {\"insights\": {\"skills\": {}, \"company\": {}, \"experienceYears\": {}, \"titles\": {}}}, \"metadata\": null}\n"
+    },
+    {
+     "url": "https://careers.qualcomm.com/api/suggest?term=India&dictionary=position_profile_locations&domain=qualcomm.com&enableLocationGeocodeNormalization=true",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "x-csrf-token": "ImJhZThhOTJmMmI4NDQ3YTQ3MDg0NTM2NGIzOTVmMjQ1ODE0ZGQzNTEi.HZubEA.6mLEgI5fdll0LzP2PUWD2Ge_9sk",
+      "referer": "https://careers.qualcomm.com/careers?location=India&domain=qualcomm.com",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-browser-request-time": "1790577041.274",
+      "sentry-trace": "39c7ae14a5e14cf1a2dc9ac612a65963-a27fd383e46b0d99-1",
+      "accept": "application/json, text/plain, */*"
+     },
+     "body": "{\n    \"numFound\": 7,\n    \"term\": \"India\",\n    \"dictionary\": \"position_profile_locations\",\n    \"suggestions\": [\n        {\n            \"term\": \"Bengaluru, KA, India\",\n            \"weight\": 1000.0,\n            \"data\": null\n        },\n        {\n            \"term\": \"Hyderabad, TS, India\",\n            \"weight\": 999.0,\n            \"data\": null\n        },\n        {\n            \"term\": \"Chennai, TN, India\",\n            \"weight\": 998.0,\n            \"data\": null\n        },\n        {\n            \"term\": \"Noida, UP, India\",\n            \"weight\": 997.0,\n            \"data\": null\n        },\n        {\n            \"term\": \"HR, India\",\n            \"weight\": 996.0,\n            \"data\": null\n        },\n        {\n            \"term\": \"Mumbai, MH, India\",\n            \"weight\": 995.0,\n            \"data\": null\n        },\n        {\n            \"term\": \"Pune, MH, India\",\n            \"weight\": 994.0,\n            \"data\": null\n        }\n    ]\n}"
+    },
+    {
+     "url": "https://careers.qualcomm.com/api/pcsx/overrides?position_id=446717801058&domain=qualcomm.com&hl=en",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "x-csrf-token": "ImJhZThhOTJmMmI4NDQ3YTQ3MDg0NTM2NGIzOTVmMjQ1ODE0ZGQzNTEi.HZubEQ.zt1hoQ-hFXCaus22d8cSNB8UcCo",
+      "referer": "https://careers.qualcomm.com/careers?location=India&domain=qualcomm.com",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-browser-request-time": "1790577041.346",
+      "sentry-trace": "39c7ae14a5e14cf1a2dc9ac612a65963-aaa5be8752133855-1",
+      "accept": "application/json, text/plain, */*"
+     },
+     "body": "{\"status\": 200, \"error\": {\"message\": \"\", \"body\": \"\"}, \"data\": {\"pcsxBaseConfigOverrides\": {\"positionDetailsConfig\": {\"sectionsConfig\": {\"positionCustomContent\": {\"items\": [{\"title\": \"Unlock Your Limitless Potential with Qualcomm\", \"body\": \"<p>Whether you&rsquo;re launching a new career or ready to explore what&rsquo;s next in the evolution of your talent and expertise, you&rsquo;re about to embark on a career growth journey like no other.</p> <p><strong>Bring out your best, with the best<br /></strong>Our employees make Qualcomm&rsquo;s success possible. We hire the brightest minds and foster a supportive, inclusive culture where your ideas have the power to contribute to world-changing innovations and breakthrough technologies. To make that possible, we leverage the breadth and depth of our diverse expertise from around the world to answer the unasked, conquer the complex, and solve some of the biggest challenges only we can &ndash; together.</p> <p><strong>Innovate with technology experts<br /></strong>At Qualcomm, we are passionate about the limitless potential of your career. Only here can you work alongside some of the most respected, leading engineering and technology experts in the industry &ndash; helping you learn and grow professionally in ways you haven&rsquo;t yet imagined.</p> <p><strong>Live well, work well<br /></strong>Additionally, you&rsquo;ll have access to programs such as our continuous learning and development programs, tuition reimbursement, and mentors"
+    },
+    {
+     "url": "https://careers.qualcomm.com/api/pcsx/similar_positions?domain=qualcomm.com&position_id=446717801058",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "x-csrf-token": "ImJhZThhOTJmMmI4NDQ3YTQ3MDg0NTM2NGIzOTVmMjQ1ODE0ZGQzNTEi.HZubEQ.zt1hoQ-hFXCaus22d8cSNB8UcCo",
+      "referer": "https://careers.qualcomm.com/careers?location=India&domain=qualcomm.com",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-browser-request-time": "1790577041.346",
+      "sentry-trace": "39c7ae14a5e14cf1a2dc9ac612a65963-b6c92c941f269f99-1",
+      "accept": "application/json, text/plain, */*"
+     },
+     "body": "{\"status\": 200, \"error\": {\"message\": \"\", \"body\": \"\"}, \"data\": {\"positions\": [{\"id\": 446715098293, \"displayJobId\": \"3080435\", \"name\": \"C++ Developer / Graphics Engineer / Sr Engineer / Lead Engineer\", \"locations\": [\"Bangalore, India\"], \"standardizedLocations\": [\"Bengaluru, KA, IN\"], \"postedTs\": 1760313600, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1760313600, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": \"flexible_within_country\", \"atsJobId\": \"3080435\", \"positionUrl\": \"/careers/job/446715098293\"}, {\"id\": 446718457455, \"displayJobId\": \"3091039\", \"name\": \"Senior Software Engineer \\u2013 Sensors (Cork, Ireland)\", \"locations\": [\"Cork, Ireland\"], \"standardizedLocations\": [\"Cork, CO, IE\"], \"postedTs\": 1789516800, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1778025600, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"3091039\", \"positionUrl\": \"/careers/job/446718457455\"}, {\"id\": 446718450778, \"displayJobId\": \"3091137\", \"name\": \"Senior Software Engineer \\u2013 Edge AI/GenAI & Multimedia\", \"locations\": [\"San Diego, California, United States of America\"], \"standardizedLocations\": [\"San Diego, CA, US\"], \"postedTs\": 1778112000, \"solrScore\": null, \"stars\": 0, \"department\": \"Software Engineering\", \"creationTs\": 1778112000, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"3091137\", \"positionUrl\": \"/careers/job/4467184507"
+    }
+   ]
+  },
+  {
+   "name": "AMD",
+   "start": "https://careers.amd.com/careers-home/jobs?location=India",
+   "final": "https://careers.amd.com/careers-home/jobs?location=India",
+   "title": "AMD Jobs and Career Opportunities | Search Open Roles",
+   "text": "Skip to Main Content\n\nFraud Alert: Our recruiters never use personal emails, ask for fees, make offers via text, charge for resume reviews, or request personal ID documents during the application process. Learn how to protect yourself from job scams and report suspicious activity here.\n\nCareers\nCareers Home\nStudent Programs\nBenefits\n\nJob Categories\n\nGlobal Jobs\n\nReturning User Login\nJob Search Page\naccess_time\nclose\n10 Miles\nUse LEFT and RIGHT arrow keys to select KM or MILES\nsearch\nFilters\nRegion/Location\nCity\nCategories\nRecent Graduate\n196 Results\nRelevance\nSort By\nmail_outline\n\nGet future jobs matching this search\n\nLogin\norRegister\nThese results are close to India\n\nLow Power Design Engineer (RTL)\n\nReq ID: 89525\n\nLocation\nIN,Hyderabad-Design Center\n4F to 11F, Building #11, Mindspace, Hit",
+   "captures": [
+    {
+     "url": "https://app.jibecdn.com/prod/search/4.11.219/assets/filter-icon.svg",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://careers.amd.com/",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+     },
+     "body": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n>\n  <path d=\"M0 0h24v24H0z\" fill=\"none\" />\n  <path\n    d=\"M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z\"\n  />\n</svg>"
+    },
+    {
+     "url": "https://app.jibecdn.com/prod/search/4.11.219/assets/distance-icon.svg",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://careers.amd.com/",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+     },
+     "body": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 26.232 15.971\">\n\t<g id=\"Group_4261\" data-name=\"Group 4261\" transform=\"translate(0 0.001)\">\n\t\t<g id=\"baseline-more_horiz-24px\" transform=\"translate(7.883 2.379) rotate(25)\">\n\t\t\t<path id=\"Path_5\" data-name=\"Path 5\" d=\"M0,0H9.431V9.431H0Z\" transform=\"translate(0 0)\" fill=\"none\" />\n\t\t\t<path\n\t\t\t\tid=\"Path_6\"\n\t\t\t\tdata-name=\"Path 6\"\n\t\t\t\td=\"M.786,0a.786.786,0,1,0,.786.786A.788.788,0,0,0,.786,0ZM5.5,0a.786.786,0,1,0,.786.786A.788.788,0,0,0,5.5,0ZM3.144,0A.786.786,0,1,0,3.93.786.788.788,0,0,0,3.144,0Z\"\n\t\t\t\ttransform=\"translate(1.572 3.93)\"\n\t\t\t/>\n\t\t</g>\n\t\t<g id=\"baseline-place-24px\">\n\t\t\t<path\n\t\t\t\tid=\"Path_7\"\n\t\t\t\tdata-name=\"Path 7\"\n\t\t\t\td=\"M7.588,2A2.586,2.586,0,0,0,5,4.588C5,6.528,7.588,9.393,7.588,9.393s2.588-2.865,2.588-4.806A2.586,2.586,0,0,0,7.588,2Zm0,3.512a.924.924,0,1,1,.924-.924A.924.924,0,0,1,7.588,5.512Z\"\n\t\t\t\ttransform=\"translate(-3.152 -1.261)\"\n\t\t\t/>\n\t\t\t<path id=\"Path_8\" data-name=\"Path 8\" d=\"M0,0H8.872V8.872H0Z\" fill=\"none\" />\n\t\t</g>\n\t\t<g id=\"baseline-place-24px-2\" data-name=\"baseline-place-24px\" transform=\"translate(11.023 0.761)\">\n\t\t\t<path\n\t\t\t\tid=\"Path_7-2\"\n\t\t\t\tdata-name=\"Path 7\"\n\t\t\t\td=\"M9.436,2A4.433,4.433,0,0,0,5,6.436c0,3.327,4.436,8.238,4.436,8.238s4.436-4.911,4.436-8.238A4.433,4.433,0,0,0,9.436,2Zm0,6.02A1.584,1.584,0,1,1,11.02,6.436,1.585,1.585,0,0,1,9.436,8.02Z\"\n\t\t\t\ttransform=\"translate(-1.831 -0.733)\"\n\t\t\t/>\n\t\t\t<path id=\"Path_8-2\" data-name=\"Path 8\" d=\"M0,0H15.209V15.209H0Z\" fill=\"none\" />\n\t\t</g>\n\t</g>\n</svg>"
+    },
+    {
+     "url": "https://careers.amd.com/api/jobs?location=India&page=1&sortBy=relevance&descending=false&internal=false",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://careers.amd.com/careers-home/jobs?location=India",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+     },
+     "body": "{\"jobs\":[{\"data\":{\"slug\":\"89525\",\"language\":\"en-us\",\"languages\":[\"en-us\"],\"req_id\":\"89525\",\"title\":\"Low Power Design Engineer (RTL)\",\"description\":\"ADVANCE YOUR CAREER. ADVANCE THE WORLD. At AMD, we believe technology can change lives for the better. It can heal us, entertain us, and make us more connected, productive, and understanding of the world around us. And we\u2019re looking for talent who feel the same: people who want to leave the planet better than they found it, those who don\u2019t shy away from humanity\u2019s challenges but are determined to help solve them. AMD is powering the next generation of supercomputing, high-performance computing, cloud, and AI. Whether you\u2019re designing next-gen processors, enabling AI breakthroughs, or creating go-to-market plans, every role at AMD contributes to something bigger \u2014 technology that moves the world forward. THE ROLE: The focus of this role is to plan, build, Design/Integration of new and existing features for AMD\u2019s graphics processor IP, resulting in no bugs in the final design.\u202f\u202f \u202f THE PERSON:\u202f You have a passion for modern, complex processor architecture, digital design, and verification in general. You are a team player who has excellent communication skills and experience collaborating with other engineers located in different sites/timezones. You have strong analytical and problem-solving skills and are willing to learn and ready to take on problems. \u202f Key Responsibilities Define SoC and subsystem power architecture. Develop and "
+    },
+    {
+     "url": "https://cdn13.icims.com/icims-translations/latest/locales/en-US/jobchat.json",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://assets.textrecruit.com/",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+     },
+     "body": "{\"beforeWeStart\":\"Before we start, do you consent to providing\u2026\",\"confirmEndChat\":\"Are you sure you want to end this chat?\",\"no\":\"No\",\"yes\":\"Yes\",\"readyToChat\":\"Ready to chat? Click here\",\"chat_widget_button\":\"Chat Widget Button\"}\n"
+    },
+    {
+     "url": "https://cdn13.icims.com/icims-translations/latest/locales/en-IN/jobchat.json",
+     "method": "GET",
+     "status": 403,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://assets.textrecruit.com/",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "accept-language": "en-IN",
+      "sec-ch-ua-mobile": "?0"
+     },
+     "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>"
+    },
+    {
+     "url": "https://app1.textrecruit.com/api/v1/textrecruit/chat/css?client_ver=2.0.0&app_name=jobChat&product=TextRecruit&id=62ec562519ce1e45f49eafe3&v2=true",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://assets.textrecruit.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "traceparent": "00-71ecd1e38bdc83adc42706600c772697-4dedb766ec8ccb43-01",
+      "accept": "application/json, text/plain, */*",
+      "tracestate": "552117@nr=0-1-2151279-1120364574-4dedb766ec8ccb43----1790577045230"
+     },
+     "body": "{\"apiResult\": {\"status\": \"SUCCESS\"}, \"branding\": {\"welcomeText\": \"Learn more about AMD by chatting with us!\", \"organizationLogo\": \"https://images.textrecruit.com/imgs/62ec562419ce1e45f49eaf6a/62ec562419ce1e45f49eaf6a_chat_0_bannerLogo1662586385386.png\", \"primaryButtonBackgroundColor\": \"#000000\", \"brandedChatBubbleFontColor\": \"#27282B\", \"brandedChatBubbleColor\": \"#f1f1f2\", \"headerBackgroundColor\": \"#FFF\", \"headerFontColor\": \"#000000\", \"widgetButtonBackgroundColor\": \"#000000\", \"widgetButtonFontColor\": \"#FFF\", \"tooltipBackgroundColor\": \"#000000\", \"tooltipFontColor\": \"#FFF\", \"brandedChatSenderBackgroundColor\": \"#000000\", \"brandedChatSenderFontColor\": \"#ffffff\"}}"
+    },
+    {
+     "url": "https://app1.textrecruit.com/api/v1/textrecruit/chat/text?client_ver=2.0.0&app_name=jobChat&product=TextRecruit&id=62ec562519ce1e45f49eafe3",
+     "method": "GET",
+     "status": 200,
+     "post": "",
+     "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://assets.textrecruit.com/",
+      "accept-language": "en-IN",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "traceparent": "00-3744693e70983e34a6f9778f8abe0ddc-3c194f826549af5b-01",
+      "accept": "application/json, text/plain, */*",
+      "tracestate": "552117@nr=0-1-2151279-1120364574-3c194f826549af5b----1790577045232"
+     },
+     "body": "{\"apiResult\": {\"status\": \"SUCCESS\"}, \"fullScreenTitle\": \"Advanced Micro Devices\", \"fullScreenFooter\": \"Copyright (C) 2026\", \"jobChatAriActivationFlag\": \"Always\", \"jobChatVersion\": \"v2\", \"language\": \"en\", \"ariInitiates\": false, \"isAnonJobChat\": true, \"position\": \"right\", \"fullHeight\": false, \"defaultIntroChatText\": \"Hi, thank you for your interest in AMD! I'm CHIP, a virtual assistant with Advanced Micro Devices. Would you like to:\\n1 - Search for jobs \\n2 - Ask questions about AMD\", \"ariDisplayName\": \"Chip\", \"trUid\": \"TRd5574b1a-dc07-4057-8902-3a605a15b94a\"}"
+    }
+   ]
+  }
+ ]
+}
