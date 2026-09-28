@@ -64,7 +64,14 @@ def http(url, data=None, headers=None, method=None, timeout=None, retries=None):
                     raise FetchError(f"not json from {url[:120]}")
         except urllib.error.HTTPError as e:
             last = f"HTTP {e.code}"
-            if e.code in (429, 500, 502, 503, 504):
+            if e.code == 429:
+                try:
+                    wait = int(e.headers.get("Retry-After") or 0)
+                except ValueError:
+                    wait = 0
+                time.sleep(min(max(wait, 15 * (attempt + 1)), 60))
+                continue
+            if e.code in (500, 502, 503, 504):
                 time.sleep(3 * (attempt + 1))
                 continue
             raise FetchError(last)
@@ -364,7 +371,7 @@ def fetch_microsoft(c, keep=None, cap=3000):
         start += len(pos)
         if not pos or not fresh or start >= cap:
             break
-        time.sleep(0.3)
+        time.sleep(1.5)
     return out
 
 

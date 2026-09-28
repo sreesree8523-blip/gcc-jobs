@@ -230,7 +230,7 @@ fetch("data/jobs.json?v=" + Date.now()).then(r => r.json()).then(d => {
   const ok = d.companies.filter(c => !c.error).length;
   $("sub").textContent = `${d.jobs.length.toLocaleString("en-IN")} jobs from ${ok} GCCs · updated ${d.updated}`;
   $("cos").innerHTML = d.companies.map(c =>
-    `<div>${esc(c.name)} <span style="color:var(--faint)">${c.error ? '<span class="err">· not reachable today</span>' : "· " + c.kept}</span></div>`).join("");
+    `<div>${esc(c.name)} <span style="color:var(--faint)">${c.error ? '<span class="err">· not reachable today' + (c.stale ? ", showing last list" : "") + '</span>' : "· " + c.kept}</span></div>`).join("");
   render();
 }).catch(() => {
   $("sub").textContent = "Couldn't load the job list. Please refresh in a minute.";

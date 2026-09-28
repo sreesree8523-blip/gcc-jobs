@@ -173,12 +173,14 @@ def main():
     os.makedirs(DATA, exist_ok=True)
     path = os.path.join(DATA, "jobs.json")
     prev = {}
+    prev_by_co = {}
     baseline = None
     if os.path.exists(path):
         old = json.load(open(path))
         baseline = old.get("baseline")
         for j in old.get("jobs", []):
             prev[j["id"]] = j.get("seen")
+            prev_by_co.setdefault(j["co"], []).append(j)
     now = dt.datetime.now(IST)
     today = now.date()
     if baseline is None:
@@ -200,8 +202,14 @@ def main():
                     "p": posted_iso(j, today), "seen": prev.get(jid) or today.isoformat(),
                 })
                 kept += 1
+            stale = False
+            if err and prev_by_co.get(c["name"]):
+                # Company unreachable today: keep yesterday's jobs so they don't vanish from the page.
+                jobs.extend(prev_by_co[c["name"]])
+                kept = len(prev_by_co[c["name"]])
+                stale = True
             report.append({"name": c["name"], "ats": c["ats"], "india": len(raw), "kept": kept,
-                           "error": err, "secs": secs})
+                           "error": err, "stale": stale, "secs": secs})
     # de-duplicate by id
     uniq = {}
     for j in jobs:
