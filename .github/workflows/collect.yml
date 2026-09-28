@@ -11,6 +11,7 @@ on:
     paths:
       - "companies.json"
       - "scripts/**"
+      - ".github/workflows/collect.yml"
 
 permissions:
   contents: write
@@ -36,14 +37,14 @@ jobs:
           git config user.email "gcc-jobs-bot@users.noreply.github.com"
           git add docs/data
           git commit -m "Jobs update $(TZ=Asia/Kolkata date +'%Y-%m-%d %H:%M IST')" || exit 0
-          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+          ok=0; for i in 1 2 3 4 5; do git pull --rebase -X theirs origin main && git push && ok=1 && break; git rebase --abort 2>/dev/null; sleep 5; done; [ "$ok" = 1 ] || { echo "Could not save to GitHub"; exit 1; }
       - name: Send phone notification
         continue-on-error: true
         run: |
           python scripts/notify.py
           git add docs/data/notify_state.json
           git commit -m "Notified" || exit 0
-          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+          ok=0; for i in 1 2 3 4 5; do git pull --rebase -X theirs origin main && git push && ok=1 && break; git rebase --abort 2>/dev/null; sleep 5; done; [ "$ok" = 1 ] || { echo "Could not save to GitHub"; exit 1; }
       - name: Alert if the refresh failed
         if: failure()
         run: python scripts/notify.py failed
