@@ -166,6 +166,11 @@ def fetch_workday(c, keep=None, cap=3000):
         for p in posts:
             loc = p.get("locationsText") or ""
             path = p.get("externalPath") or ""
+            if not loc:
+                # Some sites leave the location blank; it's still in the link: /job/<Location>/<Title>
+                parts = path.split("/")
+                if len(parts) > 3 and parts[1] == "job":
+                    loc = urllib.parse.unquote(parts[2]).replace("-", " ")
             title = p.get("title") or ""
             if not path or not title:
                 continue
