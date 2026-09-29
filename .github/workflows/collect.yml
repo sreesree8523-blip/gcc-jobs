@@ -12,6 +12,7 @@ on:
       - "companies.json"
       - "scripts/**"
       - ".github/workflows/collect.yml"
+      - "trigger.txt"
 
 permissions:
   contents: write
