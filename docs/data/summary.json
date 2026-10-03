@@ -1,17 +1,26 @@
 {
- "updated": "2026-10-03 11:05 IST",
- "total": 5435,
- "new_total": 40,
+ "updated": "2026-10-03 13:29 IST",
+ "total": 5430,
+ "new_total": 41,
  "new_by_group": {
   "dev": 32,
-  "product": 5,
+  "product": 6,
   "eng_lead": 2,
   "ops_lead": 1
  },
  "new_hyd_by_group": {
   "dev": 7,
-  "product": 2
+  "product": 3
  },
- "companies_ok": 135,
- "companies_failed": []
+ "companies_ok": 127,
+ "companies_failed": [
+  "Ameriprise",
+  "Bristol Myers Squibb",
+  "Broadridge",
+  "Caterpillar",
+  "Citi",
+  "Disney",
+  "GSK",
+  "Microsoft"
+ ]
 }
