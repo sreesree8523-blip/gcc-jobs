@@ -202,6 +202,11 @@ def main():
                 if not first_seen and known_cos is not None and c["name"] not in known_cos:
                     # Company just added to the list: its existing jobs aren't "new today".
                     first_seen = baseline
+                posted = posted_iso(j, today)
+                if not first_seen and posted and posted < (today - dt.timedelta(days=3)).isoformat():
+                    # Not seen before, but posted well before today: it reappeared (site only shows
+                    # part of its list, or the company was unreachable). Don't call it new.
+                    first_seen = posted
                 jobs.append({
                     "id": jid, "t": j["title"].strip(), "co": c["name"], "sec": c.get("sector", ""),
                     "g": g, "c": cities, "loc": (j.get("location") or "")[:160], "u": j["url"],
