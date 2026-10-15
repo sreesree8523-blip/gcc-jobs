@@ -1,20 +1,18 @@
 {
- "updated": "2026-10-15 10:30 IST",
- "total": 5590,
- "new_total": 141,
+ "updated": "2026-10-15 12:50 IST",
+ "total": 5598,
+ "new_total": 195,
  "new_by_group": {
-  "dev": 104,
-  "eng_lead": 17,
-  "product": 16,
-  "ops_lead": 4
+  "dev": 149,
+  "eng_lead": 22,
+  "product": 19,
+  "ops_lead": 5
  },
  "new_hyd_by_group": {
-  "dev": 23,
-  "product": 4,
-  "eng_lead": 8
+  "eng_lead": 9,
+  "dev": 31,
+  "product": 3
  },
- "companies_ok": 134,
- "companies_failed": [
-  "Microsoft"
- ]
+ "companies_ok": 135,
+ "companies_failed": []
 }
