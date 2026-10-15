@@ -233,7 +233,10 @@ def main():
     json.dump(out, open(path, "w"), separators=(",", ":"))
 
     # summary for the daily notification
-    new = [j for j in jobs if j["seen"] == today.isoformat() and today.isoformat() != baseline]
+    # The phone alert counts GCC jobs only. Accenture (IT services) reposts hundreds of roles a day
+    # and would drown out everything else; it's still on the page.
+    new = [j for j in jobs if j["seen"] == today.isoformat() and today.isoformat() != baseline
+           and j.get("sec") != "IT Services"]
     summary = {"updated": out["updated"], "total": len(jobs), "new_total": len(new),
                "new_by_group": {}, "new_hyd_by_group": {},
                "companies_ok": sum(1 for r in report if not r["error"]),
