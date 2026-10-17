@@ -1,22 +1,28 @@
 {
- "updated": "2026-10-17 05:51 IST",
- "total": 5491,
- "new_total": 141,
+ "updated": "2026-10-17 10:20 IST",
+ "total": 5777,
+ "new_total": 138,
  "new_by_group": {
-  "dev": 101,
+  "dev": 98,
   "eng_lead": 19,
   "product": 17,
   "ops_lead": 2,
   "lnd": 2
  },
  "new_hyd_by_group": {
-  "dev": 37,
+  "dev": 36,
   "product": 7,
   "eng_lead": 6
  },
- "companies_ok": 133,
+ "companies_ok": 127,
  "companies_failed": [
-  "Accenture",
-  "Takeda"
+  "Capital One",
+  "Comcast",
+  "Eli Lilly",
+  "Expedia Group",
+  "FactSet",
+  "Salesforce",
+  "Takeda",
+  "Verizon"
  ]
 }
