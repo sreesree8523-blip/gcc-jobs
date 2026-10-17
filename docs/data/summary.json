@@ -1,21 +1,22 @@
 {
- "updated": "2026-10-16 12:33 IST",
- "total": 5508,
- "new_total": 216,
+ "updated": "2026-10-17 05:51 IST",
+ "total": 5491,
+ "new_total": 141,
  "new_by_group": {
-  "dev": 176,
-  "eng_lead": 18,
+  "dev": 101,
+  "eng_lead": 19,
   "product": 17,
-  "lnd": 2,
-  "ops_lead": 3
+  "ops_lead": 2,
+  "lnd": 2
  },
  "new_hyd_by_group": {
-  "dev": 57,
-  "eng_lead": 7,
-  "product": 8
+  "dev": 37,
+  "product": 7,
+  "eng_lead": 6
  },
- "companies_ok": 134,
+ "companies_ok": 133,
  "companies_failed": [
-  "Microsoft"
+  "Accenture",
+  "Takeda"
  ]
 }
