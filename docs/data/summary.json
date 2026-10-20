@@ -1,21 +1,20 @@
 {
- "updated": "2026-10-19 13:10 IST",
- "total": 5800,
- "new_total": 97,
+ "updated": "2026-10-20 05:51 IST",
+ "total": 5656,
+ "new_total": 111,
  "new_by_group": {
-  "dev": 61,
-  "product": 25,
-  "lnd": 2,
-  "ops_lead": 5,
-  "eng_lead": 4
+  "dev": 92,
+  "ops_lead": 1,
+  "product": 12,
+  "eng_lead": 6
  },
  "new_hyd_by_group": {
-  "dev": 16,
-  "product": 2
+  "dev": 20,
+  "product": 4,
+  "eng_lead": 1
  },
- "companies_ok": 133,
+ "companies_ok": 134,
  "companies_failed": [
-  "Microsoft",
   "Salesforce"
  ]
 }
