@@ -1,21 +1,23 @@
 {
- "updated": "2026-10-23 12:52 IST",
- "total": 5696,
- "new_total": 243,
+ "updated": "2026-10-24 05:51 IST",
+ "total": 5520,
+ "new_total": 133,
  "new_by_group": {
-  "dev": 195,
-  "eng_lead": 23,
-  "ops_lead": 8,
-  "product": 17
+  "dev": 106,
+  "product": 14,
+  "eng_lead": 8,
+  "lnd": 3,
+  "ops_lead": 2
  },
  "new_hyd_by_group": {
-  "dev": 41,
-  "eng_lead": 5,
-  "product": 8,
-  "ops_lead": 2
+  "dev": 33,
+  "product": 4,
+  "lnd": 2,
+  "eng_lead": 3,
+  "ops_lead": 1
  },
  "companies_ok": 134,
  "companies_failed": [
-  "Accenture"
+  "Microsoft"
  ]
 }
