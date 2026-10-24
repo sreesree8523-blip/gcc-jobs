@@ -1,23 +1,24 @@
 {
- "updated": "2026-10-24 05:51 IST",
- "total": 5520,
- "new_total": 133,
+ "updated": "2026-10-24 10:24 IST",
+ "total": 5512,
+ "new_total": 135,
  "new_by_group": {
-  "dev": 106,
+  "dev": 108,
   "product": 14,
   "eng_lead": 8,
   "lnd": 3,
   "ops_lead": 2
  },
  "new_hyd_by_group": {
-  "dev": 33,
+  "dev": 32,
   "product": 4,
   "lnd": 2,
   "eng_lead": 3,
   "ops_lead": 1
  },
- "companies_ok": 134,
+ "companies_ok": 133,
  "companies_failed": [
-  "Microsoft"
+  "Otis",
+  "Walmart Global Tech"
  ]
 }
