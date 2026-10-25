@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25 05:51 IST",
- "total": 5216,
+ "updated": "2026-10-25 10:35 IST",
+ "total": 5417,
  "new_total": 12,
  "new_by_group": {
   "dev": 12
@@ -8,8 +8,9 @@
  "new_hyd_by_group": {
   "dev": 4
  },
- "companies_ok": 134,
+ "companies_ok": 133,
  "companies_failed": [
-  "Microsoft"
+  "Microsoft",
+  "Qualcomm"
  ]
 }
