@@ -1,13 +1,17 @@
 {
- "updated": "2026-10-25 13:02 IST",
- "total": 5289,
- "new_total": 12,
+ "updated": "2026-10-26 05:51 IST",
+ "total": 5347,
+ "new_total": 14,
  "new_by_group": {
-  "dev": 12
+  "dev": 11,
+  "eng_lead": 1,
+  "product": 2
  },
  "new_hyd_by_group": {
-  "dev": 4
+  "dev": 3
  },
- "companies_ok": 135,
- "companies_failed": []
+ "companies_ok": 134,
+ "companies_failed": [
+  "Microsoft"
+ ]
 }
