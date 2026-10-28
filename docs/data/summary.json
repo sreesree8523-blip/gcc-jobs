@@ -1,23 +1,20 @@
 {
- "updated": "2026-10-28 11:33 IST",
- "total": 5060,
- "new_total": 217,
+ "updated": "2026-10-28 13:49 IST",
+ "total": 5151,
+ "new_total": 256,
  "new_by_group": {
-  "dev": 160,
-  "product": 31,
-  "eng_lead": 18,
+  "dev": 192,
+  "product": 35,
+  "eng_lead": 21,
   "ops_lead": 6,
   "lnd": 2
  },
  "new_hyd_by_group": {
-  "dev": 32,
-  "ops_lead": 1,
+  "dev": 43,
   "eng_lead": 7,
-  "product": 6
+  "product": 6,
+  "ops_lead": 1
  },
- "companies_ok": 133,
- "companies_failed": [
-  "Microsoft",
-  "Qualcomm"
- ]
+ "companies_ok": 135,
+ "companies_failed": []
 }
