@@ -1,21 +1,21 @@
 {
- "updated": "2026-10-30 11:44 IST",
- "total": 5482,
- "new_total": 211,
+ "updated": "2026-10-30 14:01 IST",
+ "total": 5462,
+ "new_total": 249,
  "new_by_group": {
-  "eng_lead": 20,
-  "dev": 176,
-  "product": 13,
+  "eng_lead": 23,
+  "dev": 207,
+  "product": 17,
   "ops_lead": 2
  },
  "new_hyd_by_group": {
-  "eng_lead": 5,
-  "dev": 33,
+  "eng_lead": 6,
+  "dev": 45,
   "product": 3,
   "ops_lead": 1
  },
  "companies_ok": 134,
  "companies_failed": [
-  "Qualcomm"
+  "Microsoft"
  ]
 }
