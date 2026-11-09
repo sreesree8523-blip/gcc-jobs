@@ -1,19 +1,20 @@
 {
- "updated": "2026-11-09 12:30 IST",
- "total": 5462,
- "new_total": 37,
+ "updated": "2026-11-09 15:08 IST",
+ "total": 5481,
+ "new_total": 67,
  "new_by_group": {
-  "dev": 32,
-  "eng_lead": 5
+  "product": 7,
+  "eng_lead": 8,
+  "dev": 51,
+  "ops_lead": 1
  },
  "new_hyd_by_group": {
-  "dev": 9,
+  "dev": 14,
+  "product": 2,
   "eng_lead": 1
  },
- "companies_ok": 132,
+ "companies_ok": 134,
  "companies_failed": [
-  "Microsoft",
-  "NXP",
-  "Qualcomm"
+  "NXP"
  ]
 }
