@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-14 12:23 IST",
- "total": 5346,
+ "updated": "2026-11-14 14:23 IST",
+ "total": 5336,
  "new_total": 50,
  "new_by_group": {
   "product": 6,
   "dev": 37,
-  "eng_lead": 5,
-  "lnd": 2
+  "lnd": 2,
+  "eng_lead": 5
  },
  "new_hyd_by_group": {
   "product": 1,
   "dev": 10
  },
- "companies_ok": 57,
+ "companies_ok": 58,
  "companies_failed": [
   "3M",
   "Adobe",
@@ -38,8 +38,6 @@
   "Elevance Health",
   "Equifax",
   "Evernorth (Cigna)",
-  "Expedia Group",
-  "FactSet",
   "Fidelity Investments",
   "Fiserv",
   "Gartner",
@@ -64,6 +62,7 @@
   "Medtronic",
   "MetLife",
   "Micron",
+  "Microsoft",
   "Morgan Stanley",
   "Motorola Solutions",
   "MSD (Merck)",
