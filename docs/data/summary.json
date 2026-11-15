@@ -1,19 +1,20 @@
 {
- "updated": "2026-11-15 05:51 IST",
- "total": 5306,
- "new_total": 36,
+ "updated": "2026-11-15 12:28 IST",
+ "total": 5311,
+ "new_total": 45,
  "new_by_group": {
+  "dev": 38,
+  "product": 4,
   "eng_lead": 2,
-  "dev": 30,
-  "product": 3,
   "ops_lead": 1
  },
  "new_hyd_by_group": {
   "product": 1,
   "dev": 8
  },
- "companies_ok": 134,
+ "companies_ok": 133,
  "companies_failed": [
+  "Microsoft",
   "NXP"
  ]
 }
