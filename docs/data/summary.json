@@ -1,22 +1,23 @@
 {
- "updated": "2026-11-17 13:48 IST",
- "total": 5502,
- "new_total": 198,
+ "updated": "2026-11-17 16:04 IST",
+ "total": 5485,
+ "new_total": 257,
  "new_by_group": {
-  "product": 15,
-  "dev": 147,
-  "eng_lead": 31,
+  "product": 16,
+  "dev": 196,
+  "lnd": 5,
+  "eng_lead": 35,
   "ops_lead": 5
  },
  "new_hyd_by_group": {
-  "dev": 39,
-  "eng_lead": 10,
+  "lnd": 3,
+  "dev": 49,
+  "eng_lead": 12,
   "product": 5,
   "ops_lead": 2
  },
- "companies_ok": 133,
+ "companies_ok": 134,
  "companies_failed": [
-  "Microsoft",
   "NXP"
  ]
 }
