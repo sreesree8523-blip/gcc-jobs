@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-19 11:33 IST",
- "total": 5936,
- "new_total": 163,
+ "updated": "2026-11-19 13:16 IST",
+ "total": 5992,
+ "new_total": 213,
  "new_by_group": {
-  "dev": 117,
-  "product": 22,
-  "eng_lead": 18,
+  "dev": 162,
+  "product": 24,
+  "eng_lead": 21,
   "agile": 4,
   "lnd": 2
  },
  "new_hyd_by_group": {
-  "dev": 26,
+  "dev": 37,
   "product": 7,
   "eng_lead": 5,
   "agile": 1
