@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>GCC Jobs India</title>
+<meta name="robots" content="noindex">
 <meta name="description" content="Daily list of jobs at Global Capability Centres in India, filterable by city and role.">
 <meta name="theme-color" content="#0f5c4c">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f5c4c'/%3E%3Cpath d='M9 12h14v11H9z' fill='none' stroke='white' stroke-width='2.2'/%3E%3Cpath d='M13 12V9.5h6V12' fill='none' stroke='white' stroke-width='2.2'/%3E%3C/svg%3E">
@@ -108,7 +109,7 @@ summary{cursor:pointer;color:var(--ink);font-weight:600}
       Tap a job to open it on the company's site and apply there.</p>
     <p class="note">Not covered: companies whose careers sites don't offer a public job feed (for example Google, Apple, Meta, UBS).
       Senior leadership roles are often filled through search firms and may never appear here.</p>
-    <p class="note">Accenture is an IT services firm, not a GCC. Tick "GCCs only" to hide it.</p>
+    <p class="note">Accenture (an IT services firm) and remote jobs from <a href="https://himalayas.app" target="_blank" rel="noopener">Himalayas</a> are not GCC jobs. Tick "GCCs only" to hide them. Remote job data courtesy of Himalayas.</p>
     <div class="cos" id="cos"></div>
   </details>
 </div>
@@ -150,7 +151,7 @@ function ago(n){
 function esc(s){ return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 
 function matches(j, skip){
-  if(state.gcc && j.sec === "IT Services") return false;
+  if(state.gcc && (j.ng || j.sec === "IT Services")) return false;
   if(skip !== "city" && state.city !== "all" && !j.c.includes(state.city)) return false;
   if(skip !== "role" && state.role !== "all" && j.g !== state.role) return false;
   if(state.when === "new" && !(j.seen === DATA.today && DATA.today !== DATA.baseline)) return false;
@@ -196,11 +197,12 @@ function renderList(){
     const cities = j.c.filter(c => !c.startsWith("India (")).slice(0, 3);
     return `<a class="job" href="${esc(j.u)}" target="_blank" rel="noopener">
       <div class="t">${esc(j.t)}</div>
-      <div class="co">${esc(j.co)}</div>
+      <div class="co">${esc(j.co)}${j.via ? ` <span style="color:var(--faint)">· via ${esc(j.via)}</span>` : ""}</div>
       <div class="tags">
         ${isNew(j) ? '<span class="tag new">New</span>' : ""}
         <span class="tag g">${esc(GROUP_NAME[j.g] || "")}</span>
         ${j.sec === "IT Services" ? '<span class="tag">IT services</span>' : ""}
+        ${j.via === "Himalayas" ? '<span class="tag">Remote</span>' : ""}
         ${cities.map(c => `<span class="tag">${esc(c)}</span>`).join("")}
         ${n !== null ? `<span class="tag">${ago(n)}</span>` : ""}
       </div></a>`;

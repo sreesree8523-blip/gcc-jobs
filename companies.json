@@ -15,7 +15,8 @@
    "tenant": "accenture",
    "wd": 103,
    "site": "AccentureCareers",
-   "sector": "IT Services"
+   "sector": "IT Services",
+   "gcc": false
   },
   {
    "name": "Addepar",
@@ -439,6 +440,12 @@
    "wd": 5,
    "site": "Careers_External",
    "sector": "Banking & Finance"
+  },
+  {
+   "name": "Himalayas (remote jobs)",
+   "ats": "himalayas",
+   "sector": "Remote job board",
+   "gcc": false
   },
   {
    "name": "Home Depot",

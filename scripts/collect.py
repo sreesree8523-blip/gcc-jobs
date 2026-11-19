@@ -182,7 +182,7 @@ def main():
         known_cos = {r["name"] for r in old.get("companies", [])}
         for j in old.get("jobs", []):
             prev[j["id"]] = j.get("seen")
-            prev_by_co.setdefault(j["co"], []).append(j)
+            prev_by_co.setdefault(j.get("src") or j["co"], []).append(j)
     now = dt.datetime.now(IST)
     today = now.date()
     if baseline is None:
@@ -208,7 +208,8 @@ def main():
                     # part of its list, or the company was unreachable). Don't call it new.
                     first_seen = posted
                 jobs.append({
-                    "id": jid, "t": j["title"].strip(), "co": c["name"], "sec": c.get("sector", ""),
+                    "id": jid, "t": j["title"].strip(), "co": j.get("company") or c["name"], "sec": c.get("sector", ""),
+                    "ng": 1 if c.get("gcc") is False else 0, "via": j.get("via", ""), "src": c["name"],
                     "g": g, "c": cities, "loc": (j.get("location") or "")[:160], "u": j["url"],
                     "p": posted_iso(j, today), "seen": first_seen or today.isoformat(),
                 })
@@ -236,7 +237,7 @@ def main():
     # The phone alert counts GCC jobs only. Accenture (IT services) reposts hundreds of roles a day
     # and would drown out everything else; it's still on the page.
     new = [j for j in jobs if j["seen"] == today.isoformat() and today.isoformat() != baseline
-           and j.get("sec") != "IT Services"]
+           and not j.get("ng")]
     summary = {"updated": out["updated"], "total": len(jobs), "new_total": len(new),
                "new_by_group": {}, "new_hyd_by_group": {},
                "companies_ok": sum(1 for r in report if not r["error"]),

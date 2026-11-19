@@ -508,7 +508,38 @@ def fetch_goldman(c, keep=None, cap=3000):
     return out
 
 
+# ---------------------------------------------------------------- Himalayas (remote job board)
+# Free public API. Terms: link back to the job on himalayas.app, credit Himalayas wherever shown,
+# and never resubmit the listings to other job aggregators.
+def fetch_himalayas(c, keep=None, cap=1000):
+    out, page, seen = [], 1, set()
+    while True:
+        r = http("https://himalayas.app/jobs/api/search?country=India&exclude_worldwide=true"
+                 f"&sort=recent&page={page}")
+        items = r.get("jobs") or []
+        for j in items:
+            gid = j.get("guid") or j.get("applicationLink")
+            if not gid or gid in seen:
+                continue
+            seen.add(gid)
+            if (j.get("employmentType") or "") in ("Volunteer", "Intern"):
+                continue
+            url = gid if str(gid).startswith("https://himalayas.app") else j.get("applicationLink")
+            ts = j.get("pubDate")
+            out.append({"title": j.get("title", ""), "url": url,
+                        "company": j.get("companyName") or "Unknown company", "via": "Himalayas",
+                        "location": "Remote - " + ", ".join(j.get("locationRestrictions") or ["India"]),
+                        "posted_date": time.strftime("%Y-%m-%d", time.gmtime(ts)) if ts else None,
+                        "ext_id": str(gid)})
+        page += 1
+        if not items or len(seen) >= (r.get("totalCount") or 0) or len(seen) >= cap:
+            break
+        time.sleep(1.5)
+    return out
+
+
 FETCHERS = {
+    "himalayas": fetch_himalayas,
     "goldman": fetch_goldman,
     "eightfold": fetch_eightfold,
     "jibe": fetch_jibe,
