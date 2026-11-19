@@ -203,7 +203,7 @@ def fetch_workday(c, keep=None, cap=3000):
             except FetchError:
                 pass
             time.sleep(0.2)
-        j.pop("_detail", None)
+        j["detail_api"] = j.pop("_detail", None)
     return [j for j in jobs if not j.pop("_drop", False)]
 
 
@@ -240,7 +240,7 @@ def fetch_lever(c, keep=None, cap=None):
         out.append({"title": j.get("text", ""), "url": j.get("hostedUrl"),
                     "location": text or "India",
                     "posted_date": time.strftime("%Y-%m-%d", time.gmtime(ts / 1000)) if ts else None,
-                    "ext_id": j.get("id")})
+                    "ext_id": j.get("id"), "_raw": j})
     return out
 
 
@@ -280,7 +280,7 @@ def fetch_ashby(c, keep=None, cap=None):
         out.append({"title": j.get("title", ""), "url": j.get("jobUrl"),
                     "location": text or "India",
                     "posted_date": (j.get("publishedAt") or "")[:10] or None,
-                    "ext_id": j.get("id")})
+                    "ext_id": j.get("id"), "_raw": j})
     return out
 
 
@@ -296,7 +296,7 @@ def fetch_amazon(c, keep=None, cap=4000):
                         "url": "https://www.amazon.jobs" + (j.get("job_path") or ""),
                         "location": j.get("normalized_location") or j.get("location") or "India",
                         "posted_text": j.get("posted_date"),
-                        "ext_id": j.get("id_icims") or j.get("id")})
+                        "ext_id": j.get("id_icims") or j.get("id"), "_raw": j})
         off += 100
         if not items or off >= (r.get("hits") or 0) or off >= cap:
             break
@@ -431,7 +431,7 @@ def fetch_jibe(c, keep=None, cap=3000):
                         "url": f"https://{host}{c.get('path', '/careers-home/jobs/')}{rid}",
                         "location": loc,
                         "posted_date": (d.get("posted_date") or d.get("create_date") or "")[:10] or None,
-                        "ext_id": str(rid)})
+                        "ext_id": str(rid), "_raw": d})
         if not items or page * 100 >= (r.get("totalCount") or r.get("count") or 0) or page * 100 >= cap:
             break
         page += 1
@@ -453,7 +453,7 @@ def fetch_atlassian(c, keep=None, cap=None):
                     "url": post.get("portalUrl") or j.get("applyUrl"),
                     "location": text,
                     "posted_date": (post.get("updatedDate") or "")[:10] or None,
-                    "ext_id": str(j.get("id") or post.get("id") or j.get("title"))})
+                    "ext_id": str(j.get("id") or post.get("id") or j.get("title")), "_raw": j})
     return [j for j in out if j["url"]]
 
 
@@ -530,7 +530,7 @@ def fetch_himalayas(c, keep=None, cap=1000):
                         "company": j.get("companyName") or "Unknown company", "via": "Himalayas",
                         "location": "Remote - " + ", ".join(j.get("locationRestrictions") or ["India"]),
                         "posted_date": time.strftime("%Y-%m-%d", time.gmtime(ts)) if ts else None,
-                        "ext_id": str(gid)})
+                        "ext_id": str(gid), "_raw": j})
         page += 1
         if not items or len(seen) >= (r.get("totalCount") or 0) or len(seen) >= cap:
             break
@@ -553,3 +553,75 @@ FETCHERS = {
     "amazon": fetch_amazon,
     "oracle": fetch_oracle,
 }
+
+
+# ================================================================ job descriptions
+import html as _html
+
+_TAG_BREAK = re.compile(r"<\s*(br|/p|/li|/h\d|/div|li)[^>]*>", re.I)
+_TAG = re.compile(r"<[^>]+>")
+
+
+def html_to_text(s, limit=5000):
+    if not s:
+        return ""
+    s = _html.unescape(str(s))          # some feeds escape their HTML twice
+    s = _TAG_BREAK.sub("\n", s)
+    s = _TAG.sub(" ", s)
+    s = _html.unescape(s)
+    s = re.sub(r"[ \t\r\f\v]+", " ", s)
+    s = re.sub(r"\n\s*\n+", "\n", s)
+    return s.strip()[:limit]
+
+
+def _join(*parts):
+    return "\n".join(p for p in parts if p)
+
+
+def describe(c, j):
+    """Full description text for one job from fetch_*(). '' if the site doesn't offer one."""
+    ats, raw = c["ats"], j.get("_raw") or {}
+    if ats == "workday" and j.get("detail_api"):
+        d = http(j["detail_api"]).get("jobPostingInfo", {})
+        return html_to_text(d.get("jobDescription"))
+    if ats == "greenhouse":
+        d = http(f"https://boards-api.greenhouse.io/v1/boards/{c['token']}/jobs/{j['ext_id']}")
+        return html_to_text(d.get("content"))
+    if ats == "lever":
+        lists = "\n".join(f"{x.get('text', '')}:\n{html_to_text(x.get('content'))}" for x in raw.get("lists") or [])
+        return html_to_text(_join(raw.get("descriptionPlain"), lists, raw.get("additionalPlain")))
+    if ats == "smartrecruiters":
+        d = http(f"https://api.smartrecruiters.com/v1/companies/{c['token']}/postings/{j['ext_id']}")
+        sec = ((d.get("jobAd") or {}).get("sections")) or {}
+        return html_to_text(_join(*[(sec.get(k) or {}).get("text") for k in
+                                    ("jobDescription", "qualifications", "additionalInformation")]))
+    if ats == "ashby":
+        return html_to_text(raw.get("descriptionHtml") or raw.get("descriptionPlain"))
+    if ats == "amazon":
+        return html_to_text(_join(raw.get("description"), "Basic qualifications:", raw.get("basic_qualifications"),
+                                  "Preferred qualifications:", raw.get("preferred_qualifications")))
+    if ats == "oracle":
+        url = (f"https://{c['host']}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails"
+               f"?expand=all&onlyData=true&finder=ById;Id=%22{j['ext_id']}%22,siteNumber={c['site']}")
+        it = (http(url).get("items") or [{}])[0]
+        return html_to_text(_join(it.get("ExternalDescriptionStr"), it.get("ExternalResponsibilitiesStr"),
+                                  it.get("ExternalQualificationsStr")))
+    if ats in ("microsoft", "eightfold"):
+        host = c.get("host", "apply.careers.microsoft.com")
+        domain = c.get("domain", "microsoft.com")
+        try:
+            d = http(f"https://{host}/api/pcsx/position_details?position_id={j['ext_id']}&domain={domain}&hl=en")
+            txt = html_to_text(((d.get("data") or {}).get("jobDescription")))
+            if txt:
+                return txt
+        except FetchError:
+            pass
+        d = http(f"https://{host}/api/apply/v2/jobs/{j['ext_id']}?domain={domain}")
+        return html_to_text(d.get("job_description"))
+    if ats == "jibe":
+        return html_to_text(_join(raw.get("description"), raw.get("qualifications"), raw.get("responsibilities")))
+    if ats == "atlassian":
+        return html_to_text(_join(raw.get("overview"), raw.get("responsibilities"), raw.get("qualifications")))
+    if ats == "himalayas":
+        return html_to_text(raw.get("description") or raw.get("excerpt"))
+    return ""

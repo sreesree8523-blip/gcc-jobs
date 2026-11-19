@@ -17,7 +17,7 @@ STATE = os.path.join(DATA, "notify_state.json")
 TOPIC = os.environ.get("NTFY_TOPIC", "gcc-jobs-bc8urt")
 PAGE = "https://sreesree8523-blip.github.io/gcc-jobs/"
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
-NAMES = [("product", "Product"), ("dev", "Development"), ("lnd", "L&D"),
+NAMES = [("product", "Product"), ("agile", "Scrum/Agile"), ("dev", "Development"), ("lnd", "L&D"),
          ("eng_lead", "Eng leadership"), ("ops_lead", "Ops leadership")]
 
 

@@ -61,6 +61,13 @@ LND = [
        r"customer|learning|talent|seller) enablement)\b"),
     rx(r"\b(head|director|vp|vice president|chief|lead)\b.{0,15}\blearning\b|\blearning officer\b"),
 ]
+AGILE = [
+    rx(r"\b(scrum master|scrum lead|agile coach|enterprise agile coach|agile delivery (lead|manager)|"
+       r"agile (project|program|programme) manager|agile lead|agile practitioner|release train engineer|"
+       r"iteration manager|delivery lead,? agile|agile team (lead|facilitator)|team coach|"
+       r"agile transformation (lead|manager|coach))\b"),
+    rx(r"\brte\b"),
+]
 DEV_NOT = rx(r"\b(sales engineer|pre-?sales|field service|service engineer|civil|mechanical|"
              r"electrical engineer|hardware|analog|rf engineer|validation engineer|"
              r"manufacturing|process engineer|chemical|mechatronics|sales|recruit)")
@@ -101,6 +108,8 @@ def classify(title):
     if rx(r"\bchief\b").search(lead_t) and not CHIEF_OK.search(lead_t):
         lead_t = rx(r"\bchief\b").sub(" ", lead_t)
     t_rest = lead_t
+    if any(p.search(lead_t) for p in AGILE):
+        return "agile"
     if any(p.search(lead_t) for p in ENG_LEAD) and not rx(r"\bsales\b").search(t):
         return "eng_lead"
     if any(p.search(lead_t) for p in OPS_LEAD):
@@ -189,6 +198,7 @@ def main():
         baseline = today.isoformat()
 
     jobs, report = [], []
+    raw_by_id = {}
     with ThreadPoolExecutor(max_workers=8) as ex:
         for c, raw, err, secs in ex.map(run_company, companies):
             kept = 0
@@ -207,6 +217,7 @@ def main():
                     # Not seen before, but posted well before today: it reappeared (site only shows
                     # part of its list, or the company was unreachable). Don't call it new.
                     first_seen = posted
+                raw_by_id[jid] = (c, j)
                 jobs.append({
                     "id": jid, "t": j["title"].strip(), "co": j.get("company") or c["name"], "sec": c.get("sector", ""),
                     "ng": 1 if c.get("gcc") is False else 0, "via": j.get("via", ""), "src": c["name"],
@@ -248,6 +259,52 @@ def main():
             summary["new_hyd_by_group"][j["g"]] = summary["new_hyd_by_group"].get(j["g"], 0) + 1
     json.dump(summary, open(os.path.join(DATA, "summary.json"), "w"), indent=1)
     print(json.dumps(summary, indent=1))
+    write_candidates(jobs, raw_by_id, today, out["updated"])
+
+
+# ------------------------------------------------------------------ scoring shortlist
+# Jobs that could suit the owner of this page (Product / Scrum-Agile, Hyderabad or remote, recent),
+# with their full public descriptions, for the private daily scoring step.
+CAND_GROUPS = {"product", "agile"}
+CAND_CITIES = {"Hyderabad", "Remote"}
+CAND_DAYS = 14
+CAND_MAX = 150
+
+
+def write_candidates(jobs, raw_by_id, today, updated):
+    path = os.path.join(DATA, "jd", "candidates.json")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    cache = {}
+    if os.path.exists(path):
+        try:
+            cache = {x["id"]: x.get("jd", "") for x in json.load(open(path)).get("jobs", []) if x.get("jd")}
+        except ValueError:
+            cache = {}
+    since = (today - dt.timedelta(days=CAND_DAYS)).isoformat()
+    pick = [j for j in jobs if j["g"] in CAND_GROUPS and CAND_CITIES & set(j["c"])
+            and (j["p"] or j["seen"]) >= since and j["id"] in raw_by_id]
+    pick.sort(key=lambda j: j["p"] or j["seen"], reverse=True)
+    pick = pick[:CAND_MAX]
+
+    def one(j):
+        if j["id"] in cache:
+            return j, cache[j["id"]], None
+        c, raw = raw_by_id[j["id"]]
+        try:
+            return j, S.describe(c, raw), None
+        except Exception as e:  # noqa
+            return j, "", f"{type(e).__name__}: {e}"[:120]
+
+    rows, errs = [], {}
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        for j, jd, err in ex.map(one, pick):
+            if err:
+                errs[j["src"]] = err
+            rows.append({k: j[k] for k in ("id", "t", "co", "u", "c", "p", "seen", "g", "sec")} | {"jd": jd})
+    json.dump({"updated": updated, "today": today.isoformat(), "count": len(rows),
+               "with_description": sum(1 for r in rows if r["jd"]), "errors": errs, "jobs": rows},
+              open(path, "w"), separators=(",", ":"))
+    print(f"candidates: {len(rows)}, with description: {sum(1 for r in rows if r['jd'])}")
 
 
 if __name__ == "__main__":
