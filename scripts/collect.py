@@ -277,7 +277,9 @@ def write_candidates(jobs, raw_by_id, today, updated):
     cache = {}
     if os.path.exists(path):
         try:
-            cache = {x["id"]: x.get("jd", "") for x in json.load(open(path)).get("jobs", []) if x.get("jd")}
+            # Reuse earlier descriptions, but only when the full location list was saved with them.
+            cache = {x["id"]: (x.get("jd", ""), x["locs"]) for x in json.load(open(path)).get("jobs", [])
+                     if x.get("jd") and "locs" in x}
         except ValueError:
             cache = {}
     since = (today - dt.timedelta(days=CAND_DAYS)).isoformat()
@@ -288,23 +290,33 @@ def write_candidates(jobs, raw_by_id, today, updated):
 
     def one(j):
         if j["id"] in cache:
-            return j, cache[j["id"]], None
+            jd, locs = cache[j["id"]]
+            return j, jd, locs, None
         c, raw = raw_by_id[j["id"]]
         try:
-            return j, S.describe(c, raw), None
+            jd, locs = S.details(c, raw)
+            return j, jd, locs, None
         except Exception as e:  # noqa
-            return j, "", f"{type(e).__name__}: {e}"[:120]
+            return j, "", [raw.get("location") or ""], f"{type(e).__name__}: {e}"[:120]
 
-    rows, errs = [], {}
+    rows, errs, abroad = [], {}, []
     with ThreadPoolExecutor(max_workers=6) as ex:
-        for j, jd, err in ex.map(one, pick):
+        for j, jd, locs, err in ex.map(one, pick):
             if err:
                 errs[j["src"]] = err
-            rows.append({k: j[k] for k in ("id", "t", "co", "u", "c", "p", "seen", "g", "sec")} | {"jd": jd})
+            foreign = S.foreign_locations(locs)
+            if foreign:
+                # Also listed outside India: left out of the scoring shortlist on purpose.
+                abroad.append({"id": j["id"], "t": j["t"], "co": j["co"], "foreign": foreign})
+                continue
+            rows.append({k: j[k] for k in ("id", "t", "co", "u", "c", "p", "seen", "g", "sec")}
+                        | {"jd": jd, "locs": locs})
     json.dump({"updated": updated, "today": today.isoformat(), "count": len(rows),
-               "with_description": sum(1 for r in rows if r["jd"]), "errors": errs, "jobs": rows},
+               "with_description": sum(1 for r in rows if r["jd"]), "errors": errs,
+               "excluded_other_countries": abroad, "jobs": rows},
               open(path, "w"), separators=(",", ":"))
-    print(f"candidates: {len(rows)}, with description: {sum(1 for r in rows if r['jd'])}")
+    print(f"candidates: {len(rows)}, with description: {sum(1 for r in rows if r['jd'])}, "
+          f"excluded (listed outside India): {len(abroad)}")
 
 
 if __name__ == "__main__":

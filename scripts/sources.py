@@ -218,7 +218,7 @@ def fetch_greenhouse(c, keep=None, cap=None):
         if not (is_india(loc) or is_india(offices)):
             continue
         out.append({"title": j.get("title", ""), "url": j.get("absolute_url"),
-                    "location": loc if is_india(loc) else offices.strip(),
+                    "location": loc if is_india(loc) else offices.strip(), "all_locs": [loc] + [o.get("name", "") for o in j.get("offices") or []],
                     "posted_date": (j.get("first_published") or j.get("updated_at") or "")[:10] or None,
                     "ext_id": str(j.get("id"))})
     return out
@@ -499,7 +499,7 @@ def fetch_goldman(c, keep=None, cap=3000):
             rid = (it.get("roleId") or "").split("_")[0]
             out.append({"title": title.strip(), "url": f"https://higher.gs.com/roles/{rid}",
                         "cls": f"{it.get('jobFunction') or ''} | {cls_title.strip(' -')}",
-                        "location": "; ".join(c + ", India" for c in cities if c) or "India",
+                        "location": "; ".join(c + ", India" for c in cities if c) or "India", "all_locs": [", ".join(x for x in (l.get("city"), l.get("country")) if x) for l in locs],
                         "posted_date": None, "ext_id": rid})
         page += 1
         if not items or page * size >= (rs.get("totalCount") or 0) or page * size >= cap:
@@ -528,7 +528,7 @@ def fetch_himalayas(c, keep=None, cap=1000):
             ts = j.get("pubDate")
             out.append({"title": j.get("title", ""), "url": url,
                         "company": j.get("companyName") or "Unknown company", "via": "Himalayas",
-                        "location": "Remote - " + ", ".join(j.get("locationRestrictions") or ["India"]),
+                        "location": "Remote - " + ", ".join(j.get("locationRestrictions") or ["India"]), "all_locs": list(j.get("locationRestrictions") or ["India"]),
                         "posted_date": time.strftime("%Y-%m-%d", time.gmtime(ts)) if ts else None,
                         "ext_id": str(gid), "_raw": j})
         page += 1
@@ -576,6 +576,38 @@ def html_to_text(s, limit=5000):
 
 def _join(*parts):
     return "\n".join(p for p in parts if p)
+
+
+_NOT_A_PLACE = re.compile(r"^\s*(remote|anywhere|worldwide|global|multiple locations?|\d+ locations?|hybrid|on-?site)?\s*$", re.I)
+
+
+_IN_STATES = re.compile(r"\b(telangana|karnataka|maharashtra|tamil nadu|kerala|haryana|uttar pradesh|west bengal|"
+                        r"gujarat|rajasthan|andhra pradesh|odisha|punjab|madhya pradesh|goa|delhi ncr|ncr)\b", re.I)
+
+
+def foreign_locations(locs):
+    """Location strings that are clearly outside India (empty list = India only)."""
+    out = []
+    for loc in locs or []:
+        for piece in re.split(r"\s*[;|]\s*", str(loc or "")):
+            p = re.sub(r"^\s*remote\s*[-:,]?\s*", "", piece, flags=re.I).strip()
+            if not p or _NOT_A_PLACE.match(p) or is_india(p) or _IN_STATES.search(p):
+                continue
+            out.append(piece.strip())
+    return out
+
+
+def details(c, j):
+    """(description text, every location the job is listed in) for one job from fetch_*()."""
+    if c["ats"] == "workday" and j.get("detail_api"):
+        d = http(j["detail_api"]).get("jobPostingInfo", {})
+        locs = [d.get("location") or ""] + list(d.get("additionalLocations") or [])
+        country = ((d.get("country") or {}).get("descriptor")) or ""
+        if country and country.lower() != "india":
+            locs.append(country)
+        return html_to_text(d.get("jobDescription")), [x for x in locs if x]
+    locs = j.get("all_locs") or re.split(r"\s*;\s*", j.get("location") or "")
+    return describe(c, j), [x for x in locs if x]
 
 
 def describe(c, j):
