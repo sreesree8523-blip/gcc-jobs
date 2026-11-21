@@ -1,23 +1,24 @@
 {
- "updated": "2026-11-20 15:26 IST",
- "total": 5891,
- "new_total": 185,
+ "updated": "2026-11-21 05:51 IST",
+ "total": 5930,
+ "new_total": 95,
  "new_by_group": {
-  "product": 11,
-  "dev": 140,
-  "eng_lead": 28,
-  "agile": 1,
-  "ops_lead": 3,
-  "lnd": 2
+  "dev": 76,
+  "eng_lead": 10,
+  "ops_lead": 4,
+  "product": 4,
+  "lnd": 1
  },
  "new_hyd_by_group": {
-  "dev": 35,
-  "eng_lead": 8,
-  "product": 3
+  "dev": 20,
+  "eng_lead": 4,
+  "ops_lead": 1,
+  "product": 1
  },
- "companies_ok": 134,
+ "companies_ok": 133,
  "companies_failed": [
   "Microsoft",
-  "NXP"
+  "NXP",
+  "Takeda"
  ]
 }
